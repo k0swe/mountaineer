@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -14,88 +14,336 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B J1
-U 1 1 60499326
-P 1300 2300
-F 0 "J1" H 1357 2767 50  0000 C CNN
-F 1 "USB_B" H 1357 2676 50  0000 C CNN
-F 2 "" H 1450 2250 50  0001 C CNN
-F 3 " ~" H 1450 2250 50  0001 C CNN
-	1    1300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_USB:FT232RL U2
-U 1 1 6049ABD9
-P 7700 5000
-F 0 "U2" H 7700 6181 50  0000 C CNN
-F 1 "FT232RL" H 7700 6090 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 8800 4100 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 7700 5000 50  0001 C CNN
-	1    7700 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HS-100B:HS-100B IC1
-U 1 1 6049D757
-P 6800 1500
-F 0 "IC1" H 8544 996 50  0000 L CNN
-F 1 "HS-100B" H 8544 905 50  0000 L CNN
-F 2 "QFP50P900X900X160-48N" H 8350 2100 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf" H 8350 2000 50  0001 L CNN
-F 4 "LQFP-48 Video-Audio Interface ICs RoHS" H 8350 1900 50  0001 L CNN "Description"
-F 5 "1.6" H 8350 1800 50  0001 L CNN "Height"
-F 6 "cmedia" H 8350 1700 50  0001 L CNN "Manufacturer_Name"
-F 7 "HS-100B" H 8350 1600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 8350 1500 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 8350 1400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8350 1300 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8350 1200 50  0001 L CNN "Arrow Price/Stock"
-	1    6800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Interface_USB:TUSB4041I U1
 U 1 1 604A6702
-P 4500 3350
-F 0 "U1" H 4500 1161 50  0000 C CNN
-F 1 "TUSB4041I" H 4500 1070 50  0000 C CNN
-F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias" H 5700 5350 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tusb4041i.pdf" H 4200 3550 50  0001 C CNN
-	1    4500 3350
+P 4400 3350
+F 0 "U1" H 5200 1350 50  0000 C CNN
+F 1 "TUSB4041I" H 5200 1250 50  0000 C CNN
+F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias" H 5600 5350 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tusb4041i.pdf" H 4100 3550 50  0001 C CNN
+	1    4400 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2750 3100 2750
+$Sheet
+S 1300 2700 900  900 
+U 6057976E
+F0 "Upstream USB" 50
+F1 "UpstreamUSB.sch" 50
+F2 "USB_DP" I R 2200 3200 50 
+F3 "USB_DM" I R 2200 3300 50 
+$EndSheet
+$Sheet
+S 6500 1300 1050 850 
+U 6059C0E9
+F0 "CAT Conrol" 50
+F1 "CatControl.sch" 50
+F2 "USB_DP" I L 6500 1750 50 
+F3 "USB_DM" I L 6500 1850 50 
+$EndSheet
+$Sheet
+S 6500 2700 1050 900 
+U 605AB33C
+F0 "Audio Interface" 50
+F1 "AudioInterface.sch" 50
+F2 "USB_DP" I L 6500 3000 50 
+F3 "USB_DM" I L 6500 3100 50 
+$EndSheet
+$Sheet
+S 6500 4100 1050 850 
+U 605B3ED2
+F0 "Downstream USB" 50
+F1 "DownstreamUSB.sch" 50
+F2 "USB_DP" I L 6500 4450 50 
+F3 "USB_DM" I L 6500 4550 50 
+$EndSheet
+Wire Wire Line
+	3050 1950 3100 1950
+Wire Wire Line
+	5700 1750 6500 1750
+Wire Wire Line
+	5700 1850 6500 1850
+Wire Wire Line
+	5700 2250 6350 2250
+Wire Wire Line
+	6350 2250 6350 3000
+Wire Wire Line
+	6350 3000 6500 3000
+Wire Wire Line
+	5700 2350 6250 2350
+Wire Wire Line
+	6250 2350 6250 3100
+Wire Wire Line
+	6250 3100 6500 3100
+Wire Wire Line
+	5700 2750 6050 2750
+Wire Wire Line
+	6050 2750 6050 4450
+Wire Wire Line
+	6050 4450 6500 4450
+Wire Wire Line
+	5700 2850 5950 2850
+Wire Wire Line
+	5950 2850 5950 4550
+Wire Wire Line
+	5950 4550 6500 4550
+$Comp
+L power:GNDREF #PWR?
+U 1 1 605F35F4
+P 4400 5450
+F 0 "#PWR?" H 4400 5200 50  0001 C CNN
+F 1 "GNDREF" H 4400 5300 50  0000 C CNN
+F 2 "" H 4400 5450 50  0001 C CNN
+F 3 "" H 4400 5450 50  0001 C CNN
+	1    4400 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_A J4
-U 1 1 604AB8CC
-P 1300 5750
-F 0 "J4" H 1357 6217 50  0000 C CNN
-F 1 "USB_A" H 1357 6126 50  0000 C CNN
-F 2 "" H 1450 5700 50  0001 C CNN
-F 3 " ~" H 1450 5700 50  0001 C CNN
-	1    1300 5750
+L Device:C C?
+U 1 1 60606B40
+P 1750 1400
+AR Path="/60606B40" Ref="C?"  Part="1" 
+AR Path="/6057976E/60606B40" Ref="C?"  Part="1" 
+F 0 "C?" H 1865 1446 50  0000 L CNN
+F 1 "10 μF" H 1865 1355 50  0000 L CNN
+F 2 "" H 1788 1250 50  0001 C CNN
+F 3 "~" H 1750 1400 50  0001 C CNN
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 1250
+Wire Wire Line
+	2600 1250 3050 1250
+Wire Wire Line
+	2450 1250 2600 1250
+$Comp
+L Device:R R?
+U 1 1 60606B49
+P 2600 1400
+AR Path="/60606B49" Ref="R?"  Part="1" 
+AR Path="/6057976E/60606B49" Ref="R?"  Part="1" 
+F 0 "R?" H 2530 1354 50  0000 R CNN
+F 1 "10 kΩ 1%" H 2530 1445 50  0000 R CNN
+F 2 "" V 2530 1400 50  0001 C CNN
+F 3 "~" H 2600 1400 50  0001 C CNN
+	1    2600 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60606B4F
+P 2300 1250
+AR Path="/60606B4F" Ref="R?"  Part="1" 
+AR Path="/6057976E/60606B4F" Ref="R?"  Part="1" 
+F 0 "R?" V 2093 1250 50  0000 C CNN
+F 1 "90.9 kΩ 1%" V 2184 1250 50  0000 C CNN
+F 2 "" V 2230 1250 50  0001 C CNN
+F 3 "~" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60606B56
+P 2600 1550
+AR Path="/6057976E/60606B56" Ref="#PWR?"  Part="1" 
+AR Path="/60606B56" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2600 1300 50  0001 C CNN
+F 1 "GNDREF" H 2605 1377 50  0000 C CNN
+F 2 "" H 2600 1550 50  0001 C CNN
+F 3 "" H 2600 1550 50  0001 C CNN
+	1    2600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 604B99E4
-P 10200 1650
-F 0 "J3" H 10172 1674 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 10172 1583 50  0000 R CNN
-F 2 "" H 10200 1650 50  0001 C CNN
-F 3 "~" H 10200 1650 50  0001 C CNN
-	1    10200 1650
-	-1   0    0    -1  
+L power:GNDREF #PWR?
+U 1 1 60606B5C
+P 1750 1550
+AR Path="/6057976E/60606B5C" Ref="#PWR?"  Part="1" 
+AR Path="/60606B5C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 1300 50  0001 C CNN
+F 1 "GNDREF" H 1755 1377 50  0000 C CNN
+F 2 "" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+	1    1750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1250 1950 1250
+Wire Wire Line
+	3050 1250 3050 1950
+$Comp
+L power:VBUS #PWR?
+U 1 1 6060BB25
+P 1950 900
+F 0 "#PWR?" H 1950 750 50  0001 C CNN
+F 1 "VBUS" H 1965 1073 50  0000 C CNN
+F 2 "" H 1950 900 50  0001 C CNN
+F 3 "" H 1950 900 50  0001 C CNN
+	1    1950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 900  1950 1250
+Connection ~ 1950 1250
+Wire Wire Line
+	1950 1250 2150 1250
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60610ADB
+P 2550 3800
+AR Path="/6057976E/60610ADB" Ref="#PWR?"  Part="1" 
+AR Path="/60610ADB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 3550 50  0001 C CNN
+F 1 "GNDREF" H 2555 3627 50  0000 C CNN
+F 2 "" H 2550 3800 50  0001 C CNN
+F 3 "" H 2550 3800 50  0001 C CNN
+	1    2550 3800
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 604BB072
-P 10200 4700
-F 0 "J2" H 10172 4674 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 10172 4583 50  0000 R CNN
-F 2 "" H 10200 4700 50  0001 C CNN
-F 3 "~" H 10200 4700 50  0001 C CNN
-	1    10200 4700
-	-1   0    0    -1  
+L Device:R R?
+U 1 1 606112D2
+P 2550 3600
+AR Path="/606112D2" Ref="R?"  Part="1" 
+AR Path="/6057976E/606112D2" Ref="R?"  Part="1" 
+F 0 "R?" H 2480 3554 50  0000 R CNN
+F 1 "9.53 kΩ 1%" H 2480 3645 50  0000 R CNN
+F 2 "" V 2480 3600 50  0001 C CNN
+F 3 "~" H 2550 3600 50  0001 C CNN
+	1    2550 3600
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3100 3450 2550 3450
+Wire Wire Line
+	2550 3750 2550 3800
+Wire Wire Line
+	3100 2850 3100 3450
+Wire Wire Line
+	3500 1250 3600 1250
+Connection ~ 3600 1250
+Wire Wire Line
+	3600 1250 3700 1250
+Connection ~ 3700 1250
+Wire Wire Line
+	3700 1250 3800 1250
+Wire Wire Line
+	4000 1250 4100 1250
+Connection ~ 4100 1250
+Wire Wire Line
+	4100 1250 4200 1250
+Connection ~ 4200 1250
+Wire Wire Line
+	4200 1250 4300 1250
+Connection ~ 4300 1250
+Wire Wire Line
+	4300 1250 4400 1250
+Connection ~ 4400 1250
+Wire Wire Line
+	4400 1250 4500 1250
+Connection ~ 4500 1250
+Wire Wire Line
+	4500 1250 4600 1250
+Wire Wire Line
+	2600 2750 2600 3300
+Wire Wire Line
+	2600 3300 2200 3300
+Wire Wire Line
+	2500 2650 2500 3200
+Wire Wire Line
+	2500 3200 2200 3200
+Wire Wire Line
+	2500 2650 3100 2650
+$Comp
+L Device:Crystal Y?
+U 1 1 60626E62
+P 1950 2250
+F 0 "Y?" V 1904 2381 50  0000 L CNN
+F 1 "24 MHz" V 1995 2381 50  0000 L CNN
+F 2 "" H 1950 2250 50  0001 C CNN
+F 3 "~" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 2450 2900 2450
+Wire Wire Line
+	2900 2450 2900 2400
+Wire Wire Line
+	2900 2400 2550 2400
+Wire Wire Line
+	3100 2350 2950 2350
+Wire Wire Line
+	2950 2350 2950 2100
+Wire Wire Line
+	2950 2100 2550 2100
+$Comp
+L Device:R R?
+U 1 1 6062B0BE
+P 2550 2250
+AR Path="/6062B0BE" Ref="R?"  Part="1" 
+AR Path="/6057976E/6062B0BE" Ref="R?"  Part="1" 
+F 0 "R?" H 2480 2204 50  0000 R CNN
+F 1 "10 MΩ" H 2480 2295 50  0000 R CNN
+F 2 "" V 2480 2250 50  0001 C CNN
+F 3 "~" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	-1   0    0    1   
+$EndComp
+Connection ~ 2550 2400
+Wire Wire Line
+	2550 2400 1950 2400
+Connection ~ 2550 2100
+Wire Wire Line
+	2550 2100 1950 2100
+$Comp
+L Device:C C?
+U 1 1 6062BC0D
+P 1550 2100
+F 0 "C?" V 1298 2100 50  0000 C CNN
+F 1 "C" V 1389 2100 50  0000 C CNN
+F 2 "" H 1588 1950 50  0001 C CNN
+F 3 "~" H 1550 2100 50  0001 C CNN
+	1    1550 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6062DD20
+P 1550 2400
+F 0 "C?" V 1298 2400 50  0000 C CNN
+F 1 "C" V 1389 2400 50  0000 C CNN
+F 2 "" H 1588 2250 50  0001 C CNN
+F 3 "~" H 1550 2400 50  0001 C CNN
+	1    1550 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6062E3B5
+P 1050 2400
+AR Path="/6057976E/6062E3B5" Ref="#PWR?"  Part="1" 
+AR Path="/6062E3B5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1050 2150 50  0001 C CNN
+F 1 "GNDREF" H 1055 2227 50  0000 C CNN
+F 2 "" H 1050 2400 50  0001 C CNN
+F 3 "" H 1050 2400 50  0001 C CNN
+	1    1050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2100 1700 2100
+Connection ~ 1950 2100
+Wire Wire Line
+	1950 2400 1700 2400
+Connection ~ 1950 2400
+Wire Wire Line
+	1400 2100 1050 2100
+Wire Wire Line
+	1050 2100 1050 2400
+Wire Wire Line
+	1400 2400 1050 2400
+Connection ~ 1050 2400
 $EndSCHEMATC

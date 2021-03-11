@@ -1,0 +1,189 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:FT232RL U?
+U 1 1 605A84F6
+P 5450 3600
+AR Path="/605A84F6" Ref="U?"  Part="1" 
+AR Path="/6059C0E9/605A84F6" Ref="U?"  Part="1" 
+F 0 "U?" H 5450 4781 50  0000 C CNN
+F 1 "FT232RL" H 5450 4690 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 6550 2700 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 605A84FC
+P 7950 3250
+AR Path="/605A84FC" Ref="J?"  Part="1" 
+AR Path="/6059C0E9/605A84FC" Ref="J?"  Part="1" 
+F 0 "J?" H 7922 3224 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 7922 3133 50  0000 R CNN
+F 2 "" H 7950 3250 50  0001 C CNN
+F 3 "~" H 7950 3250 50  0001 C CNN
+	1    7950 3250
+	-1   0    0    -1  
+$EndComp
+Text HLabel 3750 3200 0    50   Input ~ 0
+USB_DP
+Text HLabel 3750 3300 0    50   Input ~ 0
+USB_DM
+Wire Wire Line
+	3750 3300 4650 3300
+Wire Wire Line
+	4650 3200 3750 3200
+$Comp
+L power:GNDREF #PWR?
+U 1 1 605BF8D4
+P 5550 4800
+F 0 "#PWR?" H 5550 4550 50  0001 C CNN
+F 1 "GNDREF" H 5555 4627 50  0000 C CNN
+F 2 "" H 5550 4800 50  0001 C CNN
+F 3 "" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4600 5550 4600
+Wire Wire Line
+	5550 4600 5650 4600
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 4600 5550 4800
+Wire Wire Line
+	6250 2900 7050 2900
+Wire Wire Line
+	7050 2900 7050 3450
+Wire Wire Line
+	7050 3450 7750 3450
+Wire Wire Line
+	6250 3000 7150 3000
+Wire Wire Line
+	7150 3000 7150 3250
+Wire Wire Line
+	7150 3250 7750 3250
+Wire Wire Line
+	4650 2900 4650 2350
+Wire Wire Line
+	4650 2350 5350 2350
+Wire Wire Line
+	7450 2350 7450 3350
+Wire Wire Line
+	7450 3350 7750 3350
+Wire Wire Line
+	7750 3150 7750 2850
+Wire Wire Line
+	7750 2850 7600 2850
+Wire Wire Line
+	7600 2850 7600 2900
+$Comp
+L power:GNDREF #PWR?
+U 1 1 605C410A
+P 7600 2900
+F 0 "#PWR?" H 7600 2650 50  0001 C CNN
+F 1 "GNDREF" H 7605 2727 50  0000 C CNN
+F 2 "" H 7600 2900 50  0001 C CNN
+F 3 "" H 7600 2900 50  0001 C CNN
+	1    7600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4300 4650 4600
+Wire Wire Line
+	4650 4600 5250 4600
+Wire Wire Line
+	5250 4600 5450 4600
+Connection ~ 5250 4600
+Connection ~ 5450 4600
+$Comp
+L power:VBUS #PWR?
+U 1 1 605C5EC8
+P 5550 2050
+F 0 "#PWR?" H 5550 1900 50  0001 C CNN
+F 1 "VBUS" H 5565 2223 50  0000 C CNN
+F 2 "" H 5550 2050 50  0001 C CNN
+F 3 "" H 5550 2050 50  0001 C CNN
+	1    5550 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2050 5550 2600
+Wire Wire Line
+	5350 2350 5350 2600
+Connection ~ 5350 2350
+Wire Wire Line
+	5350 2350 7450 2350
+$Comp
+L power:VBUS #PWR?
+U 1 1 605C93BD
+P 3450 4250
+F 0 "#PWR?" H 3450 4100 50  0001 C CNN
+F 1 "VBUS" H 3465 4423 50  0000 C CNN
+F 2 "" H 3450 4250 50  0001 C CNN
+F 3 "" H 3450 4250 50  0001 C CNN
+	1    3450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 605C99BA
+P 3450 4750
+F 0 "#PWR?" H 3450 4500 50  0001 C CNN
+F 1 "GNDREF" H 3455 4577 50  0000 C CNN
+F 2 "" H 3450 4750 50  0001 C CNN
+F 3 "" H 3450 4750 50  0001 C CNN
+	1    3450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 605CA219
+P 3150 4500
+F 0 "C?" H 3265 4546 50  0000 L CNN
+F 1 "100nF" H 3265 4455 50  0000 L CNN
+F 2 "" H 3188 4350 50  0001 C CNN
+F 3 "~" H 3150 4500 50  0001 C CNN
+	1    3150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 605CB7E6
+P 3650 4500
+F 0 "C?" H 3768 4546 50  0000 L CNN
+F 1 "4.7μF" H 3768 4455 50  0000 L CNN
+F 2 "" H 3688 4350 50  0001 C CNN
+F 3 "~" H 3650 4500 50  0001 C CNN
+	1    3650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4350 3450 4350
+Wire Wire Line
+	3450 4250 3450 4350
+Connection ~ 3450 4350
+Wire Wire Line
+	3450 4350 3650 4350
+Wire Wire Line
+	3150 4650 3450 4650
+Wire Wire Line
+	3450 4650 3450 4750
+Connection ~ 3450 4650
+Wire Wire Line
+	3450 4650 3650 4650
+$EndSCHEMATC
