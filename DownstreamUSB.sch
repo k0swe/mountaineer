@@ -178,5 +178,5 @@ Wire Wire Line
 	5600 2850 5600 3200
 Connection ~ 5250 2850
 Text Notes 4000 1950 0    50   ~ 0
-Matches TI datasheet section 9.2.2.2 Downstream Port 1 Implementation
+See TUSB4041I datasheet\n9.2.2.2 Downstream Port 1 Implementation
 $EndSCHEMATC
