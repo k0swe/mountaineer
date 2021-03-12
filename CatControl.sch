@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -31,9 +31,9 @@ L Connector:Conn_01x04_Male J?
 U 1 1 605A84FC
 P 7950 3250
 AR Path="/605A84FC" Ref="J?"  Part="1" 
-AR Path="/6059C0E9/605A84FC" Ref="J?"  Part="1" 
-F 0 "J?" H 7922 3224 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 7922 3133 50  0000 R CNN
+AR Path="/6059C0E9/605A84FC" Ref="J2"  Part="1" 
+F 0 "J2" H 7922 3224 50  0000 R CNN
+F 1 "CAT" H 7922 3133 50  0000 R CNN
 F 2 "" H 7950 3250 50  0001 C CNN
 F 3 "~" H 7950 3250 50  0001 C CNN
 	1    7950 3250
@@ -113,16 +113,14 @@ Connection ~ 5450 4600
 $Comp
 L power:VBUS #PWR?
 U 1 1 605C5EC8
-P 5550 2050
-F 0 "#PWR?" H 5550 1900 50  0001 C CNN
-F 1 "VBUS" H 5565 2223 50  0000 C CNN
-F 2 "" H 5550 2050 50  0001 C CNN
-F 3 "" H 5550 2050 50  0001 C CNN
-	1    5550 2050
+P 5550 1600
+F 0 "#PWR?" H 5550 1450 50  0001 C CNN
+F 1 "VBUS" H 5565 1773 50  0000 C CNN
+F 2 "" H 5550 1600 50  0001 C CNN
+F 3 "" H 5550 1600 50  0001 C CNN
+	1    5550 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 2050 5550 2600
 Wire Wire Line
 	5350 2350 5350 2600
 Connection ~ 5350 2350
@@ -186,4 +184,64 @@ Wire Wire Line
 Connection ~ 3450 4650
 Wire Wire Line
 	3450 4650 3650 4650
+Text Notes 2800 2000 0    50   ~ 0
+See FT232R datasheet\n6.4 USB Bus Powered with Selectable External Logic Supply
+Text Notes 8000 2850 0    50   ~ 0
+See TX-500 adapters\nCAT-USB adapter
+$Comp
+L Device:C C?
+U 1 1 604C7383
+P 5850 1900
+F 0 "C?" H 5965 1946 50  0000 L CNN
+F 1 "10nF" H 5965 1855 50  0000 L CNN
+F 2 "" H 5888 1750 50  0001 C CNN
+F 3 "~" H 5850 1900 50  0001 C CNN
+	1    5850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 604C84F9
+P 5850 2050
+F 0 "#PWR?" H 5850 1800 50  0001 C CNN
+F 1 "GNDREF" H 5855 1877 50  0000 C CNN
+F 2 "" H 5850 2050 50  0001 C CNN
+F 3 "" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1600 5550 1750
+Wire Wire Line
+	5850 1750 5550 1750
+Connection ~ 5550 1750
+Wire Wire Line
+	5550 1750 5550 2600
+$Comp
+L Device:C C?
+U 1 1 604CE119
+P 4200 2600
+F 0 "C?" H 4315 2646 50  0000 L CNN
+F 1 "100nF" H 4315 2555 50  0000 L CNN
+F 2 "" H 4238 2450 50  0001 C CNN
+F 3 "~" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 604CEB86
+P 4200 2750
+F 0 "#PWR?" H 4200 2500 50  0001 C CNN
+F 1 "GNDREF" H 4205 2577 50  0000 C CNN
+F 2 "" H 4200 2750 50  0001 C CNN
+F 3 "" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2350 4200 2350
+Wire Wire Line
+	4200 2350 4200 2450
+Connection ~ 4650 2350
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -75,8 +75,6 @@ F 3 "~" H 4600 3950 50  0001 C CNN
 	1    4600 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 2950 5350 2950
 $Comp
 L Connector:USB_B J?
 U 1 1 60570101
@@ -125,17 +123,112 @@ F 3 "" H 5450 4200 50  0001 C CNN
 	1    5450 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 3850 1350 0    50   ~ 0
-Matches TI Datasheet section 9.2.2.1 Upstream Port Implementation
+Text Notes 4300 1400 0    50   ~ 0
+See TUSB4041I Datasheet\n9.2.2.1 Upstream Port Implementation
+$Comp
+L Device:C C?
+U 1 1 604E15AE
+P 5200 2300
+AR Path="/604E15AE" Ref="C?"  Part="1" 
+AR Path="/6057976E/604E15AE" Ref="C1"  Part="1" 
+F 0 "C1" H 5315 2346 50  0000 L CNN
+F 1 "10 μF" H 5315 2255 50  0000 L CNN
+F 2 "" H 5238 2150 50  0001 C CNN
+F 3 "~" H 5200 2300 50  0001 C CNN
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6050 2150
+Wire Wire Line
+	6050 2150 6500 2150
+Wire Wire Line
+	5900 2150 6050 2150
+$Comp
+L Device:R R?
+U 1 1 604E15B7
+P 6050 2300
+AR Path="/604E15B7" Ref="R?"  Part="1" 
+AR Path="/6057976E/604E15B7" Ref="R2"  Part="1" 
+F 0 "R2" H 5980 2254 50  0000 R CNN
+F 1 "10 kΩ 1%" H 5980 2345 50  0000 R CNN
+F 2 "" V 5980 2300 50  0001 C CNN
+F 3 "~" H 6050 2300 50  0001 C CNN
+	1    6050 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 604E15BD
+P 5750 2150
+AR Path="/604E15BD" Ref="R?"  Part="1" 
+AR Path="/6057976E/604E15BD" Ref="R1"  Part="1" 
+F 0 "R1" V 5543 2150 50  0000 C CNN
+F 1 "90.9 kΩ 1%" V 5634 2150 50  0000 C CNN
+F 2 "" V 5680 2150 50  0001 C CNN
+F 3 "~" H 5750 2150 50  0001 C CNN
+	1    5750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 604E15C3
+P 6050 2450
+AR Path="/6057976E/604E15C3" Ref="#PWR?"  Part="1" 
+AR Path="/604E15C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6050 2200 50  0001 C CNN
+F 1 "GNDREF" H 6055 2277 50  0000 C CNN
+F 2 "" H 6050 2450 50  0001 C CNN
+F 3 "" H 6050 2450 50  0001 C CNN
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 604E15C9
+P 5200 2450
+AR Path="/6057976E/604E15C9" Ref="#PWR?"  Part="1" 
+AR Path="/604E15C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 2200 50  0001 C CNN
+F 1 "GNDREF" H 5205 2277 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2150 5400 2150
 $Comp
 L power:VBUS #PWR?
-U 1 1 605D5455
-P 5350 2950
-F 0 "#PWR?" H 5350 2800 50  0001 C CNN
-F 1 "VBUS" H 5365 3123 50  0000 C CNN
-F 2 "" H 5350 2950 50  0001 C CNN
-F 3 "" H 5350 2950 50  0001 C CNN
-	1    5350 2950
+U 1 1 604E15D0
+P 4950 2950
+AR Path="/604E15D0" Ref="#PWR?"  Part="1" 
+AR Path="/6057976E/604E15D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 2800 50  0001 C CNN
+F 1 "VBUS" H 4965 3123 50  0000 C CNN
+F 2 "" H 4950 2950 50  0001 C CNN
+F 3 "" H 4950 2950 50  0001 C CNN
+	1    4950 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 2150
+Wire Wire Line
+	5400 2150 5600 2150
+Wire Wire Line
+	5400 2150 5400 2950
+Wire Wire Line
+	4800 2950 4950 2950
+Connection ~ 4950 2950
+Wire Wire Line
+	4950 2950 5400 2950
+$Comp
+L power:+1V1 #PWR?
+U 1 1 604E6D5F
+P 6500 2150
+F 0 "#PWR?" H 6500 2000 50  0001 C CNN
+F 1 "+1V1" H 6515 2323 50  0000 C CNN
+F 2 "" H 6500 2150 50  0001 C CNN
+F 3 "" H 6500 2150 50  0001 C CNN
+	1    6500 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
