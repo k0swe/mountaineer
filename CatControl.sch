@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -39,14 +39,6 @@ F 3 "~" H 7950 3250 50  0001 C CNN
 	1    7950 3250
 	-1   0    0    -1  
 $EndComp
-Text HLabel 3750 3200 0    50   Input ~ 0
-USB_DP
-Text HLabel 3750 3300 0    50   Input ~ 0
-USB_DM
-Wire Wire Line
-	3750 3300 4650 3300
-Wire Wire Line
-	4650 3200 3750 3200
 $Comp
 L power:GNDREF #PWR0118
 U 1 1 605BF8D4
@@ -126,75 +118,17 @@ Wire Wire Line
 Connection ~ 5350 2350
 Wire Wire Line
 	5350 2350 7450 2350
-$Comp
-L power:VBUS #PWR0121
-U 1 1 605C93BD
-P 3450 4250
-F 0 "#PWR0121" H 3450 4100 50  0001 C CNN
-F 1 "VBUS" H 3465 4423 50  0000 C CNN
-F 2 "" H 3450 4250 50  0001 C CNN
-F 3 "" H 3450 4250 50  0001 C CNN
-	1    3450 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0122
-U 1 1 605C99BA
-P 3450 4750
-F 0 "#PWR0122" H 3450 4500 50  0001 C CNN
-F 1 "GNDREF" H 3455 4577 50  0000 C CNN
-F 2 "" H 3450 4750 50  0001 C CNN
-F 3 "" H 3450 4750 50  0001 C CNN
-	1    3450 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 605CA219
-P 3150 4500
-F 0 "C8" H 3265 4546 50  0000 L CNN
-F 1 "100nF" H 3265 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3188 4350 50  0001 C CNN
-F 3 "~" H 3150 4500 50  0001 C CNN
-	1    3150 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C9
-U 1 1 605CB7E6
-P 3650 4500
-F 0 "C9" H 3768 4546 50  0000 L CNN
-F 1 "4.7μF" H 3768 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 3688 4350 50  0001 C CNN
-F 3 "~" H 3650 4500 50  0001 C CNN
-	1    3650 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 4350 3450 4350
-Wire Wire Line
-	3450 4250 3450 4350
-Connection ~ 3450 4350
-Wire Wire Line
-	3450 4350 3650 4350
-Wire Wire Line
-	3150 4650 3450 4650
-Wire Wire Line
-	3450 4650 3450 4750
-Connection ~ 3450 4650
-Wire Wire Line
-	3450 4650 3650 4650
 Text Notes 2800 2000 0    50   ~ 0
 See FT232R datasheet\n6.4 USB Bus Powered with Selectable External Logic Supply
 Text Notes 8000 2850 0    50   ~ 0
 See TX-500 adapters\nCAT-USB adapter
 $Comp
-L Device:C C11
+L Device:C C16
 U 1 1 604C7383
 P 5850 1900
-F 0 "C11" H 5965 1946 50  0000 L CNN
-F 1 "10nF" H 5965 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5888 1750 50  0001 C CNN
+F 0 "C16" H 5965 1946 50  0000 L CNN
+F 1 "100μF" H 5965 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 5888 1750 50  0001 C CNN
 F 3 "~" H 5850 1900 50  0001 C CNN
 	1    5850 1900
 	1    0    0    -1  
@@ -218,10 +152,10 @@ Connection ~ 5550 1750
 Wire Wire Line
 	5550 1750 5550 2600
 $Comp
-L Device:C C10
+L Device:C C15
 U 1 1 604CE119
 P 4200 2600
-F 0 "C10" H 4315 2646 50  0000 L CNN
+F 0 "C15" H 4315 2646 50  0000 L CNN
 F 1 "100nF" H 4315 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4238 2450 50  0001 C CNN
 F 3 "~" H 4200 2600 50  0001 C CNN
@@ -244,4 +178,12 @@ Wire Wire Line
 Wire Wire Line
 	4200 2350 4200 2450
 Connection ~ 4650 2350
+Text HLabel 3950 3200 0    50   Input ~ 0
+USB_DP
+Text HLabel 3950 3300 0    50   Input ~ 0
+USB_DM
+Wire Wire Line
+	3950 3200 4650 3200
+Wire Wire Line
+	3950 3300 4650 3300
 $EndSCHEMATC
