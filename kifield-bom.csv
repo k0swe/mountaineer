@@ -15,9 +15,9 @@ J4,Downstream USB socket,Molex,67643-3910,Mouser,538-67643-3910,1.64,https://www
 ,CAT bulkhead connector,,GX12-4,Amazom,B06XF1SP8M,1.53,,N/A,N/A
 C4,,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric,0.1μF
 C15,,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric,0.1μF
-C11,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
-C16,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
-C17,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C11,,AVX,TACT107M006XTA,Mouser,581-TACT107M006XTA,4.4,https://www.mouser.com/datasheet/2/40/tac-776418.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C16,,AVX,TACT107M006XTA,Mouser,581-TACT107M006XTA,4.4,https://www.mouser.com/datasheet/2/40/tac-776418.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C17,,AVX,TACT107M006XTA,Mouser,581-TACT107M006XTA,4.4,https://www.mouser.com/datasheet/2/40/tac-776418.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
 C12,,Walsin,1210F106Z100CT,Mouser,791-1210F106Z100CT,0.29,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric,10μF
 C1,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
 C2,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF

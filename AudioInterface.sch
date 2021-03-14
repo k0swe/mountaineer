@@ -108,11 +108,11 @@ P 7050 2050
 F 0 "C11" H 7165 2096 50 0000 L CNN
 F 1 "100μF" H 7165 2005 50 0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7088 1900 50 0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf" H 7050 2050 50 0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 7050 2050 50 0001 C CNN
 F 4 "AVX" H 7165 2196 50 0001 C CNN "Manufacturer_Name"
-F 5 "TPST107M004R0500" H 7165 2196 50 0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.93" H 7165 2196 50 0001 C CNN "Price"
-F 7 "581-TPST107M004R0500" H 7165 2196 50 0001 C CNN "Vendor Part Number"
+F 5 "TACT107M006XTA" H 7165 2196 50 0001 C CNN "Manufacturer_Part_Number"
+F 6 "4.4" H 7165 2196 50 0001 C CNN "Price"
+F 7 "581-TACT107M006XTA" H 7165 2196 50 0001 C CNN "Vendor Part Number"
 F 8 "Mouser" H 7165 2196 50 0001 C CNN "Vendor"
 	1    7050 2050
 	1    0    0    -1  

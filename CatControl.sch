@@ -91,11 +91,11 @@ P 5850 1900
 F 0 "C16" H 5965 1946 50 0000 L CNN
 F 1 "100μF" H 5965 1855 50 0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 5888 1750 50 0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf" H 5850 1900 50 0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 5850 1900 50 0001 C CNN
 F 4 "AVX" H 5965 2046 50 0001 C CNN "Manufacturer_Name"
-F 5 "TPST107M004R0500" H 5965 2046 50 0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.93" H 5965 2046 50 0001 C CNN "Price"
-F 7 "581-TPST107M004R0500" H 5965 2046 50 0001 C CNN "Vendor Part Number"
+F 5 "TACT107M006XTA" H 5965 2046 50 0001 C CNN "Manufacturer_Part_Number"
+F 6 "4.4" H 5965 2046 50 0001 C CNN "Price"
+F 7 "581-TACT107M006XTA" H 5965 2046 50 0001 C CNN "Vendor Part Number"
 F 8 "Mouser" H 5965 2046 50 0001 C CNN "Vendor"
 	1    5850 1900
 	1    0    0    -1  
