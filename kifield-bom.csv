@@ -1,0 +1,48 @@
+Refs,Description,Manufacturer_Name,Manufacturer_Part_Number,Vendor,Vendor Part Number,Price,datasheet,footprint,value
+U1,USB Hub Controller,TI,TUSB2036,Mouser,595-TUSB2036VFR,3.4,http://www.ti.com/lit/ds/symlink/tusb2036.pdf,Package_QFP:LQFP-32_7x7mm_P0.8mm,TUSB2036
+U2,UART,FTDI,FT232RL,Mouser,895-FT232RL-TUBE,4.6,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,FT232RL
+U3,USB Audio Interface,Cmedia,HS-100B,Symmetry,HS-100B,0.78,https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf,Package_QFP:LQFP-48_7x7mm_P0.5mm,HS-100B
+U4,Voltage Regulator,TI,TPS76333,Mouser,595-TPS76333DBVTG4,0.97,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5,TPS76333
+Y1,Hub controller clock,ABRACON,AWSCR-6.00CPLA-C30-T4,Mouser,815-CR-6.00CPLA-30-T,0.36,https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf,Crystal:Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm,6MHz
+,Case,Hammond,1455C801,Mouser,546-1455C801,13.13,https://www.mouser.com/datasheet/2/177/1455-1272397.pdf,Off-board,
+J2,TX-500 CAT Interconnect,JST,B4B-PH-SM4-TB,Mouser,485-4392,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical,CAT
+J3,TX-500 REM/DATA Interconnect,JST,B3B-PH-SM4-TB,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical,REM/DATA
+,REM/DATA wire,JST,PH 3-pin wire,,,,,Off-board,
+,CAT wire,JST,PH 4-pin wire,,,,,Off-board,
+J1,Upstream USB socket,Molex,47346-0001,Mouser,538-47346-0001,0.95,https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf,Connector_USB:USB_Micro-B_Molex_47346-0001,USB_B
+J4,Downstream USB socket,Molex,67643-3910,Mouser,538-67643-3910,1.64,https://www.mouser.com/datasheet/2/276/1/0676433910_IO_CONNECTORS-172273.pdf,Connector_USB:USB_A_Molex_67643_Horizontal,USB_A
+,REM/DATA bulkhead connector,,GX12-7,,,,,Off-board,
+,CAT bulkhead connector,,GX12-4,,,,,Off-board,
+C4,,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric,0.1μF
+C15,,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric,0.1μF
+C11,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C16,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C17,,AVX,TPST107M004R0500,Mouser,581-TPST107M004R0500,0.93,https://www.mouser.com/datasheet/2/40/TPS-2066671.pdf,Capacitor_SMD:C_1210_3225Metric,100μF
+C12,,Walsin,1210F106Z100CT,Mouser,791-1210F106Z100CT,0.29,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric,10μF
+C1,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C2,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C5,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C6,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C7,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C8,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C9,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C10,,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric,22pF
+C13,,AVX,12102U270JAT2A,Mouser,581-12102U270JAT2A,0.7,https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf,Capacitor_SMD:C_1210_3225Metric,27pF
+C14,,AVX,12102U270JAT2A,Mouser,581-12102U270JAT2A,0.7,https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf,Capacitor_SMD:C_1210_3225Metric,27pF
+C3,,Walsin,1210F475Z500CT,Mouser,791-1210F475Z500CT,0.62,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric,4.7μF
+R1,,Yageo,AC1210FR-071K5L,Mouser,603-AC1210FR-071K5L,0.31,https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf,Resistor_SMD:R_1210_3225Metric,1.5kΩ
+R4,,Yageo,AC1210FR-071K5L,Mouser,603-AC1210FR-071K5L,0.31,https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf,Resistor_SMD:R_1210_3225Metric,1.5kΩ
+R11,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R12,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R13,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R14,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R15,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R16,,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric,15kΩ
+R10,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R2,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R3,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R5,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R6,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R7,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R8,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+R9,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
