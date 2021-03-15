@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Open Source Hardware")(type KiCad)(uri /home/chris/src/tx500-data-interface/Libraries/OSHW)(options "")(descr ""))
+)

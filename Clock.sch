@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "TX-500 Data Interface"
+Date "2021-03-15"
+Rev "0.1"
+Comp "Chris Keller K0SWE"
 Comment1 ""
 Comment2 ""
 Comment3 ""
