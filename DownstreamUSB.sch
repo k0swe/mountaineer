@@ -8,7 +8,7 @@ Title "TX-500 Data Interface"
 Date "2021-03-15"
 Rev "0.1"
 Comp "Chris Keller K0SWE"
-Comment1 ""
+Comment1 "Licensed under Apache-2.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -56,8 +56,8 @@ U 1 1 605B68EE
 P 6150 4050
 AR Path="/605B68EE" Ref="J?"  Part="1" 
 AR Path="/605B3ED2/605B68EE" Ref="J4"  Part="1" 
-F 0 "J4" H 6207 4517 50  0000 C CNN
-F 1 "USB_A" H 6207 4426 50  0000 C CNN
+F 0 "J4" H 5920 4039 50  0000 R CNN
+F 1 "USB_A" H 5920 3948 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 6300 4000 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/276/1/0676433910_IO_CONNECTORS-172273.pdf" H 6300 4000 50  0001 C CNN
 F 4 "Downstream USB socket" H 6207 4617 50  0001 C CNN "Description"
@@ -76,8 +76,8 @@ P 5500 3650
 AR Path="/605EE4F2" Ref="C?"  Part="1" 
 AR Path="/6057976E/605EE4F2" Ref="C?"  Part="1" 
 AR Path="/605B3ED2/605EE4F2" Ref="C17"  Part="1" 
-F 0 "C17" H 5385 3696 50  0000 R CNN
-F 1 "100μF" H 5385 3605 50  0000 R CNN
+F 0 "C17" H 5615 3696 50  0000 L CNN
+F 1 "100μF" H 5615 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 5538 3500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 5500 3650 50  0001 C CNN
 F 4 "AVX" H 5385 3796 50  0001 C CNN "Manufacturer_Name"
@@ -91,9 +91,9 @@ $EndComp
 Text Notes 5050 3000 0    50   ~ 0
 See TUSB2036 datasheet\n9.2.2 Detailed Design Procedure
 Text HLabel 5150 4050 0    50   Input ~ 0
-USB_DP
+D+
 Text HLabel 5150 4150 0    50   Input ~ 0
-USB_DM
+D-
 Wire Wire Line
 	6150 4600 6150 4450
 Wire Wire Line
@@ -109,4 +109,5 @@ Wire Wire Line
 Wire Wire Line
 	5150 4150 5850 4150
 Connection ~ 5500 3500
+NoConn ~ 6250 4450
 $EndSCHEMATC

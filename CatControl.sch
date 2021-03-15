@@ -8,7 +8,7 @@ Title "TX-500 Data Interface"
 Date "2021-03-15"
 Rev "0.1"
 Comp "Chris Keller K0SWE"
-Comment1 ""
+Comment1 "Licensed under Apache-2.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -35,20 +35,20 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 605A84FC
-P 8300 3700
+P 7900 4100
 AR Path="/605A84FC" Ref="J?"  Part="1" 
 AR Path="/6059C0E9/605A84FC" Ref="J2"  Part="1" 
-F 0 "J2" H 8272 3674 50  0000 R CNN
-F 1 "CAT" H 8272 3583 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical" H 8300 3700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf" H 8300 3700 50  0001 C CNN
-F 4 "TX-500 CAT Interconnect" H 8272 3774 50  0001 C CNN "Description"
-F 5 "JST" H 8272 3774 50  0001 C CNN "Manufacturer_Name"
-F 6 "B4B-PH-SM4-TB" H 8272 3774 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.35" H 8272 3774 50  0001 C CNN "Price"
-F 8 "485-4392" H 8272 3774 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 8272 3774 50  0001 C CNN "Vendor"
-	1    8300 3700
+F 0 "J2" H 7872 4074 50  0000 R CNN
+F 1 "CAT" H 7872 3983 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical" H 7900 4100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf" H 7900 4100 50  0001 C CNN
+F 4 "TX-500 CAT Interconnect" H 7872 4174 50  0001 C CNN "Description"
+F 5 "JST" H 7872 4174 50  0001 C CNN "Manufacturer_Name"
+F 6 "B4B-PH-SM4-TB" H 7872 4174 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0.35" H 7872 4174 50  0001 C CNN "Price"
+F 8 "485-4392" H 7872 4174 50  0001 C CNN "Vendor Part Number"
+F 9 "Mouser" H 7872 4174 50  0001 C CNN "Vendor"
+	1    7900 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -56,21 +56,10 @@ L power:GNDREF #PWR0118
 U 1 1 605BF8D4
 P 5900 5250
 F 0 "#PWR0118" H 5900 5000 50  0001 C CNN
-F 1 "GNDREF" H 5905 5077 50  0000 C CNN
+F 1 "GNDREF" H 5905 5077 50  0001 C CNN
 F 2 "" H 5900 5250 50  0001 C CNN
 F 3 "" H 5900 5250 50  0001 C CNN
 	1    5900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0119
-U 1 1 605C410A
-P 7950 3350
-F 0 "#PWR0119" H 7950 3100 50  0001 C CNN
-F 1 "GNDREF" H 7955 3177 50  0000 C CNN
-F 2 "" H 7950 3350 50  0001 C CNN
-F 3 "" H 7950 3350 50  0001 C CNN
-	1    7950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -105,7 +94,7 @@ L power:GNDREF #PWR0123
 U 1 1 604C84F9
 P 6200 2500
 F 0 "#PWR0123" H 6200 2250 50  0001 C CNN
-F 1 "GNDREF" H 6205 2327 50  0000 C CNN
+F 1 "GNDREF" H 6205 2327 50  0001 C CNN
 F 2 "" H 6200 2500 50  0001 C CNN
 F 3 "" H 6200 2500 50  0001 C CNN
 	1    6200 2500
@@ -132,7 +121,7 @@ L power:GNDREF #PWR0124
 U 1 1 604CEB86
 P 4550 3200
 F 0 "#PWR0124" H 4550 2950 50  0001 C CNN
-F 1 "GNDREF" H 4555 3027 50  0000 C CNN
+F 1 "GNDREF" H 4555 3027 50  0001 C CNN
 F 2 "" H 4550 3200 50  0001 C CNN
 F 3 "" H 4550 3200 50  0001 C CNN
 	1    4550 3200
@@ -140,12 +129,12 @@ F 3 "" H 4550 3200 50  0001 C CNN
 $EndComp
 Text Notes 3150 2450 0    50   ~ 0
 See FT232R datasheet\n6.4 USB Bus Powered with Selectable External Logic Supply
-Text Notes 8350 3300 0    50   ~ 0
+Text Notes 7500 3550 0    50   ~ 0
 See TX-500 adapters\nCAT-USB adapter
 Text HLabel 4300 3650 0    50   Input ~ 0
-USB_DP
+D+
 Text HLabel 4300 3750 0    50   Input ~ 0
-USB_DM
+D-
 Wire Wire Line
 	5800 5050 5900 5050
 Wire Wire Line
@@ -153,31 +142,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 5050 5900 5250
 Wire Wire Line
-	6600 3350 7400 3350
-Wire Wire Line
-	7400 3350 7400 3900
-Wire Wire Line
-	7400 3900 8100 3900
-Wire Wire Line
-	6600 3450 7500 3450
-Wire Wire Line
-	7500 3450 7500 3700
-Wire Wire Line
-	7500 3700 8100 3700
-Wire Wire Line
 	5000 3350 5000 2800
 Wire Wire Line
 	5000 2800 5700 2800
-Wire Wire Line
-	7800 2800 7800 3800
-Wire Wire Line
-	7800 3800 8100 3800
-Wire Wire Line
-	8100 3600 8100 3300
-Wire Wire Line
-	8100 3300 7950 3300
-Wire Wire Line
-	7950 3300 7950 3350
 Wire Wire Line
 	5000 4750 5000 5050
 Wire Wire Line
@@ -186,8 +153,6 @@ Wire Wire Line
 	5600 5050 5800 5050
 Wire Wire Line
 	5700 2800 5700 3050
-Wire Wire Line
-	5700 2800 7800 2800
 Wire Wire Line
 	5900 2050 5900 2200
 Wire Wire Line
@@ -205,7 +170,36 @@ Wire Wire Line
 Connection ~ 5900 5050
 Connection ~ 5600 5050
 Connection ~ 5800 5050
-Connection ~ 5700 2800
 Connection ~ 5900 2200
 Connection ~ 5000 2800
+Text Label 7700 4000 2    50   ~ 0
+GND
+Text Label 7700 4100 2    50   ~ 0
+TXD
+Text Label 7700 4200 2    50   ~ 0
+RXD
+Text Label 7700 4300 2    50   ~ 0
+3V3
+Text Label 5400 2800 2    50   ~ 0
+3V3
+Text Label 6600 3350 0    50   ~ 0
+TXD
+Text Label 6600 3450 0    50   ~ 0
+RXD
+Text Label 5350 5050 2    50   ~ 0
+GND
+NoConn ~ 5000 4050
+NoConn ~ 5000 4250
+NoConn ~ 5000 4450
+NoConn ~ 6600 4750
+NoConn ~ 6600 4650
+NoConn ~ 6600 4550
+NoConn ~ 6600 4450
+NoConn ~ 6600 4350
+NoConn ~ 6600 4050
+NoConn ~ 6600 3950
+NoConn ~ 6600 3850
+NoConn ~ 6600 3750
+NoConn ~ 6600 3650
+NoConn ~ 6600 3550
 $EndSCHEMATC

@@ -8,7 +8,7 @@ Title "TX-500 Data Interface"
 Date "2021-03-15"
 Rev "0.1"
 Comp "Chris Keller K0SWE"
-Comment1 ""
+Comment1 "Licensed under Apache-2.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -101,7 +101,7 @@ L power:GNDREF #PWR0125
 U 1 1 604CE5F7
 P 5600 4600
 F 0 "#PWR0125" H 5600 4350 50  0001 C CNN
-F 1 "GNDREF" H 5605 4427 50  0000 C CNN
+F 1 "GNDREF" H 5605 4427 50  0001 C CNN
 F 2 "" H 5600 4600 50  0001 C CNN
 F 3 "" H 5600 4600 50  0001 C CNN
 	1    5600 4600
@@ -112,88 +112,28 @@ L power:GNDREF #PWR0126
 U 1 1 604CF518
 P 4350 4800
 F 0 "#PWR0126" H 4350 4550 50  0001 C CNN
-F 1 "GNDREF" H 4355 4627 50  0000 C CNN
+F 1 "GNDREF" H 4355 4627 50  0001 C CNN
 F 2 "" H 4350 4800 50  0001 C CNN
 F 3 "" H 4350 4800 50  0001 C CNN
 	1    4350 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:TPS76333 U4
-U 1 1 604D068E
-P 6100 3050
-F 0 "U4" H 6100 3392 50  0000 C CNN
-F 1 "TPS76333" H 6100 3301 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6100 3375 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 6100 3050 50  0001 C CNN
-F 4 "Voltage Regulator" H 6100 3492 50  0001 C CNN "Description"
-F 5 "TI" H 6100 3492 50  0001 C CNN "Manufacturer_Name"
-F 6 "TPS76333" H 6100 3492 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.97" H 6100 3492 50  0001 C CNN "Price"
-F 8 "595-TPS76333DBVTG4" H 6100 3492 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 6100 3492 50  0001 C CNN "Vendor"
-	1    6100 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 604D10A1
-P 4850 3150
-F 0 "C3" H 4965 3196 50  0000 L CNN
-F 1 "4.7μF" H 4965 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4888 3000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 4850 3150 50  0001 C CNN
-F 4 "Walsin" H 4965 3296 50  0001 C CNN "Manufacturer_Name"
-F 5 "1210F475Z500CT" H 4965 3296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.62" H 4965 3296 50  0001 C CNN "Price"
-F 7 "791-1210F475Z500CT" H 4965 3296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 4965 3296 50  0001 C CNN "Vendor"
-	1    4850 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 604D3F79
-P 5250 3150
-F 0 "C4" H 5365 3196 50  0000 L CNN
-F 1 "0.1μF" H 5365 3105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5288 3000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf" H 5250 3150 50  0001 C CNN
-F 4 "KEMET" H 5365 3296 50  0001 C CNN "Manufacturer_Name"
-F 5 "C1210C104K5HACAUTO" H 5365 3296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.5" H 5365 3296 50  0001 C CNN "Price"
-F 7 "80-C1210C104K5HAUTO" H 5365 3296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 5365 3296 50  0001 C CNN "Vendor"
-	1    5250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0127
-U 1 1 604D4746
-P 5450 3350
-F 0 "#PWR0127" H 5450 3100 50  0001 C CNN
-F 1 "GNDREF" H 5455 3177 50  0000 C CNN
-F 2 "" H 5450 3350 50  0001 C CNN
-F 3 "" H 5450 3350 50  0001 C CNN
-	1    5450 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VBUS #PWR0128
 U 1 1 604FCE55
-P 4650 2800
-F 0 "#PWR0128" H 4650 2650 50  0001 C CNN
-F 1 "VBUS" H 4665 2973 50  0000 C CNN
-F 2 "" H 4650 2800 50  0001 C CNN
-F 3 "" H 4650 2800 50  0001 C CNN
-	1    4650 2800
+P 4650 3400
+F 0 "#PWR0128" H 4650 3250 50  0001 C CNN
+F 1 "VBUS" H 4665 3573 50  0000 C CNN
+F 2 "" H 4650 3400 50  0001 C CNN
+F 3 "" H 4650 3400 50  0001 C CNN
+	1    4650 3400
 	1    0    0    -1  
 $EndComp
 Text HLabel 6150 4050 2    50   Input ~ 0
-USB_DP
+D+
 Text HLabel 6150 4150 2    50   Input ~ 0
-USB_DM
-Text Notes 4150 2300 0    50   ~ 0
+D-
+Text Notes 4550 2950 0    50   ~ 0
 See TUSB2036 Datasheet\n9.2.2 Detailed Design Procedure
 Wire Wire Line
 	4650 4050 4800 4050
@@ -212,28 +152,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 4450 4350 4800
 Wire Wire Line
-	4650 3850 4650 2950
-Wire Wire Line
-	5450 3350 5250 3350
-Wire Wire Line
-	6100 3350 5450 3350
-Wire Wire Line
-	5250 3300 5250 3350
-Wire Wire Line
-	5250 3000 5250 2950
-Wire Wire Line
-	5250 2950 5800 2950
-Wire Wire Line
-	4650 2950 4850 2950
-Wire Wire Line
-	4850 3000 4850 2950
-Wire Wire Line
-	4850 2950 5250 2950
-Wire Wire Line
-	4850 3300 4850 3350
-Wire Wire Line
-	4850 3350 5250 3350
-Wire Wire Line
 	5100 4150 5350 4150
 Wire Wire Line
 	5350 4150 5350 4200
@@ -241,27 +159,14 @@ Wire Wire Line
 	5350 4150 6150 4150
 Wire Wire Line
 	5350 4500 5600 4500
-Wire Wire Line
-	6400 2950 6650 2950
-Wire Wire Line
-	4650 2800 4650 2950
 Connection ~ 5600 4500
 Connection ~ 5750 4050
-Connection ~ 5250 3350
-Connection ~ 5450 3350
-Connection ~ 5250 2950
-Connection ~ 4850 2950
 Connection ~ 5350 4150
-Connection ~ 4650 2950
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6053FA2A
-P 6650 2950
-F 0 "#PWR?" H 6650 2800 50  0001 C CNN
-F 1 "+3.3V" H 6665 3123 50  0000 C CNN
-F 2 "" H 6650 2950 50  0001 C CNN
-F 3 "" H 6650 2950 50  0001 C CNN
-	1    6650 2950
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	4650 3400 4650 3850
+NoConn ~ 4250 4450
+Text Label 4650 4050 0    50   ~ 0
+DR+
+Text Label 4650 4150 0    50   ~ 0
+DR-
 $EndSCHEMATC

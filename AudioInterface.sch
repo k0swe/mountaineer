@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 4 6
 Title "TX-500 Data Interface"
 Date "2021-03-15"
 Rev "0.1"
 Comp "Chris Keller K0SWE"
-Comment1 ""
+Comment1 "Licensed under Apache-2.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -19,8 +19,8 @@ U 1 1 605AF753
 P 4650 3450
 AR Path="/605AF753" Ref="IC?"  Part="1" 
 AR Path="/605AB33C/605AF753" Ref="U3"  Part="1" 
-F 0 "U3" H 4450 3900 50  0000 L CNN
-F 1 "HS-100B" H 4350 3800 50  0000 L CNN
+F 0 "U3" H 4600 4300 50  0000 L CNN
+F 1 "HS-100B" H 4450 4200 50  0000 L CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 6200 4050 50  0001 L CNN
 F 3 "1.6" H 6200 3950 50  0001 L CNN
 F 4 "USB Audio Interface" H 6200 3850 50  0001 L CNN "Description"
@@ -36,20 +36,20 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Male J?
 U 1 1 605AF759
-P 8350 4250
+P 8650 4250
 AR Path="/605AF759" Ref="J?"  Part="1" 
 AR Path="/605AB33C/605AF759" Ref="J3"  Part="1" 
-F 0 "J3" H 8322 4274 50  0000 R CNN
-F 1 "REM/DATA" H 8322 4183 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" H 8350 4250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf" H 8350 4250 50  0001 C CNN
-F 4 "TX-500 REM/DATA Interconnect" H 8322 4374 50  0001 C CNN "Description"
-F 5 "JST" H 8322 4374 50  0001 C CNN "Manufacturer_Name"
-F 6 "B3B-PH-SM4-TB" H 8322 4374 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.35" H 8322 4374 50  0001 C CNN "Price"
-F 8 "485-4389" H 8322 4374 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 8322 4374 50  0001 C CNN "Vendor"
-	1    8350 4250
+F 0 "J3" H 8622 4274 50  0000 R CNN
+F 1 "REM/DATA" H 8622 4183 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical" H 8650 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf" H 8650 4250 50  0001 C CNN
+F 4 "TX-500 REM/DATA Interconnect" H 8622 4374 50  0001 C CNN "Description"
+F 5 "JST" H 8622 4374 50  0001 C CNN "Manufacturer_Name"
+F 6 "B3B-PH-SM4-TB" H 8622 4374 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0.35" H 8622 4374 50  0001 C CNN "Price"
+F 8 "485-4389" H 8622 4374 50  0001 C CNN "Vendor Part Number"
+F 9 "Mouser" H 8622 4374 50  0001 C CNN "Vendor"
+	1    8650 4250
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -88,17 +88,17 @@ $EndComp
 $Comp
 L Device:CP C12
 U 1 1 604CC1E1
-P 7700 4050
-F 0 "C12" V 7445 4050 50  0000 C CNN
-F 1 "10μF" V 7536 4050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 7738 3900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 7700 4050 50  0001 C CNN
-F 4 "Walsin" H 7445 4150 50  0001 C CNN "Manufacturer_Name"
-F 5 "1210F106Z100CT" H 7445 4150 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.29" H 7445 4150 50  0001 C CNN "Price"
-F 7 "791-1210F106Z100CT" H 7445 4150 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 7445 4150 50  0001 C CNN "Vendor"
-	1    7700 4050
+P 8050 4250
+F 0 "C12" V 7795 4250 50  0000 C CNN
+F 1 "10μF" V 7886 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8088 4100 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 8050 4250 50  0001 C CNN
+F 4 "Walsin" H 7795 4350 50  0001 C CNN "Manufacturer_Name"
+F 5 "1210F106Z100CT" H 7795 4350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.29" H 7795 4350 50  0001 C CNN "Price"
+F 7 "791-1210F106Z100CT" H 7795 4350 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 7795 4350 50  0001 C CNN "Vendor"
+	1    8050 4250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -133,9 +133,9 @@ See HS-100B datasheet
 Text Notes 8000 3900 0    50   ~ 0
 See TX-500 adapters\nAudio data cable
 Text HLabel 5450 2300 1    50   Input ~ 0
-USB_DP
+D+
 Text HLabel 5350 2300 1    50   Input ~ 0
-USB_DM
+D-
 Wire Wire Line
 	6350 3450 6500 3450
 Wire Wire Line
@@ -151,11 +151,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 4550 4450 4550
 Wire Wire Line
-	6350 4050 7100 4050
+	6350 4050 6950 4050
 Wire Wire Line
-	7100 4050 7100 3850
+	6950 4050 6950 3850
 Wire Wire Line
-	6350 3850 7100 3850
+	6350 3850 6950 3850
 Wire Wire Line
 	6350 3550 6750 3550
 Wire Wire Line
@@ -208,19 +208,53 @@ Connection ~ 4450 4550
 Connection ~ 6500 3450
 Connection ~ 6750 2000
 Connection ~ 6750 3550
+Text Label 8450 4250 2    50   ~ 0
+SPK
+Text Label 8450 4350 2    50   ~ 0
+MIC
+Text Label 8450 4150 2    50   ~ 0
+GND
+Text Label 6900 4250 0    50   ~ 0
+MIC
+Text Label 4800 5500 2    50   ~ 0
+GND
 Wire Wire Line
-	7850 4050 7850 4150
+	8200 4250 8450 4250
+Text Label 6900 3850 0    50   ~ 0
+LineOut
+Text Label 7900 4250 2    50   ~ 0
+LineOut
+NoConn ~ 4650 3450
+NoConn ~ 4650 3550
+NoConn ~ 4650 3650
+NoConn ~ 4650 3750
+NoConn ~ 4650 3850
+NoConn ~ 4650 4050
+NoConn ~ 4650 4250
+NoConn ~ 4650 4450
+NoConn ~ 4950 5350
+NoConn ~ 5050 5350
+NoConn ~ 5150 5350
+NoConn ~ 5250 5350
+NoConn ~ 5350 5350
+NoConn ~ 5450 5350
+NoConn ~ 5550 5350
+NoConn ~ 5750 5350
+NoConn ~ 5850 5350
+NoConn ~ 5950 5350
+NoConn ~ 6050 5350
+NoConn ~ 6350 4450
+NoConn ~ 6350 4350
+NoConn ~ 6350 3950
 Wire Wire Line
-	7850 4150 8150 4150
-Wire Wire Line
-	7850 4550 7850 4350
-Wire Wire Line
-	7850 4350 8150 4350
-Wire Wire Line
-	7100 4050 7550 4050
-Connection ~ 7100 4050
-Wire Wire Line
-	6350 4250 8150 4250
-Wire Wire Line
-	6500 4550 7850 4550
+	6350 4250 6900 4250
+NoConn ~ 4950 2650
+NoConn ~ 5050 2650
+NoConn ~ 5150 2650
+NoConn ~ 5250 2650
+NoConn ~ 5550 2650
+NoConn ~ 5650 2650
+NoConn ~ 5850 2650
+NoConn ~ 5950 2650
+NoConn ~ 6050 2650
 $EndSCHEMATC
