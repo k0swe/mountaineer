@@ -29,6 +29,30 @@ F1 "Clock.sch" 50
 F2 "XTAL1" I R 2350 5150 50 
 F3 "XTAL2" I R 2350 5250 50 
 $EndSheet
+$Sheet
+S 8850 3250 1050 850 
+U 605AB33C
+F0 "Audio Interface" 50
+F1 "AudioInterface.sch" 50
+F2 "D+" I L 8850 3550 50 
+F3 "D-" I L 8850 3650 50 
+$EndSheet
+$Sheet
+S 8850 1750 1050 850 
+U 6059C0E9
+F0 "CAT Conrol" 50
+F1 "CatControl.sch" 50
+F2 "D+" I L 8850 2200 50 
+F3 "D-" I L 8850 2300 50 
+$EndSheet
+$Sheet
+S 8850 4550 1050 850 
+U 605B3ED2
+F0 "Downstream USB" 50
+F1 "DownstreamUSB.sch" 50
+F2 "D+" I L 8850 4850 50 
+F3 "D-" I L 8850 4950 50 
+$EndSheet
 $Comp
 L power:GNDREF #PWR0101
 U 1 1 605F35F4
@@ -84,44 +108,6 @@ F 3 "" H 3600 5150 50  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 4350 1600 0    50   ~ 0
-See TUSB2036 Datasheet\n9.2.2 Detailed Design Procedure
-Wire Wire Line
-	4800 5250 4900 5250
-Wire Wire Line
-	4900 5250 5000 5250
-Wire Wire Line
-	5000 2050 4900 2050
-Wire Wire Line
-	3700 2950 3900 2950
-Wire Wire Line
-	3700 2650 3900 2650
-Wire Wire Line
-	3900 2650 3900 2750
-Wire Wire Line
-	3900 3850 3450 3850
-Wire Wire Line
-	3450 3850 3450 3350
-Wire Wire Line
-	4900 5250 4900 5500
-Wire Wire Line
-	3450 3850 3450 4350
-Wire Wire Line
-	3450 4350 3900 4350
-Wire Wire Line
-	3600 3650 3600 3750
-Wire Wire Line
-	3600 3650 3900 3650
-Wire Wire Line
-	3600 3750 3900 3750
-Wire Wire Line
-	3900 4650 3600 4650
-Wire Wire Line
-	3600 4650 3600 5150
-Connection ~ 4900 5250
-Connection ~ 3450 3850
-Connection ~ 3600 3750
-Connection ~ 3600 4650
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 60515738
@@ -144,33 +130,6 @@ F 3 "~" H 1900 7400 50  0001 C CNN
 	1    1900 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 1950 4900 2050
-Connection ~ 4900 2050
-Wire Wire Line
-	4900 2050 4800 2050
-Connection ~ 8150 4850
-Connection ~ 8400 4950
-Wire Wire Line
-	8150 4850 8850 4850
-Wire Wire Line
-	8400 4950 8850 4950
-Wire Wire Line
-	8400 5050 8400 4950
-Wire Wire Line
-	8150 5050 8150 4850
-Wire Wire Line
-	7900 4950 8400 4950
-Wire Wire Line
-	7900 4850 8150 4850
-Wire Wire Line
-	7400 4950 7600 4950
-Wire Wire Line
-	7400 5050 7400 4950
-Wire Wire Line
-	7000 5050 7000 4850
-Wire Wire Line
-	7000 4850 7600 4850
 $Comp
 L Device:R R?
 U 1 1 6057D60D
@@ -341,34 +300,6 @@ F 3 "" H 7400 5350 50  0001 C CNN
 	1    7400 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 3550 7600 3550
-Connection ~ 8150 3550
-Connection ~ 8400 3650
-Connection ~ 7400 3650
-Connection ~ 7000 3550
-Wire Wire Line
-	6850 3650 7400 3650
-Wire Wire Line
-	6850 3550 7000 3550
-Wire Wire Line
-	8150 3550 8850 3550
-Wire Wire Line
-	8400 3650 8850 3650
-Wire Wire Line
-	8400 3750 8400 3650
-Wire Wire Line
-	8150 3750 8150 3550
-Wire Wire Line
-	7900 3650 8400 3650
-Wire Wire Line
-	7900 3550 8150 3550
-Wire Wire Line
-	7400 3650 7600 3650
-Wire Wire Line
-	7400 3750 7400 3650
-Wire Wire Line
-	7000 3750 7000 3550
 $Comp
 L Device:R R?
 U 1 1 6056A5A5
@@ -539,42 +470,6 @@ F 3 "" H 7400 4050 50  0001 C CNN
 	1    7400 4050
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 8850 3250 1050 850 
-U 605AB33C
-F0 "Audio Interface" 50
-F1 "AudioInterface.sch" 50
-F2 "D+" I L 8850 3550 50 
-F3 "D-" I L 8850 3650 50 
-$EndSheet
-Wire Wire Line
-	7000 2200 7600 2200
-Connection ~ 7000 2200
-Connection ~ 7400 2300
-Connection ~ 8400 2300
-Connection ~ 8150 2200
-Wire Wire Line
-	7000 2400 7000 2200
-Wire Wire Line
-	7400 2400 7400 2300
-Wire Wire Line
-	7400 2300 7600 2300
-Wire Wire Line
-	7900 2200 8150 2200
-Wire Wire Line
-	7900 2300 8400 2300
-Wire Wire Line
-	8150 2400 8150 2200
-Wire Wire Line
-	8400 2400 8400 2300
-Wire Wire Line
-	6850 2200 7000 2200
-Wire Wire Line
-	6850 2300 7400 2300
-Wire Wire Line
-	8400 2300 8850 2300
-Wire Wire Line
-	8150 2200 8850 2200
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60552D77
@@ -731,27 +626,6 @@ F 3 "" H 8400 2700 50  0001 C CNN
 	1    8400 2700
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 8850 1750 1050 850 
-U 6059C0E9
-F0 "CAT Conrol" 50
-F1 "CatControl.sch" 50
-F2 "D+" I L 8850 2200 50 
-F3 "D-" I L 8850 2300 50 
-$EndSheet
-Wire Wire Line
-	3600 2950 3700 2950
-Connection ~ 3700 2950
-Wire Wire Line
-	3600 3050 3900 3050
-Wire Wire Line
-	2350 3800 2600 3800
-Wire Wire Line
-	2600 3700 2350 3700
-Wire Wire Line
-	2600 5150 2350 5150
-Wire Wire Line
-	2350 5250 2600 5250
 $Comp
 L Regulator_Linear:TPS76333 U?
 U 1 1 60701E6D
@@ -820,30 +694,6 @@ F 3 "" H 1900 2300 50  0001 C CNN
 	1    1900 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 2300 1700 2300
-Wire Wire Line
-	2550 2300 1900 2300
-Wire Wire Line
-	1700 2250 1700 2300
-Wire Wire Line
-	1700 1950 1700 1900
-Wire Wire Line
-	1700 1900 2250 1900
-Wire Wire Line
-	1100 1900 1300 1900
-Wire Wire Line
-	1300 1950 1300 1900
-Wire Wire Line
-	1300 1900 1700 1900
-Wire Wire Line
-	1300 2250 1300 2300
-Wire Wire Line
-	1300 2300 1700 2300
-Connection ~ 1700 2300
-Connection ~ 1900 2300
-Connection ~ 1700 1900
-Connection ~ 1300 1900
 $Comp
 L power:VBUS #PWR0132
 U 1 1 607045E1
@@ -855,28 +705,48 @@ F 3 "" H 1100 1900 50  0001 C CNN
 	1    1100 1900
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 8850 4550 1050 850 
-U 605B3ED2
-F0 "Downstream USB" 50
-F1 "DownstreamUSB.sch" 50
-F2 "D+" I L 8850 4850 50 
-F3 "D-" I L 8850 4950 50 
-$EndSheet
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60552D99
+P 7000 2700
+AR Path="/6059C0E9/60552D99" Ref="#PWR?"  Part="1" 
+AR Path="/605B3ED2/60552D99" Ref="#PWR?"  Part="1" 
+AR Path="/60552D99" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7000 2450 50  0001 C CNN
+F 1 "GNDREF" H 7005 2527 50  0001 C CNN
+F 2 "" H 7000 2700 50  0001 C CNN
+F 3 "" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60900826
+P 1900 7650
+F 0 "FID3" H 1985 7696 50  0000 L CNN
+F 1 "Fiducial" H 1985 7605 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1900 7650 50  0001 C CNN
+F 3 "~" H 1900 7650 50  0001 C CNN
+	1    1900 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 60902566
+P 1250 7400
+F 0 "LOGO1" H 1250 7900 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 1250 7000 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 1250 7400 50  0001 C CNN
+F 3 "~" H 1250 7400 50  0001 C CNN
+	1    1250 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 1600 0    50   ~ 0
+See TUSB2036 Datasheet\n9.2.2 Detailed Design Procedure
 Text Label 3100 1900 0    50   ~ 0
 3V3
 Text Label 4900 1950 0    50   ~ 0
 3V3
-NoConn ~ 3900 2450
-NoConn ~ 3900 3450
-NoConn ~ 3900 4150
-NoConn ~ 5900 4850
-NoConn ~ 5900 4750
-NoConn ~ 5900 4650
-NoConn ~ 5900 4350
-NoConn ~ 5900 4250
-NoConn ~ 5900 4150
-NoConn ~ 5900 2450
 Text Label 5900 2850 0    50   ~ 0
 D1+
 Text Label 5900 2950 0    50   ~ 0
@@ -893,12 +763,6 @@ Text Label 6850 3550 2    50   ~ 0
 D2+
 Text Label 6850 3650 2    50   ~ 0
 D2-
-Connection ~ 7400 4950
-Wire Wire Line
-	6850 4950 7400 4950
-Connection ~ 7000 4850
-Wire Wire Line
-	7000 4850 6850 4850
 Text Label 5900 3650 0    50   ~ 0
 D3+
 Text Label 5900 3750 0    50   ~ 0
@@ -923,54 +787,190 @@ Text Label 2600 5150 0    50   ~ 0
 XTAL1
 Text Label 2600 5250 0    50   ~ 0
 XTAL2
-NoConn ~ 2250 2000
 Text Label 3450 3350 3    50   ~ 0
 3V3
+Wire Wire Line
+	4800 5250 4900 5250
+Wire Wire Line
+	4900 5250 5000 5250
+Wire Wire Line
+	5000 2050 4900 2050
+Wire Wire Line
+	3700 2950 3900 2950
+Wire Wire Line
+	3700 2650 3900 2650
+Wire Wire Line
+	3900 2650 3900 2750
+Wire Wire Line
+	3900 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 3350
+Wire Wire Line
+	4900 5250 4900 5500
+Wire Wire Line
+	3450 3850 3450 4350
+Wire Wire Line
+	3450 4350 3900 4350
+Wire Wire Line
+	3600 3650 3600 3750
+Wire Wire Line
+	3600 3650 3900 3650
+Wire Wire Line
+	3600 3750 3900 3750
+Wire Wire Line
+	3900 4650 3600 4650
+Wire Wire Line
+	3600 4650 3600 5150
+Wire Wire Line
+	4900 1950 4900 2050
+Wire Wire Line
+	4900 2050 4800 2050
+Wire Wire Line
+	8150 4850 8850 4850
+Wire Wire Line
+	8400 4950 8850 4950
+Wire Wire Line
+	8400 5050 8400 4950
+Wire Wire Line
+	8150 5050 8150 4850
+Wire Wire Line
+	7900 4950 8400 4950
+Wire Wire Line
+	7900 4850 8150 4850
+Wire Wire Line
+	7400 4950 7600 4950
+Wire Wire Line
+	7400 5050 7400 4950
+Wire Wire Line
+	7000 5050 7000 4850
+Wire Wire Line
+	7000 4850 7600 4850
+Wire Wire Line
+	7000 3550 7600 3550
+Wire Wire Line
+	6850 3650 7400 3650
+Wire Wire Line
+	6850 3550 7000 3550
+Wire Wire Line
+	8150 3550 8850 3550
+Wire Wire Line
+	8400 3650 8850 3650
+Wire Wire Line
+	8400 3750 8400 3650
+Wire Wire Line
+	8150 3750 8150 3550
+Wire Wire Line
+	7900 3650 8400 3650
+Wire Wire Line
+	7900 3550 8150 3550
+Wire Wire Line
+	7400 3650 7600 3650
+Wire Wire Line
+	7400 3750 7400 3650
+Wire Wire Line
+	7000 3750 7000 3550
+Wire Wire Line
+	7000 2200 7600 2200
+Wire Wire Line
+	7000 2400 7000 2200
+Wire Wire Line
+	7400 2400 7400 2300
+Wire Wire Line
+	7400 2300 7600 2300
+Wire Wire Line
+	7900 2200 8150 2200
+Wire Wire Line
+	7900 2300 8400 2300
+Wire Wire Line
+	8150 2400 8150 2200
+Wire Wire Line
+	8400 2400 8400 2300
+Wire Wire Line
+	6850 2200 7000 2200
+Wire Wire Line
+	6850 2300 7400 2300
+Wire Wire Line
+	8400 2300 8850 2300
+Wire Wire Line
+	8150 2200 8850 2200
+Wire Wire Line
+	3600 2950 3700 2950
+Wire Wire Line
+	3600 3050 3900 3050
+Wire Wire Line
+	2350 3800 2600 3800
+Wire Wire Line
+	2600 3700 2350 3700
+Wire Wire Line
+	2600 5150 2350 5150
+Wire Wire Line
+	2350 5250 2600 5250
+Wire Wire Line
+	1900 2300 1700 2300
+Wire Wire Line
+	2550 2300 1900 2300
+Wire Wire Line
+	1700 2250 1700 2300
+Wire Wire Line
+	1700 1950 1700 1900
+Wire Wire Line
+	1700 1900 2250 1900
+Wire Wire Line
+	1100 1900 1300 1900
+Wire Wire Line
+	1300 1950 1300 1900
+Wire Wire Line
+	1300 1900 1700 1900
+Wire Wire Line
+	1300 2250 1300 2300
+Wire Wire Line
+	1300 2300 1700 2300
+Wire Wire Line
+	6850 4950 7400 4950
+Wire Wire Line
+	7000 4850 6850 4850
 Wire Wire Line
 	3450 3350 3900 3350
 Wire Wire Line
 	3600 3750 3600 4250
 Wire Wire Line
 	3900 4250 3600 4250
-Connection ~ 3600 4250
 Wire Wire Line
 	3600 4250 3600 4650
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60552D99
-P 7000 2700
-AR Path="/6059C0E9/60552D99" Ref="#PWR?"  Part="1" 
-AR Path="/605B3ED2/60552D99" Ref="#PWR?"  Part="1" 
-AR Path="/60552D99" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 7000 2450 50  0001 C CNN
-F 1 "GNDREF" H 7005 2527 50  0001 C CNN
-F 2 "" H 7000 2700 50  0001 C CNN
-F 3 "" H 7000 2700 50  0001 C CNN
-	1    7000 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 1900 3100 1900
-$Comp
-L Mechanical:Fiducial FID3
-U 1 1 60900826
-P 1900 7650
-F 0 "FID3" H 1985 7696 50  0000 L CNN
-F 1 "Fiducial" H 1985 7605 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1900 7650 50  0001 C CNN
-F 3 "~" H 1900 7650 50  0001 C CNN
-	1    1900 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Graphic:Logo_Open_Hardware_Large LOGO1
-U 1 1 60902566
-P 1250 7400
-F 0 "LOGO1" H 1250 7900 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 1250 7000 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 1250 7400 50  0001 C CNN
-F 3 "~" H 1250 7400 50  0001 C CNN
-	1    1250 7400
-	1    0    0    -1  
-$EndComp
+Connection ~ 4900 5250
+Connection ~ 3450 3850
+Connection ~ 3600 3750
+Connection ~ 3600 4650
+Connection ~ 4900 2050
+Connection ~ 8150 4850
+Connection ~ 8400 4950
+Connection ~ 8150 3550
+Connection ~ 8400 3650
+Connection ~ 7400 3650
+Connection ~ 7000 3550
+Connection ~ 7000 2200
+Connection ~ 7400 2300
+Connection ~ 8400 2300
+Connection ~ 8150 2200
+Connection ~ 3700 2950
+Connection ~ 1700 2300
+Connection ~ 1900 2300
+Connection ~ 1700 1900
+Connection ~ 1300 1900
+Connection ~ 7400 4950
+Connection ~ 7000 4850
+Connection ~ 3600 4250
+NoConn ~ 3900 2450
+NoConn ~ 3900 3450
+NoConn ~ 3900 4150
+NoConn ~ 5900 4850
+NoConn ~ 5900 4750
+NoConn ~ 5900 4650
+NoConn ~ 5900 4350
+NoConn ~ 5900 4250
+NoConn ~ 5900 4150
+NoConn ~ 5900 2450
+NoConn ~ 2250 2000
 $EndSCHEMATC

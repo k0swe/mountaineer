@@ -135,6 +135,10 @@ Text HLabel 6150 4150 2    50   Input ~ 0
 D-
 Text Notes 4550 2950 0    50   ~ 0
 See TUSB2036 Datasheet\n9.2.2 Detailed Design Procedure
+Text Label 4650 4050 0    50   ~ 0
+DR+
+Text Label 4650 4150 0    50   ~ 0
+DR-
 Wire Wire Line
 	4650 4050 4800 4050
 Wire Wire Line
@@ -159,14 +163,10 @@ Wire Wire Line
 	5350 4150 6150 4150
 Wire Wire Line
 	5350 4500 5600 4500
+Wire Wire Line
+	4650 3400 4650 3850
 Connection ~ 5600 4500
 Connection ~ 5750 4050
 Connection ~ 5350 4150
-Wire Wire Line
-	4650 3400 4650 3850
 NoConn ~ 4250 4450
-Text Label 4650 4050 0    50   ~ 0
-DR+
-Text Label 4650 4150 0    50   ~ 0
-DR-
 $EndSCHEMATC

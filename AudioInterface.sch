@@ -136,6 +136,20 @@ Text HLabel 5450 2300 1    50   Input ~ 0
 D+
 Text HLabel 5350 2300 1    50   Input ~ 0
 D-
+Text Label 8450 4250 2    50   ~ 0
+SPK
+Text Label 8450 4350 2    50   ~ 0
+MIC
+Text Label 8450 4150 2    50   ~ 0
+GND
+Text Label 6900 4250 0    50   ~ 0
+MIC
+Text Label 4800 5500 2    50   ~ 0
+GND
+Text Label 6900 3850 0    50   ~ 0
+LineOut
+Text Label 7900 4250 2    50   ~ 0
+LineOut
 Wire Wire Line
 	6350 3450 6500 3450
 Wire Wire Line
@@ -200,6 +214,10 @@ Wire Wire Line
 	5450 2300 5450 2650
 Wire Wire Line
 	5350 2300 5350 2650
+Wire Wire Line
+	8200 4250 8450 4250
+Wire Wire Line
+	6350 4250 6900 4250
 Connection ~ 6500 3750
 Connection ~ 6500 4550
 Connection ~ 6750 3650
@@ -208,22 +226,6 @@ Connection ~ 4450 4550
 Connection ~ 6500 3450
 Connection ~ 6750 2000
 Connection ~ 6750 3550
-Text Label 8450 4250 2    50   ~ 0
-SPK
-Text Label 8450 4350 2    50   ~ 0
-MIC
-Text Label 8450 4150 2    50   ~ 0
-GND
-Text Label 6900 4250 0    50   ~ 0
-MIC
-Text Label 4800 5500 2    50   ~ 0
-GND
-Wire Wire Line
-	8200 4250 8450 4250
-Text Label 6900 3850 0    50   ~ 0
-LineOut
-Text Label 7900 4250 2    50   ~ 0
-LineOut
 NoConn ~ 4650 3450
 NoConn ~ 4650 3550
 NoConn ~ 4650 3650
@@ -246,8 +248,6 @@ NoConn ~ 6050 5350
 NoConn ~ 6350 4450
 NoConn ~ 6350 4350
 NoConn ~ 6350 3950
-Wire Wire Line
-	6350 4250 6900 4250
 NoConn ~ 4950 2650
 NoConn ~ 5050 2650
 NoConn ~ 5150 2650

@@ -10,7 +10,7 @@ J3,TX-500 REM/DATA Interconnect,JST,B3B-PH-SM4-TB,Mouser,485-4389,0.35,https://w
 ,REM/DATA wire,JST,PH 3-pin wire,Mouser,485-4336,0.75,,N/A,N/A
 ,CAT wire,JST,PH 4-pin wire,Mouser,485-3955,1.5,,N/A,N/A
 J1,Upstream USB socket,Molex,47346-0001,Mouser,538-47346-0001,0.95,https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf,Connector_USB:USB_Micro-B_Molex_47346-0001,USB_B
-J4,Downstream USB socket,Molex,67643-3910,Mouser,538-67643-3910,1.64,https://www.mouser.com/datasheet/2/276/1/0676433910_IO_CONNECTORS-172273.pdf,Connector_USB:USB_A_Molex_67643_Horizontal,USB_A
+J4,Downstream USB socket,Wurth,62900416021,Mouser,710-62900416021,2.36,https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf,Wurth-USBA:62900416021,USB_A
 ,REM/DATA bulkhead connector,,GX12-7,Amazon,B06XF4HXWC,1.69,,N/A,N/A
 ,CAT bulkhead connector,,GX12-4,Amazom,B06XF1SP8M,1.53,,N/A,N/A
 C4,,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric,0.1μF
@@ -46,3 +46,7 @@ R6,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com
 R7,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
 R8,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
 R9,,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric,27Ω
+FID1,,,,,,,~,Fiducial:Fiducial_1mm_Mask2mm,Fiducial
+FID2,,,,,,,~,Fiducial:Fiducial_1mm_Mask2mm,Fiducial
+FID3,,,,,,,~,Fiducial:Fiducial_1mm_Mask2mm,Fiducial
+LOGO1,,,,,,,~,Symbol:OSHW-Logo2_9.8x8mm_Copper,Logo_Open_Hardware_Large

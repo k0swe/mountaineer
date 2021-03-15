@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "Open Source Hardware")(type KiCad)(uri /home/chris/src/tx500-data-interface/Libraries/OSHW)(options "")(descr ""))
+  (lib (name "Open Source Hardware")(type KiCad)(uri ${KIPRJMOD}/Libraries/OSHW)(options "")(descr ""))
+  (lib (name Wurth-USBA)(type KiCad)(uri ${KIPRJMOD}/Libraries/Wurth-62900416021)(options "")(descr ""))
 )

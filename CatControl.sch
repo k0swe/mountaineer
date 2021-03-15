@@ -135,6 +135,22 @@ Text HLabel 4300 3650 0    50   Input ~ 0
 D+
 Text HLabel 4300 3750 0    50   Input ~ 0
 D-
+Text Label 7700 4000 2    50   ~ 0
+GND
+Text Label 7700 4100 2    50   ~ 0
+TXD
+Text Label 7700 4200 2    50   ~ 0
+RXD
+Text Label 7700 4300 2    50   ~ 0
+3V3
+Text Label 5400 2800 2    50   ~ 0
+3V3
+Text Label 6600 3350 0    50   ~ 0
+TXD
+Text Label 6600 3450 0    50   ~ 0
+RXD
+Text Label 5350 5050 2    50   ~ 0
+GND
 Wire Wire Line
 	5800 5050 5900 5050
 Wire Wire Line
@@ -172,22 +188,6 @@ Connection ~ 5600 5050
 Connection ~ 5800 5050
 Connection ~ 5900 2200
 Connection ~ 5000 2800
-Text Label 7700 4000 2    50   ~ 0
-GND
-Text Label 7700 4100 2    50   ~ 0
-TXD
-Text Label 7700 4200 2    50   ~ 0
-RXD
-Text Label 7700 4300 2    50   ~ 0
-3V3
-Text Label 5400 2800 2    50   ~ 0
-3V3
-Text Label 6600 3350 0    50   ~ 0
-TXD
-Text Label 6600 3450 0    50   ~ 0
-RXD
-Text Label 5350 5050 2    50   ~ 0
-GND
 NoConn ~ 5000 4050
 NoConn ~ 5000 4250
 NoConn ~ 5000 4450
