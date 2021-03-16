@@ -14,25 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B J?
-U 1 1 60570101
-P 4350 4050
-AR Path="/60570101" Ref="J?"  Part="1" 
-AR Path="/6057976E/60570101" Ref="J1"  Part="1" 
-F 0 "J1" H 4407 4517 50  0000 C CNN
-F 1 "USB_B" H 4407 4426 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 4500 4000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 4500 4000 50  0001 C CNN
-F 4 "Upstream USB socket" H 4407 4617 50  0001 C CNN "Description"
-F 5 "Molex" H 4407 4617 50  0001 C CNN "Manufacturer_Name"
-F 6 "47346-0001" H 4407 4617 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.95" H 4407 4617 50  0001 C CNN "Price"
-F 8 "538-47346-0001" H 4407 4617 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 4407 4617 50  0001 C CNN "Vendor"
-	1    4350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 604CC8A1
 P 4950 4050
@@ -169,4 +150,16 @@ Connection ~ 5600 4500
 Connection ~ 5750 4050
 Connection ~ 5350 4150
 NoConn ~ 4250 4450
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 60501F1A
+P 4350 4050
+F 0 "J1" H 4407 4517 50  0000 C CNN
+F 1 "USB_B_Micro" H 4407 4426 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 4500 4000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf" H 4500 4000 50  0001 C CNN
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4650 4250
 $EndSCHEMATC
