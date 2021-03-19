@@ -36,25 +36,6 @@ F 3 "~" H 1000 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:TPS76333 U?
-U 1 1 60701E6D
-P 2250 1200
-AR Path="/6057976E/60701E6D" Ref="U?"  Part="1" 
-AR Path="/60701E6D" Ref="U4"  Part="1" 
-F 0 "U4" H 2250 1542 50  0000 C CNN
-F 1 "TPS76333" H 2250 1451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2250 1525 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 2250 1200 50  0001 C CNN
-F 4 "Voltage Regulator" H 2250 1642 50  0001 C CNN "Description"
-F 5 "TI" H 2250 1642 50  0001 C CNN "Manufacturer_Name"
-F 6 "TPS76333" H 2250 1642 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.97" H 2250 1642 50  0001 C CNN "Price"
-F 8 "595-TPS76333DBVTG4" H 2250 1642 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 2250 1642 50  0001 C CNN "Vendor"
-	1    2250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 60701E78
 P 1000 1300
@@ -153,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 1150 1400 1100
 Wire Wire Line
-	1400 1100 1950 1100
+	1400 1100 1900 1100
 Wire Wire Line
 	800  1100 1000 1100
 Wire Wire Line
@@ -170,7 +151,6 @@ Connection ~ 1400 1500
 Connection ~ 1600 1500
 Connection ~ 1400 1100
 Connection ~ 1000 1100
-NoConn ~ 1950 1200
 $Comp
 L Device:R R?
 U 1 1 6055B627
@@ -761,7 +741,6 @@ NoConn ~ 9900 2200
 NoConn ~ 9900 2500
 NoConn ~ 9900 2600
 NoConn ~ 9900 2700
-NoConn ~ 9900 2800
 NoConn ~ 9900 2900
 NoConn ~ 8300 2600
 NoConn ~ 8300 2400
@@ -1527,26 +1506,6 @@ Connection ~ 8000 4350
 Wire Wire Line
 	9400 6400 9200 6400
 $Comp
-L HS-100B:HS-100B U3
-U 1 1 60A2B59C
-P 8700 6200
-AR Path="/60A2B59C" Ref="U3"  Part="1" 
-AR Path="/605AB33C/60A2B59C" Ref="U?"  Part="1" 
-F 0 "U3" V 10450 4650 50  0000 R CNN
-F 1 "HS-100B" V 10300 4800 50  0000 R CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 10250 6800 50  0001 L CNN
-F 3 "1.6" H 10250 6700 50  0001 L CNN
-F 4 "USB Audio Interface" H 10250 6600 50  0001 L CNN "Description"
-F 5 "1.6" H 10250 6500 50  0001 L CNN "Height"
-F 6 "Cmedia" H 10250 6400 50  0001 L CNN "Manufacturer_Name"
-F 7 "HS-100B" H 10250 6300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "0.78" H 8500 6750 50  0001 C CNN "Price"
-F 9 "HS-100B" H 8500 6750 50  0001 C CNN "Vendor Part Number"
-F 10 "Symmetry" H 8500 6750 50  0001 C CNN "Vendor"
-	1    8700 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDREF #PWR?
 U 1 1 60A2B583
 P 7700 5150
@@ -1663,31 +1622,14 @@ NoConn ~ 8900 6200
 NoConn ~ 9000 6200
 NoConn ~ 9100 6200
 NoConn ~ 9300 6200
-NoConn ~ 9500 6200
 NoConn ~ 9700 6200
-NoConn ~ 10600 5900
-NoConn ~ 10600 5800
-NoConn ~ 10600 5700
-NoConn ~ 10600 5600
-NoConn ~ 10600 5500
-NoConn ~ 10600 5400
-NoConn ~ 10600 5300
-NoConn ~ 10600 5100
-NoConn ~ 10600 5000
-NoConn ~ 10600 4900
-NoConn ~ 10600 4800
 NoConn ~ 9700 4500
 NoConn ~ 9600 4500
 NoConn ~ 9200 4500
-NoConn ~ 7900 5900
 NoConn ~ 7900 5800
-NoConn ~ 7900 5700
-NoConn ~ 7900 5600
 NoConn ~ 7900 5300
 NoConn ~ 7900 5200
 NoConn ~ 7900 5000
-NoConn ~ 7900 4900
-NoConn ~ 7900 4800
 Wire Wire Line
 	7250 5400 7900 5400
 Wire Wire Line
@@ -1711,7 +1653,7 @@ Text Notes 6100 3950 0    118  ~ 0
 USB Audio
 Text Notes 950  5800 0    118  ~ 0
 PCB
-Text Notes 10300 2750 0    50   ~ 0
+Text Notes 10350 1950 0    50   ~ 0
 See TX-500 adapters\nAudio data cable
 Wire Wire Line
 	7700 5100 7700 5150
@@ -1778,4 +1720,83 @@ F 8 "Mouser" H 3935 6546 50  0001 C CNN "Vendor"
 	1    4050 6400
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Regulator_Linear:TPS76333 U?
+U 1 1 60701E6D
+P 2250 1200
+AR Path="/6057976E/60701E6D" Ref="U?"  Part="1" 
+AR Path="/60701E6D" Ref="U4"  Part="1" 
+F 0 "U4" H 2250 1542 50  0000 C CNN
+F 1 "TPS76333" H 2250 1451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2250 1525 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 2250 1200 50  0001 C CNN
+F 4 "Voltage Regulator" H 2250 1642 50  0001 C CNN "Description"
+F 5 "TI" H 2250 1642 50  0001 C CNN "Manufacturer_Name"
+F 6 "TPS76333" H 2250 1642 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0.97" H 2250 1642 50  0001 C CNN "Price"
+F 8 "595-TPS76333DBVTG4" H 2250 1642 50  0001 C CNN "Vendor Part Number"
+F 9 "Mouser" H 2250 1642 50  0001 C CNN "Vendor"
+	1    2250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1200 1900 1200
+Wire Wire Line
+	1900 1200 1900 1100
+Connection ~ 1900 1100
+Wire Wire Line
+	1900 1100 1950 1100
+$Comp
+L HS-100B:HS-100B U3
+U 1 1 60A2B59C
+P 8700 6200
+AR Path="/60A2B59C" Ref="U3"  Part="1" 
+AR Path="/605AB33C/60A2B59C" Ref="U?"  Part="1" 
+F 0 "U3" V 10450 4650 50  0000 R CNN
+F 1 "HS-100B" V 10300 4800 50  0000 R CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 10250 6800 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf" H 10250 6700 50  0001 L CNN
+F 4 "USB Audio Interface" H 10250 6600 50  0001 L CNN "Description"
+F 5 "1.6" H 10250 6500 50  0001 L CNN "Height"
+F 6 "Cmedia" H 10250 6400 50  0001 L CNN "Manufacturer_Name"
+F 7 "HS-100B" H 10250 6300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "0.78" H 8500 6750 50  0001 C CNN "Price"
+F 9 "HS-100B" H 8500 6750 50  0001 C CNN "Vendor Part Number"
+F 10 "Symmetry" H 8500 6750 50  0001 C CNN "Vendor"
+	1    8700 6200
+	0    -1   -1   0   
+$EndComp
+Text Notes 6400 3350 0    50   ~ 0
+See FT232R datasheet\n6.4 USB Bus Powered with Selectable External Logic Supply
+Text Notes 3800 1200 0    50   ~ 0
+See TUSB2036 datasheet\n9.2.2 Detailed Design Procedure
+Text Label 9900 2800 0    50   ~ 0
+PWREN
+Text Label 9900 2900 0    50   ~ 0
+SLEEP
+$Comp
+L Device:R R?
+U 1 1 605D5F33
+P 10200 2600
+AR Path="/605B3ED2/605D5F33" Ref="R?"  Part="1" 
+AR Path="/6059C0E9/605D5F33" Ref="R?"  Part="1" 
+AR Path="/605D5F33" Ref="R17"  Part="1" 
+F 0 "R17" H 10270 2646 50  0000 L CNN
+F 1 "10kΩ" H 10270 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 10130 2600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 10200 2600 50  0001 C CNN
+F 4 "Vishay" H 10270 2746 50  0001 C CNN "Manufacturer_Name"
+F 5 "RCA121015K0FKEA" H 10270 2746 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.11" H 10270 2746 50  0001 C CNN "Price"
+F 7 "71-RCA121015K0FKEA" H 10270 2746 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 10270 2746 50  0001 C CNN "Vendor"
+	1    10200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2750 10200 2800
+Wire Wire Line
+	10200 2800 9900 2800
+Wire Wire Line
+	10200 2450 10650 2450
 $EndSCHEMATC
