@@ -121,9 +121,9 @@ Text Label 2900 2600 0    50   ~ 0
 D0+
 Text Label 2900 2700 0    50   ~ 0
 D0-
-Text Label 1850 3800 0    50   ~ 0
+Text Label 1850 3950 0    50   ~ 0
 XTAL1
-Text Label 1850 3900 0    50   ~ 0
+Text Label 1850 4050 0    50   ~ 0
 XTAL2
 Wire Wire Line
 	1600 1500 1400 1500
@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2700 1650 2700
 Wire Wire Line
-	1950 2600 2600 2600
+	1950 2600 2100 2600
 Wire Wire Line
 	2450 3050 2450 3150
 Wire Wire Line
@@ -281,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3000 1200 3150
 Wire Wire Line
-	1950 2700 2200 2700
+	1950 2700 2000 2700
 Wire Wire Line
 	2200 2700 2200 2750
 Wire Wire Line
@@ -308,392 +308,379 @@ NoConn ~ 1500 2800
 $Comp
 L Device:Crystal Y?
 U 1 1 60579999
-P 1300 4600
+P 1300 4750
 AR Path="/604EF388/60579999" Ref="Y?"  Part="1" 
 AR Path="/60579999" Ref="Y1"  Part="1" 
-F 0 "Y1" H 1300 4868 50  0000 C CNN
-F 1 "6MHz" H 1300 4777 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm" H 1300 4600 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf" H 1300 4600 50  0001 C CNN
-F 4 "Hub controller clock" H 1300 4968 50  0001 C CNN "Description"
-F 5 "ABRACON" H 1300 4968 50  0001 C CNN "Manufacturer_Name"
-F 6 "AWSCR-6.00CPLA-C30-T4" H 1300 4968 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "0.36" H 1300 4968 50  0001 C CNN "Price"
-F 8 "815-CR-6.00CPLA-30-T" H 1300 4968 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 1300 4968 50  0001 C CNN "Vendor"
-	1    1300 4600
+F 0 "Y1" H 1300 5018 50  0000 C CNN
+F 1 "6MHz" H 1300 4927 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm" H 1300 4750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf" H 1300 4750 50  0001 C CNN
+F 4 "Hub controller clock" H 1300 5118 50  0001 C CNN "Description"
+F 5 "ABRACON" H 1300 5118 50  0001 C CNN "Manufacturer_Name"
+F 6 "AWSCR-6.00CPLA-C30-T4" H 1300 5118 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0.36" H 1300 5118 50  0001 C CNN "Price"
+F 8 "815-CR-6.00CPLA-30-T" H 1300 5118 50  0001 C CNN "Vendor Part Number"
+F 9 "Mouser" H 1300 5118 50  0001 C CNN "Vendor"
+	1    1300 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 605799A4
-P 1650 4250
+P 1650 4400
 AR Path="/604EF388/605799A4" Ref="R?"  Part="1" 
 AR Path="/605799A4" Ref="R4"  Part="1" 
-F 0 "R4" V 1443 4250 50  0000 C CNN
-F 1 "1.5kΩ" V 1534 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" V 1580 4250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf" H 1650 4250 50  0001 C CNN
-F 4 "Yageo" H 1443 4350 50  0001 C CNN "Manufacturer_Name"
-F 5 "AC1210FR-071K5L" H 1443 4350 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.31" H 1443 4350 50  0001 C CNN "Price"
-F 7 "603-AC1210FR-071K5L" H 1443 4350 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 1443 4350 50  0001 C CNN "Vendor"
-	1    1650 4250
+F 0 "R4" V 1443 4400 50  0000 C CNN
+F 1 "1.5kΩ" V 1534 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 1580 4400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf" H 1650 4400 50  0001 C CNN
+F 4 "Yageo" H 1443 4500 50  0001 C CNN "Manufacturer_Name"
+F 5 "AC1210FR-071K5L" H 1443 4500 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.31" H 1443 4500 50  0001 C CNN "Price"
+F 7 "603-AC1210FR-071K5L" H 1443 4500 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 1443 4500 50  0001 C CNN "Vendor"
+	1    1650 4400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 605799AF
-P 1650 4850
+P 1650 5000
 AR Path="/604EF388/605799AF" Ref="C?"  Part="1" 
 AR Path="/605799AF" Ref="C14"  Part="1" 
-F 0 "C14" H 1765 4896 50  0000 L CNN
-F 1 "27pF" H 1765 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1688 4700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf" H 1650 4850 50  0001 C CNN
-F 4 "AVX" H 1765 4996 50  0001 C CNN "Manufacturer_Name"
-F 5 "12102U270JAT2A" H 1765 4996 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.7" H 1765 4996 50  0001 C CNN "Price"
-F 7 "581-12102U270JAT2A" H 1765 4996 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 1765 4996 50  0001 C CNN "Vendor"
-	1    1650 4850
+F 0 "C14" H 1765 5046 50  0000 L CNN
+F 1 "27pF" H 1765 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1688 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf" H 1650 5000 50  0001 C CNN
+F 4 "AVX" H 1765 5146 50  0001 C CNN "Manufacturer_Name"
+F 5 "12102U270JAT2A" H 1765 5146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.7" H 1765 5146 50  0001 C CNN "Price"
+F 7 "581-12102U270JAT2A" H 1765 5146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 1765 5146 50  0001 C CNN "Vendor"
+	1    1650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 605799BA
-P 900 4850
+P 900 5000
 AR Path="/604EF388/605799BA" Ref="C?"  Part="1" 
 AR Path="/605799BA" Ref="C13"  Part="1" 
-F 0 "C13" H 1015 4896 50  0000 L CNN
-F 1 "27pF" H 1015 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 938 4700 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf" H 900 4850 50  0001 C CNN
-F 4 "AVX" H 1015 4996 50  0001 C CNN "Manufacturer_Name"
-F 5 "12102U270JAT2A" H 1015 4996 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.7" H 1015 4996 50  0001 C CNN "Price"
-F 7 "581-12102U270JAT2A" H 1015 4996 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 1015 4996 50  0001 C CNN "Vendor"
-	1    900  4850
+F 0 "C13" H 1015 5046 50  0000 L CNN
+F 1 "27pF" H 1015 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 938 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf" H 900 5000 50  0001 C CNN
+F 4 "AVX" H 1015 5146 50  0001 C CNN "Manufacturer_Name"
+F 5 "12102U270JAT2A" H 1015 5146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.7" H 1015 5146 50  0001 C CNN "Price"
+F 7 "581-12102U270JAT2A" H 1015 5146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 1015 5146 50  0001 C CNN "Vendor"
+	1    900  5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605799C0
-P 900 5100
+P 900 5250
 AR Path="/604EF388/605799C0" Ref="#PWR?"  Part="1" 
 AR Path="/605799C0" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 900 4850 50  0001 C CNN
-F 1 "GNDREF" H 905 4927 50  0001 C CNN
-F 2 "" H 900 5100 50  0001 C CNN
-F 3 "" H 900 5100 50  0001 C CNN
-	1    900  5100
+F 0 "#PWR0119" H 900 5000 50  0001 C CNN
+F 1 "GNDREF" H 905 5077 50  0001 C CNN
+F 2 "" H 900 5250 50  0001 C CNN
+F 3 "" H 900 5250 50  0001 C CNN
+	1    900  5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605799C6
-P 1650 5100
+P 1650 5250
 AR Path="/604EF388/605799C6" Ref="#PWR?"  Part="1" 
 AR Path="/605799C6" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 1650 4850 50  0001 C CNN
-F 1 "GNDREF" H 1655 4927 50  0001 C CNN
-F 2 "" H 1650 5100 50  0001 C CNN
-F 3 "" H 1650 5100 50  0001 C CNN
-	1    1650 5100
+F 0 "#PWR0120" H 1650 5000 50  0001 C CNN
+F 1 "GNDREF" H 1655 5077 50  0001 C CNN
+F 2 "" H 1650 5250 50  0001 C CNN
+F 3 "" H 1650 5250 50  0001 C CNN
+	1    1650 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 4600 1650 4600
+	1450 4750 1650 4750
 Wire Wire Line
-	900  4700 900  4600
+	900  4850 900  4750
 Wire Wire Line
-	900  4600 1150 4600
+	900  4750 1150 4750
 Wire Wire Line
-	1650 4700 1650 4600
+	1650 4850 1650 4750
 Wire Wire Line
-	900  5000 900  5100
+	900  5150 900  5250
 Wire Wire Line
-	1650 5000 1650 5100
+	1650 5150 1650 5250
 Wire Wire Line
-	1850 3900 1650 3900
+	1850 4050 1650 4050
 Wire Wire Line
-	1650 3900 1650 4100
+	1650 4050 1650 4250
 Wire Wire Line
-	1650 4400 1650 4600
-Connection ~ 1650 4600
+	1650 4550 1650 4750
+Connection ~ 1650 4750
 Wire Wire Line
-	900  4600 900  3800
+	900  4750 900  3950
 Wire Wire Line
-	900  3800 1850 3800
-Connection ~ 900  4600
+	900  3950 1850 3950
+Connection ~ 900  4750
 Wire Wire Line
-	3900 6900 4400 6900
+	3900 6750 4300 6750
 Wire Wire Line
-	3650 6800 4400 6800
+	3650 6650 4200 6650
 $Comp
 L Connector:USB_A J4
 U 1 1 605A9809
-P 4700 6800
+P 4700 6650
 AR Path="/605A9809" Ref="J4"  Part="1" 
 AR Path="/605B3ED2/605A9809" Ref="J?"  Part="1" 
-F 0 "J4" H 4470 6789 50  0000 R CNN
-F 1 "USB_A" H 4470 6698 50  0000 R CNN
-F 2 "Wurth-USBA:62900416021" H 4850 6750 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 4850 6750 50  0001 C CNN
-F 4 "Downstream USB socket" H 4757 7367 50  0001 C CNN "Description"
-F 5 "Wurth" H 4757 7367 50  0001 C CNN "Manufacturer_Name"
-F 6 "62900416021" H 4757 7367 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "2.36" H 4757 7367 50  0001 C CNN "Price"
-F 8 "710-62900416021" H 4757 7367 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 4757 7367 50  0001 C CNN "Vendor"
-	1    4700 6800
+F 0 "J4" H 4470 6639 50  0000 R CNN
+F 1 "USB_A" H 4470 6548 50  0000 R CNN
+F 2 "Wurth-USBA:62900416021" H 4850 6600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 4850 6600 50  0001 C CNN
+F 4 "Downstream USB socket" H 4757 7217 50  0001 C CNN "Description"
+F 5 "Wurth" H 4757 7217 50  0001 C CNN "Manufacturer_Name"
+F 6 "62900416021" H 4757 7217 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "2.36" H 4757 7217 50  0001 C CNN "Price"
+F 8 "710-62900416021" H 4757 7217 50  0001 C CNN "Vendor Part Number"
+F 9 "Mouser" H 4757 7217 50  0001 C CNN "Vendor"
+	1    4700 6650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 6250 4400 6250
+	4050 6100 4400 6100
 Wire Wire Line
-	4400 6250 4400 6600
+	4400 6100 4400 6450
 Wire Wire Line
-	4700 7350 4700 7200
-$Comp
-L power:VBUS #PWR?
-U 1 1 605A97E7
-P 4400 6100
-AR Path="/605B3ED2/605A97E7" Ref="#PWR?"  Part="1" 
-AR Path="/605A97E7" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 4400 5950 50  0001 C CNN
-F 1 "VBUS" H 4415 6273 50  0000 C CNN
-F 2 "" H 4400 6100 50  0001 C CNN
-F 3 "" H 4400 6100 50  0001 C CNN
-	1    4400 6100
-	1    0    0    -1  
-$EndComp
+	4700 7200 4700 7050
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605A97E1
-P 4700 7350
+P 4700 7200
 AR Path="/6057976E/605A97E1" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/605A97E1" Ref="#PWR?"  Part="1" 
 AR Path="/605A97E1" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 4700 7100 50  0001 C CNN
-F 1 "GNDREF" H 4705 7177 50  0001 C CNN
-F 2 "" H 4700 7350 50  0001 C CNN
-F 3 "" H 4700 7350 50  0001 C CNN
-	1    4700 7350
+F 0 "#PWR0124" H 4700 6950 50  0001 C CNN
+F 1 "GNDREF" H 4705 7027 50  0001 C CNN
+F 2 "" H 4700 7200 50  0001 C CNN
+F 3 "" H 4700 7200 50  0001 C CNN
+	1    4700 7200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605A97DB
-P 4050 6550
+P 4050 6400
 AR Path="/6057976E/605A97DB" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/605A97DB" Ref="#PWR?"  Part="1" 
 AR Path="/605A97DB" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 4050 6300 50  0001 C CNN
-F 1 "GNDREF" H 4055 6377 50  0000 C CNN
-F 2 "" H 4050 6550 50  0001 C CNN
-F 3 "" H 4050 6550 50  0001 C CNN
-	1    4050 6550
+F 0 "#PWR0125" H 4050 6150 50  0001 C CNN
+F 1 "GNDREF" H 4055 6227 50  0000 C CNN
+F 2 "" H 4050 6400 50  0001 C CNN
+F 3 "" H 4050 6400 50  0001 C CNN
+	1    4050 6400
 	-1   0    0    -1  
 $EndComp
-Connection ~ 2500 6800
-Connection ~ 2900 6900
-Connection ~ 3900 6900
-Connection ~ 3650 6800
+Connection ~ 2500 6650
+Connection ~ 2900 6750
+Connection ~ 3900 6750
+Connection ~ 3650 6650
 Wire Wire Line
-	2500 6800 2350 6800
+	2500 6650 2350 6650
 Wire Wire Line
-	2350 6900 2900 6900
+	2350 6750 2900 6750
 Wire Wire Line
-	2500 6800 3100 6800
+	2500 6650 3100 6650
 Wire Wire Line
-	2500 7000 2500 6800
+	2500 6850 2500 6650
 Wire Wire Line
-	2900 7000 2900 6900
+	2900 6850 2900 6750
 Wire Wire Line
-	2900 6900 3100 6900
+	2900 6750 3100 6750
 Wire Wire Line
-	3400 6800 3650 6800
+	3400 6650 3650 6650
 Wire Wire Line
-	3400 6900 3900 6900
+	3400 6750 3900 6750
 Wire Wire Line
-	3650 7000 3650 6800
+	3650 6850 3650 6650
 Wire Wire Line
-	3900 7000 3900 6900
-Text Label 2350 6900 2    50   ~ 0
+	3900 6850 3900 6750
+Text Label 2350 6750 2    50   ~ 0
 D3-
-Text Label 2350 6800 2    50   ~ 0
+Text Label 2350 6650 2    50   ~ 0
 D3+
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6057D63F
-P 2900 7300
+P 2900 7150
 AR Path="/6059C0E9/6057D63F" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/6057D63F" Ref="#PWR?"  Part="1" 
 AR Path="/6057D63F" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 2900 7050 50  0001 C CNN
-F 1 "GNDREF" H 2905 7127 50  0001 C CNN
-F 2 "" H 2900 7300 50  0001 C CNN
-F 3 "" H 2900 7300 50  0001 C CNN
-	1    2900 7300
+F 0 "#PWR0122" H 2900 6900 50  0001 C CNN
+F 1 "GNDREF" H 2905 6977 50  0001 C CNN
+F 2 "" H 2900 7150 50  0001 C CNN
+F 3 "" H 2900 7150 50  0001 C CNN
+	1    2900 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6057D639
-P 3250 6800
+P 3250 6650
 AR Path="/6059C0E9/6057D639" Ref="R?"  Part="1" 
 AR Path="/605B3ED2/6057D639" Ref="R?"  Part="1" 
 AR Path="/6057D639" Ref="R9"  Part="1" 
-F 0 "R9" V 3043 6800 50  0000 C CNN
-F 1 "27Ω" V 3134 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" V 3180 6800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 3250 6800 50  0001 C CNN
-F 4 "Yageo" H 3043 6900 50  0001 C CNN "Manufacturer_Name"
-F 5 "RC1210FR-0727RL" H 3043 6900 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.14" H 3043 6900 50  0001 C CNN "Price"
-F 7 "603-RC1210FR-0727RL" H 3043 6900 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3043 6900 50  0001 C CNN "Vendor"
-	1    3250 6800
+F 0 "R9" V 3043 6650 50  0000 C CNN
+F 1 "27Ω" V 3134 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 3180 6650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 3250 6650 50  0001 C CNN
+F 4 "Yageo" H 3043 6750 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC1210FR-0727RL" H 3043 6750 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.14" H 3043 6750 50  0001 C CNN "Price"
+F 7 "603-RC1210FR-0727RL" H 3043 6750 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 3043 6750 50  0001 C CNN "Vendor"
+	1    3250 6650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6057D632
-P 3250 6900
+P 3250 6750
 AR Path="/6059C0E9/6057D632" Ref="R?"  Part="1" 
 AR Path="/605B3ED2/6057D632" Ref="R?"  Part="1" 
 AR Path="/6057D632" Ref="R10"  Part="1" 
-F 0 "R10" V 3365 6900 50  0000 C CNN
-F 1 "27Ω" V 3456 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" V 3180 6900 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 3250 6900 50  0001 C CNN
-F 4 "Yageo" H 3365 7000 50  0001 C CNN "Manufacturer_Name"
-F 5 "RC1210FR-0727RL" H 3365 7000 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.14" H 3365 7000 50  0001 C CNN "Price"
-F 7 "603-RC1210FR-0727RL" H 3365 7000 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3365 7000 50  0001 C CNN "Vendor"
-	1    3250 6900
+F 0 "R10" V 3365 6750 50  0000 C CNN
+F 1 "27Ω" V 3456 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 3180 6750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" H 3250 6750 50  0001 C CNN
+F 4 "Yageo" H 3365 6850 50  0001 C CNN "Manufacturer_Name"
+F 5 "RC1210FR-0727RL" H 3365 6850 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.14" H 3365 6850 50  0001 C CNN "Price"
+F 7 "603-RC1210FR-0727RL" H 3365 6850 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 3365 6850 50  0001 C CNN "Vendor"
+	1    3250 6750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 6057D62C
-P 2900 7150
+P 2900 7000
 AR Path="/6059C0E9/6057D62C" Ref="C?"  Part="1" 
 AR Path="/605B3ED2/6057D62C" Ref="C?"  Part="1" 
 AR Path="/6057D62C" Ref="C10"  Part="1" 
-F 0 "C10" H 3015 7196 50  0000 L CNN
-F 1 "22pF" H 3015 7105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2938 7000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2900 7150 50  0001 C CNN
-F 4 "Wurth" H 3015 7296 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 3015 7296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 3015 7296 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 3015 7296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3015 7296 50  0001 C CNN "Vendor"
-	1    2900 7150
+F 0 "C10" H 3015 7046 50  0000 L CNN
+F 1 "22pF" H 3015 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2938 6850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2900 7000 50  0001 C CNN
+F 4 "Wurth" H 3015 7146 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012009007" H 3015 7146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.61" H 3015 7146 50  0001 C CNN "Price"
+F 7 "710-885012009007" H 3015 7146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 3015 7146 50  0001 C CNN "Vendor"
+	1    2900 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 6057D626
-P 2500 7150
+P 2500 7000
 AR Path="/6059C0E9/6057D626" Ref="C?"  Part="1" 
 AR Path="/605B3ED2/6057D626" Ref="C?"  Part="1" 
 AR Path="/6057D626" Ref="C9"  Part="1" 
-F 0 "C9" H 2615 7196 50  0000 L CNN
-F 1 "22pF" H 2615 7105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2538 7000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2500 7150 50  0001 C CNN
-F 4 "Wurth" H 2615 7296 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 2615 7296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 2615 7296 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 2615 7296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 2615 7296 50  0001 C CNN "Vendor"
-	1    2500 7150
+F 0 "C9" H 2615 7046 50  0000 L CNN
+F 1 "22pF" H 2615 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2538 6850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 2500 7000 50  0001 C CNN
+F 4 "Wurth" H 2615 7146 50  0001 C CNN "Manufacturer_Name"
+F 5 "885012009007" H 2615 7146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.61" H 2615 7146 50  0001 C CNN "Price"
+F 7 "710-885012009007" H 2615 7146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 2615 7146 50  0001 C CNN "Vendor"
+	1    2500 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6057D61D
-P 2500 7300
+P 2500 7150
 AR Path="/6059C0E9/6057D61D" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/6057D61D" Ref="#PWR?"  Part="1" 
 AR Path="/6057D61D" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 2500 7050 50  0001 C CNN
-F 1 "GNDREF" H 2505 7127 50  0001 C CNN
-F 2 "" H 2500 7300 50  0001 C CNN
-F 3 "" H 2500 7300 50  0001 C CNN
-	1    2500 7300
+F 0 "#PWR0121" H 2500 6900 50  0001 C CNN
+F 1 "GNDREF" H 2505 6977 50  0001 C CNN
+F 2 "" H 2500 7150 50  0001 C CNN
+F 3 "" H 2500 7150 50  0001 C CNN
+	1    2500 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6057D613
-P 3650 7150
+P 3650 7000
 AR Path="/605B3ED2/6057D613" Ref="R?"  Part="1" 
 AR Path="/6059C0E9/6057D613" Ref="R?"  Part="1" 
 AR Path="/6057D613" Ref="R15"  Part="1" 
-F 0 "R15" H 3581 7196 50  0000 R CNN
-F 1 "15kΩ" H 3581 7105 50  0000 R CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" V 3580 7150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 3650 7150 50  0001 C CNN
-F 4 "Vishay" H 3720 7296 50  0001 C CNN "Manufacturer_Name"
-F 5 "RCA121015K0FKEA" H 3720 7296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.11" H 3720 7296 50  0001 C CNN "Price"
-F 7 "71-RCA121015K0FKEA" H 3720 7296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3720 7296 50  0001 C CNN "Vendor"
-	1    3650 7150
+F 0 "R15" H 3581 7046 50  0000 R CNN
+F 1 "15kΩ" H 3581 6955 50  0000 R CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 3580 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 3650 7000 50  0001 C CNN
+F 4 "Vishay" H 3720 7146 50  0001 C CNN "Manufacturer_Name"
+F 5 "RCA121015K0FKEA" H 3720 7146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.11" H 3720 7146 50  0001 C CNN "Price"
+F 7 "71-RCA121015K0FKEA" H 3720 7146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 3720 7146 50  0001 C CNN "Vendor"
+	1    3650 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6057D607
-P 3650 7300
+P 3650 7150
 AR Path="/6059C0E9/6057D607" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/6057D607" Ref="#PWR?"  Part="1" 
 AR Path="/6057D607" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 3650 7050 50  0001 C CNN
-F 1 "GNDREF" H 3655 7127 50  0001 C CNN
-F 2 "" H 3650 7300 50  0001 C CNN
-F 3 "" H 3650 7300 50  0001 C CNN
-	1    3650 7300
+F 0 "#PWR0117" H 3650 6900 50  0001 C CNN
+F 1 "GNDREF" H 3655 6977 50  0001 C CNN
+F 2 "" H 3650 7150 50  0001 C CNN
+F 3 "" H 3650 7150 50  0001 C CNN
+	1    3650 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6057D601
-P 3900 7300
+P 3900 7150
 AR Path="/6059C0E9/6057D601" Ref="#PWR?"  Part="1" 
 AR Path="/605B3ED2/6057D601" Ref="#PWR?"  Part="1" 
 AR Path="/6057D601" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 3900 7050 50  0001 C CNN
-F 1 "GNDREF" H 3905 7127 50  0001 C CNN
-F 2 "" H 3900 7300 50  0001 C CNN
-F 3 "" H 3900 7300 50  0001 C CNN
-	1    3900 7300
+F 0 "#PWR0115" H 3900 6900 50  0001 C CNN
+F 1 "GNDREF" H 3905 6977 50  0001 C CNN
+F 2 "" H 3900 7150 50  0001 C CNN
+F 3 "" H 3900 7150 50  0001 C CNN
+	1    3900 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6057D60D
-P 3900 7150
+P 3900 7000
 AR Path="/605B3ED2/6057D60D" Ref="R?"  Part="1" 
 AR Path="/6059C0E9/6057D60D" Ref="R?"  Part="1" 
 AR Path="/6057D60D" Ref="R16"  Part="1" 
-F 0 "R16" H 3970 7196 50  0000 L CNN
-F 1 "15kΩ" H 3970 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1210_3225Metric" V 3830 7150 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 3900 7150 50  0001 C CNN
-F 4 "Vishay" H 3970 7296 50  0001 C CNN "Manufacturer_Name"
-F 5 "RCA121015K0FKEA" H 3970 7296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.11" H 3970 7296 50  0001 C CNN "Price"
-F 7 "71-RCA121015K0FKEA" H 3970 7296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3970 7296 50  0001 C CNN "Vendor"
-	1    3900 7150
+F 0 "R16" H 3970 7046 50  0000 L CNN
+F 1 "15kΩ" H 3970 6955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 3830 7000 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 3900 7000 50  0001 C CNN
+F 4 "Vishay" H 3970 7146 50  0001 C CNN "Manufacturer_Name"
+F 5 "RCA121015K0FKEA" H 3970 7146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.11" H 3970 7146 50  0001 C CNN "Price"
+F 7 "71-RCA121015K0FKEA" H 3970 7146 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 3970 7146 50  0001 C CNN "Vendor"
+	1    3900 7000
 	1    0    0    -1  
 $EndComp
 Text Label 10650 2450 2    50   ~ 0
@@ -718,11 +705,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 750  9200 800 
 Connection ~ 7750 1900
-Wire Wire Line
-	7750 1900 8300 1900
 Connection ~ 7500 1800
-Wire Wire Line
-	7500 1800 8300 1800
 Wire Wire Line
 	7250 1900 7750 1900
 NoConn ~ 9900 1700
@@ -830,19 +813,6 @@ F 6 "" H 9615 1146 50  0001 C CNN "Price"
 F 7 "" H 9615 1146 50  0001 C CNN "Vendor Part Number"
 F 8 "" H 9615 1146 50  0001 C CNN "Vendor"
 	1    9500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 605FD4E1
-P 9200 750
-AR Path="/6059C0E9/605FD4E1" Ref="#PWR?"  Part="1" 
-AR Path="/605FD4E1" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 9200 600 50  0001 C CNN
-F 1 "VBUS" H 9215 923 50  0000 C CNN
-F 2 "" H 9200 750 50  0001 C CNN
-F 3 "" H 9200 750 50  0001 C CNN
-	1    9200 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1078,12 +1048,6 @@ F 3 "" H 6750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5300 2100
-NoConn ~ 5300 3800
-NoConn ~ 5300 3900
-NoConn ~ 5300 4000
-NoConn ~ 5300 4300
-NoConn ~ 5300 4400
-NoConn ~ 5300 4500
 NoConn ~ 3300 3800
 NoConn ~ 3300 3100
 NoConn ~ 3300 2100
@@ -1230,8 +1194,6 @@ Text Label 10600 3900 2    50   ~ 0
 MIC
 Text Label 10600 3800 2    50   ~ 0
 SPK
-Text Notes 10100 4150 0    50   ~ 0
-See TX-500 adapters\nAudio data cable
 $Comp
 L Device:CP C?
 U 1 1 60A2B571
@@ -1501,19 +1463,6 @@ F 3 "" H 7700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
-U 1 1 60A2B577
-P 7700 3800
-AR Path="/605AB33C/60A2B577" Ref="#PWR?"  Part="1" 
-AR Path="/60A2B577" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 7700 3650 50  0001 C CNN
-F 1 "VBUS" H 7715 3973 50  0000 C CNN
-F 2 "" H 7700 3800 50  0001 C CNN
-F 3 "" H 7700 3800 50  0001 C CNN
-	1    7700 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 60A2B566
 P 7700 4200
@@ -1542,12 +1491,6 @@ Wire Wire Line
 NoConn ~ 8700 6200
 NoConn ~ 9300 6200
 NoConn ~ 9700 4500
-Wire Wire Line
-	7250 5600 7900 5600
-Wire Wire Line
-	7500 5700 7900 5700
-Wire Notes Line
-	5550 500  5550 7800
 Wire Notes Line
 	500  5550 5550 5550
 Wire Wire Line
@@ -1556,9 +1499,7 @@ Wire Wire Line
 	10200 3950 10200 3900
 Wire Wire Line
 	10200 3900 10600 3900
-Wire Notes Line
-	5550 3500 11200 3500
-Text Notes 6100 3950 0    118  ~ 0
+Text Notes 8100 3850 0    118  ~ 0
 USB Audio
 Text Notes 950  5800 0    118  ~ 0
 PCB
@@ -1610,20 +1551,20 @@ Wire Wire Line
 $Comp
 L Device:C C17
 U 1 1 605A97F2
-P 4050 6400
+P 4050 6250
 AR Path="/605A97F2" Ref="C17"  Part="1" 
 AR Path="/6057976E/605A97F2" Ref="C?"  Part="1" 
 AR Path="/605B3ED2/605A97F2" Ref="C?"  Part="1" 
-F 0 "C17" H 4165 6446 50  0000 L CNN
-F 1 "120μF" H 4165 6355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4088 6250 50  0001 C CNN
-F 3 "" H 4050 6400 50  0001 C CNN
-F 4 "" H 3935 6546 50  0001 C CNN "Manufacturer_Name"
-F 5 "" H 3935 6546 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "" H 3935 6546 50  0001 C CNN "Price"
-F 7 "" H 3935 6546 50  0001 C CNN "Vendor Part Number"
-F 8 "" H 3935 6546 50  0001 C CNN "Vendor"
-	1    4050 6400
+F 0 "C17" H 4165 6296 50  0000 L CNN
+F 1 "120μF" H 4165 6205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4088 6100 50  0001 C CNN
+F 3 "" H 4050 6250 50  0001 C CNN
+F 4 "" H 3935 6396 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 3935 6396 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 3935 6396 50  0001 C CNN "Price"
+F 7 "" H 3935 6396 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 3935 6396 50  0001 C CNN "Vendor"
+	1    4050 6250
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1652,8 +1593,8 @@ Wire Wire Line
 Connection ~ 1900 1100
 Wire Wire Line
 	1900 1100 1950 1100
-Text Notes 6400 3350 0    50   ~ 0
-See FT232R datasheet\n6.4 USB Bus Powered with Selectable External Logic Supply
+Text Notes 6150 1250 0    50   ~ 0
+See FT232R datasheet\n6.4 USB Bus Powered with \n   Selectable External Logic Supply
 Text Notes 3800 1200 0    50   ~ 0
 See TUSB2036 datasheet\n9.2.2 Detailed Design Procedure
 Text Label 9900 2800 0    50   ~ 0
@@ -1765,20 +1706,20 @@ Wire Wire Line
 $Comp
 L power:GND1 #PWR0134
 U 1 1 6068B8FC
-P 5000 7350
-F 0 "#PWR0134" H 5000 7100 50  0001 C CNN
-F 1 "GND1" H 5005 7177 50  0001 C CNN
-F 2 "" H 5000 7350 50  0001 C CNN
-F 3 "" H 5000 7350 50  0001 C CNN
-	1    5000 7350
+P 5000 7200
+F 0 "#PWR0134" H 5000 6950 50  0001 C CNN
+F 1 "GND1" H 5005 7027 50  0001 C CNN
+F 2 "" H 5000 7200 50  0001 C CNN
+F 3 "" H 5000 7200 50  0001 C CNN
+	1    5000 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 7200 4800 7300
+	4800 7050 4800 7150
 Wire Wire Line
-	4800 7300 5000 7300
+	4800 7150 5000 7150
 Wire Wire Line
-	5000 7300 5000 7350
+	5000 7150 5000 7200
 $Comp
 L power:GNDREF #PWR?
 U 1 1 606EC1A7
@@ -1825,10 +1766,8 @@ NoConn ~ 10150 4500
 NoConn ~ 10250 4500
 Text Label 9200 6400 0    50   ~ 0
 3V3A
-Text Label 7200 5000 0    50   ~ 0
+Text Label 7600 5000 2    50   ~ 0
 3V3A
-Wire Wire Line
-	7200 5000 7900 5000
 Wire Wire Line
 	10600 5100 10600 5200
 Connection ~ 10600 5200
@@ -1879,8 +1818,8 @@ Connection ~ 7700 4050
 Wire Wire Line
 	7700 4050 8550 4050
 Wire Wire Line
-	4400 6100 4400 6250
-Connection ~ 4400 6250
+	4400 5950 4400 6100
+Connection ~ 4400 6100
 $Comp
 L Connector:TestPoint TP1
 U 1 1 607EF82B
@@ -1909,12 +1848,12 @@ Connection ~ 7850 950
 $Comp
 L Connector:TestPoint TP3
 U 1 1 60808FB0
-P 7200 5000
-F 0 "TP3" V 7395 5072 50  0000 C CNN
-F 1 "TestPoint" V 7304 5072 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7400 5000 50  0001 C CNN
-F 3 "~" H 7400 5000 50  0001 C CNN
-	1    7200 5000
+P 9200 6400
+F 0 "TP3" V 9395 6472 50  0000 C CNN
+F 1 "TestPoint" V 9304 6472 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9400 6400 50  0001 C CNN
+F 3 "~" H 9400 6400 50  0001 C CNN
+	1    9200 6400
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 7900 5500
@@ -1923,4 +1862,362 @@ Wire Wire Line
 Connection ~ 2800 1000
 Wire Wire Line
 	2800 1000 2800 900 
+$Comp
+L Power_Management:TPS2044D U5
+U 1 1 605B1DD9
+P 6450 3300
+F 0 "U5" H 6450 3767 50  0000 C CNN
+F 1 "TPS2044D" H 6450 3676 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6450 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 6400 3600 50  0001 C CNN
+	1    6450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Management:TPS2044D U5
+U 2 1 605B3134
+P 6450 4500
+F 0 "U5" H 6450 4967 50  0000 C CNN
+F 1 "TPS2044D" H 6450 4876 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6450 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps2044.pdf" H 6400 4800 50  0001 C CNN
+	2    6450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 5000 7900 5000
+Wire Notes Line
+	5550 2600 7400 2600
+Wire Notes Line
+	5550 5250 7400 5250
+Wire Notes Line
+	7400 2600 7400 5250
+Wire Notes Line
+	7400 3500 11200 3500
+Text Label 5300 3800 0    50   ~ 0
+OC1
+Text Label 5300 3900 0    50   ~ 0
+OC2
+Text Label 5300 4000 0    50   ~ 0
+OC3
+Text Label 5300 4300 0    50   ~ 0
+EN1
+Text Label 5300 4400 0    50   ~ 0
+EN2
+Text Label 5300 4500 0    50   ~ 0
+EN3
+Text Label 5950 3100 2    50   ~ 0
+OC1
+Text Label 5950 3200 2    50   ~ 0
+OC2
+Text Label 5950 3500 2    50   ~ 0
+EN1
+Text Label 5950 3600 2    50   ~ 0
+EN2
+Text Label 5950 4300 2    50   ~ 0
+OC3
+Text Label 5950 4700 2    50   ~ 0
+EN3
+NoConn ~ 5950 4400
+NoConn ~ 5950 4800
+NoConn ~ 6950 4600
+$Comp
+L power:VBUS #PWR0123
+U 1 1 606D8B8F
+P 7250 2900
+F 0 "#PWR0123" H 7250 2750 50  0001 C CNN
+F 1 "VBUS" H 7265 3073 50  0000 C CNN
+F 2 "" H 7250 2900 50  0001 C CNN
+F 3 "" H 7250 2900 50  0001 C CNN
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0130
+U 1 1 606EF231
+P 6450 3900
+F 0 "#PWR0130" H 6450 3650 50  0001 C CNN
+F 1 "GNDREF" H 6450 3750 50  0001 C CNN
+F 2 "" H 6450 3900 50  0001 C CNN
+F 3 "" H 6450 3900 50  0001 C CNN
+	1    6450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0136
+U 1 1 606EFE2D
+P 6450 5100
+F 0 "#PWR0136" H 6450 4850 50  0001 C CNN
+F 1 "GNDREF" H 6450 4950 50  0001 C CNN
+F 2 "" H 6450 5100 50  0001 C CNN
+F 3 "" H 6450 5100 50  0001 C CNN
+	1    6450 5100
+	1    0    0    -1  
+$EndComp
+Text Label 6950 3300 0    50   ~ 0
+5VA
+Text Label 6950 3400 0    50   ~ 0
+5VB
+Text Label 6950 4500 0    50   ~ 0
+5VC
+Text Label 9200 750  1    50   ~ 0
+5VA
+Text Label 7700 3800 1    50   ~ 0
+5VB
+Text Label 4400 5950 3    50   ~ 0
+5VC
+Wire Wire Line
+	6950 3100 7250 3100
+Wire Wire Line
+	7250 3100 7250 2900
+Wire Wire Line
+	6950 4300 7250 4300
+Wire Wire Line
+	7250 4300 7250 3100
+Connection ~ 7250 3100
+$Comp
+L Device:C C?
+U 1 1 60727C7F
+P 7250 4800
+AR Path="/6057976E/60727C7F" Ref="C?"  Part="1" 
+AR Path="/60727C7F" Ref="C20"  Part="1" 
+F 0 "C20" H 7000 4850 50  0000 L CNN
+F 1 "0.1μF" H 6950 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 7288 4650 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf" H 7250 4800 50  0001 C CNN
+F 4 "KEMET" H 7365 4946 50  0001 C CNN "Manufacturer_Name"
+F 5 "C1210C104K5HACAUTO" H 7365 4946 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.5" H 7365 4946 50  0001 C CNN "Price"
+F 7 "80-C1210C104K5HAUTO" H 7365 4946 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 7365 4946 50  0001 C CNN "Vendor"
+	1    7250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0137
+U 1 1 6072AD91
+P 7250 4950
+F 0 "#PWR0137" H 7250 4700 50  0001 C CNN
+F 1 "GNDREF" H 7250 4800 50  0001 C CNN
+F 2 "" H 7250 4950 50  0001 C CNN
+F 3 "" H 7250 4950 50  0001 C CNN
+	1    7250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4300 7250 4650
+Connection ~ 7250 4300
+$Comp
+L Power_Protection:SN75240 U6
+U 1 1 607BBA8A
+P 2000 3400
+F 0 "U6" H 2000 3625 50  0000 C CNN
+F 1 "SN75240" H 2000 3534 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 2150 3250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 2200 3250 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2600 2100 3200
+Wire Wire Line
+	2100 3200 2300 3200
+Wire Wire Line
+	2300 3200 2300 3300
+Wire Wire Line
+	2300 3300 2500 3300
+Wire Wire Line
+	2500 3300 2500 3400
+Connection ~ 2100 2600
+Wire Wire Line
+	2100 2600 2600 2600
+Wire Wire Line
+	2000 2700 2000 3100
+Wire Wire Line
+	2000 3100 1500 3100
+Wire Wire Line
+	1500 3100 1500 3400
+Connection ~ 2000 2700
+Wire Wire Line
+	2000 2700 2200 2700
+$Comp
+L power:GNDREF #PWR0140
+U 1 1 607D0A82
+P 2300 3700
+F 0 "#PWR0140" H 2300 3450 50  0001 C CNN
+F 1 "GNDREF" H 2305 3527 50  0001 C CNN
+F 2 "" H 2300 3700 50  0001 C CNN
+F 3 "" H 2300 3700 50  0001 C CNN
+	1    2300 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3700 2100 3700
+Connection ~ 2100 3700
+Wire Wire Line
+	2100 3700 2300 3700
+$Comp
+L Power_Protection:SN75240 U6
+U 2 1 6080E591
+P 4200 7450
+F 0 "U6" H 4200 7675 50  0000 C CNN
+F 1 "SN75240" H 4200 7584 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 4350 7300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 4400 7300 50  0001 C CNN
+	2    4200 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6650 4200 7300
+Wire Wire Line
+	4200 7300 3700 7300
+Wire Wire Line
+	3700 7300 3700 7450
+Connection ~ 4200 6650
+Wire Wire Line
+	4200 6650 4400 6650
+Wire Wire Line
+	4300 7350 4700 7350
+Wire Wire Line
+	4700 7350 4700 7450
+Wire Wire Line
+	4300 6750 4300 7350
+Connection ~ 4300 6750
+Wire Wire Line
+	4300 6750 4400 6750
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60834739
+P 4500 7700
+AR Path="/6057976E/60834739" Ref="#PWR?"  Part="1" 
+AR Path="/605B3ED2/60834739" Ref="#PWR?"  Part="1" 
+AR Path="/60834739" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 4500 7450 50  0001 C CNN
+F 1 "GNDREF" H 4505 7527 50  0001 C CNN
+F 2 "" H 4500 7700 50  0001 C CNN
+F 3 "" H 4500 7700 50  0001 C CNN
+	1    4500 7700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7750 4300 7750
+Wire Wire Line
+	4300 7750 4400 7750
+Wire Wire Line
+	4400 7750 4400 7700
+Wire Wire Line
+	4400 7700 4500 7700
+Connection ~ 4300 7750
+Wire Wire Line
+	7500 1800 8300 1800
+Wire Wire Line
+	7750 1900 8300 1900
+Wire Wire Line
+	7250 5600 7900 5600
+Wire Wire Line
+	7500 5700 7900 5700
+Wire Notes Line
+	5550 5250 5550 7800
+Wire Notes Line
+	5550 2600 5550 500 
+$Comp
+L Power_Protection:SN75240 U7
+U 2 1 608DBCB4
+P 6300 7050
+F 0 "U7" H 6300 7275 50  0000 C CNN
+F 1 "SN75240" H 6300 7184 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 6450 6900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 6500 6900 50  0001 C CNN
+	2    6300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SN75240 U7
+U 1 1 608ED787
+P 10600 850
+F 0 "U7" H 10600 1075 50  0000 C CNN
+F 1 "SN75240" H 10600 984 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 10750 700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 10800 700 50  0001 C CNN
+	1    10600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 850  11100 1050
+Wire Wire Line
+	11100 1050 10950 1050
+Text Label 10950 1050 2    50   ~ 0
+RXD
+Wire Wire Line
+	10100 850  10100 1050
+Wire Wire Line
+	10100 1050 10150 1050
+Text Label 10150 1050 0    50   ~ 0
+TXD
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60917013
+P 10500 1150
+AR Path="/6059C0E9/60917013" Ref="#PWR?"  Part="1" 
+AR Path="/60917013" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 10500 900 50  0001 C CNN
+F 1 "GNDREF" H 10505 977 50  0001 C CNN
+F 2 "" H 10500 1150 50  0001 C CNN
+F 3 "" H 10500 1150 50  0001 C CNN
+	1    10500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6091744C
+P 10700 1150
+AR Path="/6059C0E9/6091744C" Ref="#PWR?"  Part="1" 
+AR Path="/6091744C" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 10700 900 50  0001 C CNN
+F 1 "GNDREF" H 10705 977 50  0001 C CNN
+F 2 "" H 10700 1150 50  0001 C CNN
+F 3 "" H 10700 1150 50  0001 C CNN
+	1    10700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 7050 5800 6850
+Wire Wire Line
+	5800 6850 5950 6850
+Text Label 5950 6850 2    50   ~ 0
+SPK
+Wire Wire Line
+	6800 7050 6800 6850
+Wire Wire Line
+	6800 6850 6600 6850
+Text Label 6600 6850 0    50   ~ 0
+MIC
+$Comp
+L power:GNDREF #PWR?
+U 1 1 60931CDC
+P 6200 7350
+AR Path="/6059C0E9/60931CDC" Ref="#PWR?"  Part="1" 
+AR Path="/605B3ED2/60931CDC" Ref="#PWR?"  Part="1" 
+AR Path="/60931CDC" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 6200 7100 50  0001 C CNN
+F 1 "GNDREF" H 6205 7177 50  0001 C CNN
+F 2 "" H 6200 7350 50  0001 C CNN
+F 3 "" H 6200 7350 50  0001 C CNN
+	1    6200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6093201C
+P 6400 7350
+AR Path="/6059C0E9/6093201C" Ref="#PWR?"  Part="1" 
+AR Path="/605B3ED2/6093201C" Ref="#PWR?"  Part="1" 
+AR Path="/6093201C" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 6400 7100 50  0001 C CNN
+F 1 "GNDREF" H 6405 7177 50  0001 C CNN
+F 2 "" H 6400 7350 50  0001 C CNN
+F 3 "" H 6400 7350 50  0001 C CNN
+	1    6400 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
