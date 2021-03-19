@@ -239,14 +239,14 @@ $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6055B654
-P 1200 3350
+P 1200 3150
 AR Path="/6057976E/6055B654" Ref="#PWR?"  Part="1" 
 AR Path="/6055B654" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 1200 3100 50  0001 C CNN
-F 1 "GNDREF" H 1205 3177 50  0001 C CNN
-F 2 "" H 1200 3350 50  0001 C CNN
-F 3 "" H 1200 3350 50  0001 C CNN
-	1    1200 3350
+F 0 "#PWR0116" H 1200 2900 50  0001 C CNN
+F 1 "GNDREF" H 1205 2977 50  0001 C CNN
+F 2 "" H 1200 3150 50  0001 C CNN
+F 3 "" H 1200 3150 50  0001 C CNN
+	1    1200 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2750 2600 2600
 Wire Wire Line
-	1200 3000 1200 3350
+	1200 3000 1200 3150
 Wire Wire Line
 	1950 2700 2200 2700
 Wire Wire Line
@@ -291,7 +291,6 @@ Wire Wire Line
 Connection ~ 2450 3050
 Connection ~ 2600 2600
 Connection ~ 2200 2700
-NoConn ~ 1100 3000
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 6055B675
@@ -452,7 +451,6 @@ F 9 "Mouser" H 4757 7367 50  0001 C CNN "Vendor"
 	1    4700 6800
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 4800 7200
 Connection ~ 4050 6250
 Wire Wire Line
 	3700 6250 4050 6250
@@ -828,14 +826,14 @@ P 9500 1000
 AR Path="/6059C0E9/605FD4EC" Ref="C?"  Part="1" 
 AR Path="/605FD4EC" Ref="C16"  Part="1" 
 F 0 "C16" H 9615 1046 50  0000 L CNN
-F 1 "100μF" H 9615 955 50  0000 L CNN
+F 1 "120μF" H 9615 955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 9538 850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 9500 1000 50  0001 C CNN
-F 4 "AVX" H 9615 1146 50  0001 C CNN "Manufacturer_Name"
-F 5 "TACT107M006XTA" H 9615 1146 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "4.4" H 9615 1146 50  0001 C CNN "Price"
-F 7 "581-TACT107M006XTA" H 9615 1146 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 9615 1146 50  0001 C CNN "Vendor"
+F 3 "" H 9500 1000 50  0001 C CNN
+F 4 "" H 9615 1146 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 9615 1146 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 9615 1146 50  0001 C CNN "Price"
+F 7 "" H 9615 1146 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 9615 1146 50  0001 C CNN "Vendor"
 	1    9500 1000
 	1    0    0    -1  
 $EndComp
@@ -1551,14 +1549,14 @@ P 8000 4200
 AR Path="/605AB33C/60A2B566" Ref="C?"  Part="1" 
 AR Path="/60A2B566" Ref="C11"  Part="1" 
 F 0 "C11" H 8115 4246 50  0000 L CNN
-F 1 "100μF" H 8115 4155 50  0000 L CNN
+F 1 "120μF" H 8115 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 8038 4050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 8000 4200 50  0001 C CNN
-F 4 "AVX" H 8115 4346 50  0001 C CNN "Manufacturer_Name"
-F 5 "TACT107M006XTA" H 8115 4346 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "4.4" H 8115 4346 50  0001 C CNN "Price"
-F 7 "581-TACT107M006XTA" H 8115 4346 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 8115 4346 50  0001 C CNN "Vendor"
+F 3 "" H 8000 4200 50  0001 C CNN
+F 4 "" H 8115 4346 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 8115 4346 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 8115 4346 50  0001 C CNN "Price"
+F 7 "" H 8115 4346 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 8115 4346 50  0001 C CNN "Vendor"
 	1    8000 4200
 	1    0    0    -1  
 $EndComp
@@ -1709,14 +1707,14 @@ AR Path="/605A97F2" Ref="C17"  Part="1"
 AR Path="/6057976E/605A97F2" Ref="C?"  Part="1" 
 AR Path="/605B3ED2/605A97F2" Ref="C?"  Part="1" 
 F 0 "C17" H 4165 6446 50  0000 L CNN
-F 1 "100μF" H 4165 6355 50  0000 L CNN
+F 1 "120μF" H 4165 6355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4088 6250 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/40/tac-776418.pdf" H 4050 6400 50  0001 C CNN
-F 4 "AVX" H 3935 6546 50  0001 C CNN "Manufacturer_Name"
-F 5 "TACT107M006XTA" H 3935 6546 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "4.4" H 3935 6546 50  0001 C CNN "Price"
-F 7 "581-TACT107M006XTA" H 3935 6546 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 3935 6546 50  0001 C CNN "Vendor"
+F 3 "" H 4050 6400 50  0001 C CNN
+F 4 "" H 3935 6546 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 3935 6546 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 3935 6546 50  0001 C CNN "Price"
+F 7 "" H 3935 6546 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 3935 6546 50  0001 C CNN "Vendor"
 	1    4050 6400
 	-1   0    0    -1  
 $EndComp
@@ -1799,4 +1797,98 @@ Wire Wire Line
 	10200 2800 9900 2800
 Wire Wire Line
 	10200 2450 10650 2450
+$Comp
+L Device:C C?
+U 1 1 606059E5
+P 2800 1300
+AR Path="/6057976E/606059E5" Ref="C?"  Part="1" 
+AR Path="/606059E5" Ref="C18"  Part="1" 
+F 0 "C18" H 2685 1346 50  0000 R CNN
+F 1 "4.7μF" H 2685 1255 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2838 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf" H 2800 1300 50  0001 C CNN
+F 4 "Walsin" H 2915 1446 50  0001 C CNN "Manufacturer_Name"
+F 5 "1210F475Z500CT" H 2915 1446 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.62" H 2915 1446 50  0001 C CNN "Price"
+F 7 "791-1210F475Z500CT" H 2915 1446 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 2915 1446 50  0001 C CNN "Vendor"
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 1100
+Wire Wire Line
+	2250 1500 2800 1500
+Wire Wire Line
+	2800 1500 2800 1450
+Connection ~ 2250 1500
+Wire Wire Line
+	2800 1100 2800 1150
+$Comp
+L Device:C C?
+U 1 1 6065220F
+P 1700 2100
+AR Path="/6059C0E9/6065220F" Ref="C?"  Part="1" 
+AR Path="/6065220F" Ref="C19"  Part="1" 
+F 0 "C19" H 1815 2146 50  0000 L CNN
+F 1 "120μF" H 1815 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1738 1950 50  0001 C CNN
+F 3 "" H 1700 2100 50  0001 C CNN
+F 4 "" H 1815 2246 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 1815 2246 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 1815 2246 50  0001 C CNN "Price"
+F 7 "" H 1815 2246 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 1815 2246 50  0001 C CNN "Vendor"
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1950 1700 1950
+Connection ~ 1500 1950
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6065EA82
+P 1700 2250
+AR Path="/6057976E/6065EA82" Ref="#PWR?"  Part="1" 
+AR Path="/6065EA82" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 1700 2000 50  0001 C CNN
+F 1 "GNDREF" H 1705 2077 50  0001 C CNN
+F 2 "" H 1700 2250 50  0001 C CNN
+F 3 "" H 1700 2250 50  0001 C CNN
+	1    1700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60676C56
+P 900 3150
+F 0 "#PWR?" H 900 2900 50  0001 C CNN
+F 1 "GND1" H 905 2977 50  0001 C CNN
+F 2 "" H 900 3150 50  0001 C CNN
+F 3 "" H 900 3150 50  0001 C CNN
+	1    900  3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3150 900  3100
+Wire Wire Line
+	900  3100 1100 3100
+Wire Wire Line
+	1100 3100 1100 3000
+$Comp
+L power:GND1 #PWR?
+U 1 1 6068B8FC
+P 5000 7350
+F 0 "#PWR?" H 5000 7100 50  0001 C CNN
+F 1 "GND1" H 5005 7177 50  0001 C CNN
+F 2 "" H 5000 7350 50  0001 C CNN
+F 3 "" H 5000 7350 50  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 7200 4800 7300
+Wire Wire Line
+	4800 7300 5000 7300
+Wire Wire Line
+	5000 7300 5000 7350
 $EndSCHEMATC
