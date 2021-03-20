@@ -19,5 +19,5 @@ to be outdoors. As such, volume knobs and headphone monitor jacks are not incorp
 I've received a lot of advice from folks about improvements to this design. Thank you to those who
 have helped make this project better!
 
-* Kari Argillander, @teksturi
-* Elías Rodríguez Martín, @eliasrm87
+* Kari Argillander, [@teksturi](https://github.com/teksturi)
+* Elías Rodríguez Martín, [@eliasrm87](https://github.com/eliasrm87)
