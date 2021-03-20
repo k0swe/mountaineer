@@ -13,3 +13,11 @@ SignaLink USB interface which only provides audio plus a VOX-based PTT signal bu
 
 My design goals are to make this much like the TX-500 itself: small, lightweight and rugged enough
 to be outdoors. As such, volume knobs and headphone monitor jacks are not incorporated.
+
+## Thank you!
+
+I've received a lot of advice from folks about improvements to this design. Thank you to those who
+have helped make this project better!
+
+* Kari Argillander, @teksturi
+* Elías Rodríguez Martín, @eliasrm87
