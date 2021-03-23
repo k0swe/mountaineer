@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "TX-500 Data Interface"
-Date "2021-03-19"
-Rev "0.3"
+Date "2021-03-22"
+Rev "0.4"
 Comp "Chris Keller K0SWE"
 Comment1 "Licensed under Apache-2.0"
 Comment2 ""
@@ -651,15 +651,13 @@ Wire Wire Line
 	10000 1600 10000 2350
 Wire Wire Line
 	9900 1600 10000 1600
+Connection ~ 9200 700 
 Wire Wire Line
-	9200 800  9200 1200
-Connection ~ 9200 800 
+	9500 700  9500 750 
 Wire Wire Line
-	9500 800  9500 850 
+	9200 700  9500 700 
 Wire Wire Line
-	9200 800  9500 800 
-Wire Wire Line
-	9200 750  9200 800 
+	9200 650  9200 700 
 Connection ~ 7750 1900
 Connection ~ 7500 1800
 Wire Wire Line
@@ -686,7 +684,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 950  7850 950 
 Wire Wire Line
-	9000 950  9000 1200
+	9000 950  9000 1100
 Wire Wire Line
 	8900 3200 9100 3200
 Wire Wire Line
@@ -743,32 +741,32 @@ $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605FD4F2
-P 9500 1150
+P 9500 1050
 AR Path="/6059C0E9/605FD4F2" Ref="#PWR?"  Part="1" 
 AR Path="/605FD4F2" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 9500 900 50  0001 C CNN
-F 1 "GNDREF" H 9505 977 50  0001 C CNN
-F 2 "" H 9500 1150 50  0001 C CNN
-F 3 "" H 9500 1150 50  0001 C CNN
-	1    9500 1150
+F 0 "#PWR0128" H 9500 800 50  0001 C CNN
+F 1 "GNDREF" H 9505 877 50  0001 C CNN
+F 2 "" H 9500 1050 50  0001 C CNN
+F 3 "" H 9500 1050 50  0001 C CNN
+	1    9500 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 605FD4EC
-P 9500 1000
+P 9500 900
 AR Path="/6059C0E9/605FD4EC" Ref="C?"  Part="1" 
 AR Path="/605FD4EC" Ref="C16"  Part="1" 
-F 0 "C16" H 9615 1046 50  0000 L CNN
-F 1 "120μF" H 9615 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 9538 850 50  0001 C CNN
-F 3 "" H 9500 1000 50  0001 C CNN
-F 4 "" H 9615 1146 50  0001 C CNN "Manufacturer_Name"
-F 5 "" H 9615 1146 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "" H 9615 1146 50  0001 C CNN "Price"
-F 7 "" H 9615 1146 50  0001 C CNN "Vendor Part Number"
-F 8 "" H 9615 1146 50  0001 C CNN "Vendor"
-	1    9500 1000
+F 0 "C16" H 9615 946 50  0000 L CNN
+F 1 "120μF" H 9615 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9538 750 50  0001 C CNN
+F 3 "" H 9500 900 50  0001 C CNN
+F 4 "" H 9615 1046 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H 9615 1046 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H 9615 1046 50  0001 C CNN "Price"
+F 7 "" H 9615 1046 50  0001 C CNN "Vendor Part Number"
+F 8 "" H 9615 1046 50  0001 C CNN "Vendor"
+	1    9500 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -809,44 +807,16 @@ F 9 "Mouser" H 9100 3481 50  0001 C CNN "Vendor"
 	1    9100 2200
 	1    0    0    -1  
 $EndComp
-Connection ~ 6750 1900
-Connection ~ 6350 1800
-Wire Wire Line
-	6200 1900 6750 1900
-Wire Wire Line
-	6200 1800 6350 1800
 Wire Wire Line
 	7750 2000 7750 1900
 Wire Wire Line
 	7500 2000 7500 1800
 Wire Wire Line
 	7250 1800 7500 1800
-Wire Wire Line
-	6750 1900 6950 1900
-Wire Wire Line
-	6750 2000 6750 1900
-Wire Wire Line
-	6350 2000 6350 1800
-Wire Wire Line
-	6350 1800 6950 1800
-Text Label 6200 1900 2    50   ~ 0
+Text Label 6800 1900 2    50   ~ 0
 D1-
-Text Label 6200 1800 2    50   ~ 0
+Text Label 6800 1800 2    50   ~ 0
 D1+
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60552D99
-P 6350 2300
-AR Path="/6059C0E9/60552D99" Ref="#PWR?"  Part="1" 
-AR Path="/605B3ED2/60552D99" Ref="#PWR?"  Part="1" 
-AR Path="/60552D99" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 6350 2050 50  0001 C CNN
-F 1 "GNDREF" H 6355 2127 50  0001 C CNN
-F 2 "" H 6350 2300 50  0001 C CNN
-F 3 "" H 6350 2300 50  0001 C CNN
-	1    6350 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 60552DB7
@@ -914,44 +884,6 @@ F 8 "Mouser" H 7570 2296 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 60552D90
-P 6350 2150
-AR Path="/6059C0E9/60552D90" Ref="C?"  Part="1" 
-AR Path="/605B3ED2/60552D90" Ref="C?"  Part="1" 
-AR Path="/60552D90" Ref="C5"  Part="1" 
-F 0 "C5" H 6465 2196 50  0000 L CNN
-F 1 "22pF" H 6465 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6388 2000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 6350 2150 50  0001 C CNN
-F 4 "Wurth" H 6465 2296 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 6465 2296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 6465 2296 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 6465 2296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 6465 2296 50  0001 C CNN "Vendor"
-	1    6350 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 60552D8A
-P 6750 2150
-AR Path="/6059C0E9/60552D8A" Ref="C?"  Part="1" 
-AR Path="/605B3ED2/60552D8A" Ref="C?"  Part="1" 
-AR Path="/60552D8A" Ref="C6"  Part="1" 
-F 0 "C6" H 6865 2196 50  0000 L CNN
-F 1 "22pF" H 6865 2105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6788 2000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 6750 2150 50  0001 C CNN
-F 4 "Wurth" H 6865 2296 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 6865 2296 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 6865 2296 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 6865 2296 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 6865 2296 50  0001 C CNN "Vendor"
-	1    6750 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 60552D84
 P 7100 1900
@@ -988,20 +920,6 @@ F 7 "603-RC1210FR-0727RL" H 6893 1900 50  0001 C CNN "Vendor Part Number"
 F 8 "Mouser" H 6893 1900 50  0001 C CNN "Vendor"
 	1    7100 1800
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60552D77
-P 6750 2300
-AR Path="/6059C0E9/60552D77" Ref="#PWR?"  Part="1" 
-AR Path="/605B3ED2/60552D77" Ref="#PWR?"  Part="1" 
-AR Path="/60552D77" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 6750 2050 50  0001 C CNN
-F 1 "GNDREF" H 6755 2127 50  0001 C CNN
-F 2 "" H 6750 2300 50  0001 C CNN
-F 3 "" H 6750 2300 50  0001 C CNN
-	1    6750 2300
-	1    0    0    -1  
 $EndComp
 NoConn ~ 5300 2100
 NoConn ~ 3300 3800
@@ -1271,58 +1189,6 @@ F 8 "Mouser" H 7320 6096 50  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
-U 1 1 6056A5C1
-P 6100 6100
-AR Path="/6059C0E9/6056A5C1" Ref="#PWR?"  Part="1" 
-AR Path="/605B3ED2/6056A5C1" Ref="#PWR?"  Part="1" 
-AR Path="/6056A5C1" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 6100 5850 50  0001 C CNN
-F 1 "GNDREF" H 6105 5927 50  0001 C CNN
-F 2 "" H 6100 6100 50  0001 C CNN
-F 3 "" H 6100 6100 50  0001 C CNN
-	1    6100 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6056A5B8
-P 6100 5950
-AR Path="/6059C0E9/6056A5B8" Ref="C?"  Part="1" 
-AR Path="/605B3ED2/6056A5B8" Ref="C?"  Part="1" 
-AR Path="/6056A5B8" Ref="C7"  Part="1" 
-F 0 "C7" H 6215 5996 50  0000 L CNN
-F 1 "22pF" H 6215 5905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6138 5800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 6100 5950 50  0001 C CNN
-F 4 "Wurth" H 6215 6096 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 6215 6096 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 6215 6096 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 6215 6096 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 6215 6096 50  0001 C CNN "Vendor"
-	1    6100 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6056A5B2
-P 6500 5950
-AR Path="/6059C0E9/6056A5B2" Ref="C?"  Part="1" 
-AR Path="/605B3ED2/6056A5B2" Ref="C?"  Part="1" 
-AR Path="/6056A5B2" Ref="C8"  Part="1" 
-F 0 "C8" H 6615 5996 50  0000 L CNN
-F 1 "22pF" H 6615 5905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 6538 5800 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf" H 6500 5950 50  0001 C CNN
-F 4 "Wurth" H 6615 6096 50  0001 C CNN "Manufacturer_Name"
-F 5 "885012009007" H 6615 6096 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "0.61" H 6615 6096 50  0001 C CNN "Price"
-F 7 "710-885012009007" H 6615 6096 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 6615 6096 50  0001 C CNN "Vendor"
-	1    6500 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 6056A5AC
 P 6850 5700
@@ -1341,30 +1207,10 @@ F 8 "Mouser" H 6965 5800 50  0001 C CNN "Vendor"
 	1    6850 5700
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 6056A59F
-P 6500 6100
-AR Path="/6059C0E9/6056A59F" Ref="#PWR?"  Part="1" 
-AR Path="/605B3ED2/6056A59F" Ref="#PWR?"  Part="1" 
-AR Path="/6056A59F" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6500 5850 50  0001 C CNN
-F 1 "GNDREF" H 6505 5927 50  0001 C CNN
-F 2 "" H 6500 6100 50  0001 C CNN
-F 3 "" H 6500 6100 50  0001 C CNN
-	1    6500 6100
-	1    0    0    -1  
-$EndComp
-Text Label 5950 5600 2    50   ~ 0
+Text Label 6600 5600 2    50   ~ 0
 D2+
-Text Label 5950 5700 2    50   ~ 0
+Text Label 6600 5700 2    50   ~ 0
 D2-
-Wire Wire Line
-	6100 5600 6700 5600
-Wire Wire Line
-	5950 5700 6500 5700
-Wire Wire Line
-	5950 5600 6100 5600
 Wire Wire Line
 	7500 5800 7500 5700
 Wire Wire Line
@@ -1373,16 +1219,8 @@ Wire Wire Line
 	7000 5700 7500 5700
 Wire Wire Line
 	7000 5600 7250 5600
-Wire Wire Line
-	6500 5700 6700 5700
-Wire Wire Line
-	6500 5800 6500 5700
-Wire Wire Line
-	6100 5800 6100 5600
 Connection ~ 7250 5600
 Connection ~ 7500 5700
-Connection ~ 6500 5700
-Connection ~ 6100 5600
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605FD4DB
@@ -1551,8 +1389,6 @@ Text Notes 3800 1200 0    50   ~ 0
 See TUSB2036 datasheet\n9.2.2 Detailed Design Procedure
 Text Label 9900 2800 0    50   ~ 0
 PWREN
-Text Label 9900 2900 0    50   ~ 0
-SLEEP
 $Comp
 L Device:R R?
 U 1 1 605D5F33
@@ -1576,8 +1412,6 @@ Wire Wire Line
 	10200 2750 10200 2800
 Wire Wire Line
 	10200 2800 9900 2800
-Wire Wire Line
-	10200 2450 10650 2450
 $Comp
 L Device:C C?
 U 1 1 606059E5
@@ -1604,40 +1438,6 @@ Wire Wire Line
 Connection ~ 2250 1500
 Wire Wire Line
 	2800 1100 2800 1150
-$Comp
-L Device:C C?
-U 1 1 6065220F
-P 1700 2100
-AR Path="/6059C0E9/6065220F" Ref="C?"  Part="1" 
-AR Path="/6065220F" Ref="C19"  Part="1" 
-F 0 "C19" H 1815 2146 50  0000 L CNN
-F 1 "120μF" H 1815 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1738 1950 50  0001 C CNN
-F 3 "" H 1700 2100 50  0001 C CNN
-F 4 "" H 1815 2246 50  0001 C CNN "Manufacturer_Name"
-F 5 "" H 1815 2246 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "" H 1815 2246 50  0001 C CNN "Price"
-F 7 "" H 1815 2246 50  0001 C CNN "Vendor Part Number"
-F 8 "" H 1815 2246 50  0001 C CNN "Vendor"
-	1    1700 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1950 1700 1950
-Connection ~ 1500 1950
-$Comp
-L power:GNDREF #PWR?
-U 1 1 6065EA82
-P 1700 2250
-AR Path="/6057976E/6065EA82" Ref="#PWR?"  Part="1" 
-AR Path="/6065EA82" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 1700 2000 50  0001 C CNN
-F 1 "GNDREF" H 1705 2077 50  0001 C CNN
-F 2 "" H 1700 2250 50  0001 C CNN
-F 3 "" H 1700 2250 50  0001 C CNN
-	1    1700 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND1 #PWR0133
 U 1 1 60676C56
@@ -1687,7 +1487,7 @@ F 3 "" H 10600 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 4500 9200 4400
+	9200 4500 9200 4350
 Wire Wire Line
 	9200 3800 9950 3800
 NoConn ~ 8600 6200
@@ -1756,16 +1556,13 @@ F 10 "Symmetry" H 8500 6750 50  0001 C CNN "Vendor"
 $EndComp
 Wire Wire Line
 	7700 4900 7900 4900
-Connection ~ 7700 4900
 Wire Wire Line
-	7700 4900 7700 4350
+	9100 4500 9100 4350
 Wire Wire Line
-	9100 4500 9100 4400
+	9100 4000 9200 4000
+Connection ~ 9200 4000
 Wire Wire Line
-	9100 4400 9200 4400
-Connection ~ 9200 4400
-Wire Wire Line
-	9200 4400 9200 3800
+	9200 4000 9200 3800
 Connection ~ 7700 4050
 Wire Wire Line
 	7700 4050 8550 4050
@@ -1777,7 +1574,7 @@ L Connector:TestPoint TP1
 U 1 1 607EF82B
 P 2800 1000
 F 0 "TP1" V 2754 1188 50  0000 L CNN
-F 1 "TestPoint" V 2845 1188 50  0000 L CNN
+F 1 "3V3" V 2845 1188 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3000 1000 50  0001 C CNN
 F 3 "~" H 3000 1000 50  0001 C CNN
 	1    2800 1000
@@ -1790,7 +1587,7 @@ L Connector:TestPoint TP2
 U 1 1 60802480
 P 7850 950
 F 0 "TP2" V 8045 1022 50  0000 C CNN
-F 1 "TestPoint" V 7954 1022 50  0000 C CNN
+F 1 "3V3IO" V 7954 1022 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8050 950 50  0001 C CNN
 F 3 "~" H 8050 950 50  0001 C CNN
 	1    7850 950 
@@ -1802,7 +1599,7 @@ L Connector:TestPoint TP3
 U 1 1 60808FB0
 P 9200 6400
 F 0 "TP3" V 9395 6472 50  0000 C CNN
-F 1 "TestPoint" V 9304 6472 50  0000 C CNN
+F 1 "3V3A" V 9304 6472 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9400 6400 50  0001 C CNN
 F 3 "~" H 9400 6400 50  0001 C CNN
 	1    9200 6400
@@ -1871,7 +1668,6 @@ OC3
 Text Label 5950 4700 2    50   ~ 0
 EN3
 NoConn ~ 5950 4400
-NoConn ~ 5950 4800
 NoConn ~ 6950 4600
 $Comp
 L power:VBUS #PWR0123
@@ -1912,7 +1708,7 @@ Text Label 6950 3400 0    50   ~ 0
 5VB
 Text Label 6950 4500 0    50   ~ 0
 5VC
-Text Label 9200 750  1    50   ~ 0
+Text Label 9200 650  1    50   ~ 0
 5VA
 Text Label 7700 3800 1    50   ~ 0
 5VB
@@ -2183,4 +1979,103 @@ F 3 "~" H 10900 6850 50  0001 C CNN
 	1    10900 6850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:VBUS #PWR01
+U 1 1 605A82FC
+P 5700 4350
+F 0 "#PWR01" H 5700 4200 50  0001 C CNN
+F 1 "VBUS" H 5715 4523 50  0000 C CNN
+F 2 "" H 5700 4350 50  0001 C CNN
+F 3 "" H 5700 4350 50  0001 C CNN
+	1    5700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 605AA7DD
+P 5700 4600
+AR Path="/605B3ED2/605AA7DD" Ref="R?"  Part="1" 
+AR Path="/6059C0E9/605AA7DD" Ref="R?"  Part="1" 
+AR Path="/605AA7DD" Ref="R18"  Part="1" 
+F 0 "R18" H 5631 4646 50  0000 R CNN
+F 1 "15kΩ" H 5631 4555 50  0000 R CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" V 5630 4600 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf" H 5700 4600 50  0001 C CNN
+F 4 "Vishay" H 5770 4746 50  0001 C CNN "Manufacturer_Name"
+F 5 "RCA121015K0FKEA" H 5770 4746 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "0.11" H 5770 4746 50  0001 C CNN "Price"
+F 7 "71-RCA121015K0FKEA" H 5770 4746 50  0001 C CNN "Vendor Part Number"
+F 8 "Mouser" H 5770 4746 50  0001 C CNN "Vendor"
+	1    5700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4350 5700 4450
+Wire Wire Line
+	5700 4750 5700 4800
+Wire Wire Line
+	5700 4800 5950 4800
+$Comp
+L Device:R_Small R20
+U 1 1 605DAAD5
+P 9200 4250
+F 0 "R20" H 9259 4296 50  0000 L CNN
+F 1 "0Ω" H 9259 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 9200 4250 50  0001 C CNN
+F 3 "~" H 9200 4250 50  0001 C CNN
+	1    9200 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4150 9200 4000
+$Comp
+L Device:R_Small R19
+U 1 1 605DCB0C
+P 9100 4250
+F 0 "R19" H 9042 4296 50  0000 R CNN
+F 1 "0Ω" H 9042 4205 50  0000 R CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 9100 4250 50  0001 C CNN
+F 3 "~" H 9100 4250 50  0001 C CNN
+	1    9100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4150 9100 4000
+$Comp
+L power:GNDREF #PWR?
+U 1 1 605E00EF
+P 7700 4350
+AR Path="/605AB33C/605E00EF" Ref="#PWR?"  Part="1" 
+AR Path="/605E00EF" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 7700 4100 50  0001 C CNN
+F 1 "GNDREF" H 7705 4177 50  0001 C CNN
+F 2 "" H 7700 4350 50  0001 C CNN
+F 3 "" H 7700 4350 50  0001 C CNN
+	1    7700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1900 6950 1900
+Wire Wire Line
+	6800 1800 6950 1800
+Wire Wire Line
+	6600 5700 6700 5700
+Wire Wire Line
+	6600 5600 6700 5600
+Wire Wire Line
+	10200 2450 10650 2450
+Wire Wire Line
+	10200 2450 10200 1200
+Connection ~ 10200 2450
+Wire Wire Line
+	9200 700  9200 1200
+Wire Wire Line
+	9000 1100 9300 1100
+Wire Wire Line
+	9300 1100 9300 1200
+Wire Wire Line
+	9300 1200 10200 1200
+Connection ~ 9000 1100
+Wire Wire Line
+	9000 1100 9000 1200
 $EndSCHEMATC
