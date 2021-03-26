@@ -23,3 +23,4 @@ have helped make this project better!
 * Elías Rodríguez Martín, [@eliasrm87](https://github.com/eliasrm87)
 * EEVblog Forum user [mon2](https://www.eevblog.com/forum/profile/?u=690092)
 * Dave Maciorowski, WA1JHK
+* Nathan Conrad, [@pigrew](https://github.com/pigrew)
