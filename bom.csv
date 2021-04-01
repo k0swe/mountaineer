@@ -8,7 +8,7 @@ Y1,Hub controller clock,ABRACON,AWSCR-6.00CPLA-C30-T4,Mouser,815-CR-6.00CPLA-30-
 J2,TX-500 CAT Interconnect,JST,B4B-PH-SM4-TB,Mouser,485-4390,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical,CAT
 J3,TX-500 REM/DATA Interconnect,JST,B3B-PH-SM4-TB,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical,REM/DATA
 ,REM/DATA wire,JST,PH 3-pin wire,Mouser,485-4336,0.75,,N/A,N/A
-,CAT wire,JST,PH 4-pin wire,Mouser,485-3955,1.5,,N/A,N/A
+,CAT wire,JST,PH 4-pin wire,Mouser,485-4424,0.95,,N/A,N/A
 J1,Upstream USB socket,Molex,47346-0001,Mouser,538-47346-0001,0.95,https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf,Connector_USB:USB_Micro-B_Molex_47346-0001,USB_B_Micro
 J4,Downstream USB socket,Wurth,62900416021,Mouser,710-62900416021,2.36,https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf,Wurth-USBA:62900416021,USB_A
 ,REM/DATA bulkhead connector,,GX12-7,Amazon,B06XF4HXWC,1.69,,N/A,N/A
