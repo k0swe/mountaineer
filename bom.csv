@@ -3,7 +3,7 @@ U1,USB Hub Controller,TI,TUSB2036,Mouser,595-TUSB2036VFR,3.4,http://www.ti.com/l
 U2,UART,FTDI,FT232RL,Mouser,895-FT232RL-TUBE,4.6,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,FT232RL
 U3,USB Audio Interface,Cmedia,HS-100B,Symmetry,HS-100B,0.78,1.6,Package_QFP:LQFP-48_7x7mm_P0.5mm,HS-100B
 U4,Voltage Regulator,TI,TPS76333,Mouser,595-TPS76333DBVTG4,0.97,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5,TPS76333
-Y1,Hub controller clock,Vishay,XT9M20ANA6M,Mouser,73-XT49M600-20,0.95,https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf,XT49M:XT49M,6MHz
+Y1,Hub controller clock,Vishay,XT9M20ANA6M,Mouser,73-XT49M600-20,0.95,https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf,Crystal:Crystal_SMD_HC49-SD,6MHz
 ,Case,Hammond,1455C801,Mouser,546-1455C801,13.13,https://www.mouser.com/datasheet/2/177/1455-1272397.pdf,N/A,N/A
 J2,TX-500 CAT Interconnect,JST,B4B-PH-SM4-TB,Mouser,485-4392,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical,CAT
 J3,TX-500 REM/DATA Interconnect,JST,B3B-PH-SM4-TB,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical,REM/DATA

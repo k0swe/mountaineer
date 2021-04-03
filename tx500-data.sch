@@ -261,7 +261,7 @@ AR Path="/604EF388/60579999" Ref="Y?"  Part="1"
 AR Path="/60579999" Ref="Y1"  Part="1" 
 F 0 "Y1" H 1300 5018 50  0000 C CNN
 F 1 "6MHz" H 1300 4927 50  0000 C CNN
-F 2 "XT49M:XT49M" H 1300 4750 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD" H 1300 4750 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf" H 1300 4750 50  0001 C CNN
 F 4 "Hub controller clock" H 1300 5118 50  0001 C CNN "Description"
 F 5 "Vishay" H 1300 5118 50  0001 C CNN "Manufacturer_Name"
