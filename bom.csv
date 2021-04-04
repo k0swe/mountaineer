@@ -1,28 +1,28 @@
 Refs,quantity,value,Description,Manufacturer_Name,Manufacturer_Part_Number,Vendor,Vendor Part Number,Price,datasheet,footprint
-"C1, C2, C9, C10",4,22pF,-,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric
-"C11, C16, C17",3,120μF,-,Vishay,293D127X96R3D2TE3,Mouser,74-293D127X96R3D2TE3,0.87,https://www.mouser.com/datasheet/2/427/293d-1763499.pdf,Vishay-cap:CAPPM7343X310N
+C1,4,22pF,-,Wurth,885012009007,Mouser,710-885012009007,0.61,https://www.mouser.com/datasheet/2/445/885012009007-1727300.pdf,Capacitor_SMD:C_1210_3225Metric
+C11,3,120μF,-,Panasonic,6TPE120MAZB,Mouser,667-6TPE120MAZB,1.3,https://www.mouser.com/datasheet/2/315/AAA8000C36-947358.pdf,6TPE120MAZB:CAPPM3528X200N
 C12,1,10μF,-,Walsin,1210F106Z100CT,Mouser,791-1210F106Z100CT,0.29,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
-"C13, C14",2,27pF,-,AVX,12102U270JAT2A,Mouser,581-12102U270JAT2A,0.7,https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf,Capacitor_SMD:C_1210_3225Metric
-"C4, C15, C20",3,0.1μF,-,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
-"C3, C18",2,4.7μF,-,Walsin,1210F475Z500CT,Mouser,791-1210F475Z500CT,0.62,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
+C13,2,27pF,-,AVX,12102U270JAT2A,Mouser,581-12102U270JAT2A,0.7,https://www.mouser.com/datasheet/2/40/U_Series-894201.pdf,Capacitor_SMD:C_1210_3225Metric
+C4,3,0.1μF,-,KEMET,C1210C104K5HACAUTO,Mouser,80-C1210C104K5HAUTO,0.5,https://www.mouser.com/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf,Capacitor_SMD:C_1210_3225Metric
+C3,2,4.7μF,-,Walsin,1210F475Z500CT,Mouser,791-1210F475Z500CT,0.62,https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf,Capacitor_SMD:C_1210_3225Metric
 J1,1,USB_B_Micro,Upstream USB socket,Molex,47346-0001,Mouser,538-47346-0001,0.95,https://www.mouser.com/datasheet/2/276/0473460001_IO_CONNECTORS-229243.pdf,Connector_USB:USB_Micro-B_Molex_47346-0001
 J2,1,CAT,TX-500 CAT Interconnect,JST,B4B-PH-SM4-TB,Mouser,485-4392,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B4B-PH-SM4-TB_1x04-1MP_P2.00mm_Vertical
 J3,1,REM/DATA,TX-500 REM/DATA Interconnect,JST,B3B-PH-SM4-TB,Mouser,485-4389,0.35,https://www.mouser.com/datasheet/2/737/4389_C13924-001_CCP-W20-03-BK-SMT-R-A-1708610.pdf,Connector_JST:JST_PH_B3B-PH-SM4-TB_1x03-1MP_P2.00mm_Vertical
 J4,1,USB_A,Downstream USB socket,Wurth,62900416021,Mouser,710-62900416021,2.36,https://www.mouser.com/datasheet/2/445/62900416021-1718169.pdf,Wurth-USBA:62900416021
-"R1, R4",2,1.5kΩ,-,Yageo,AC1210FR-071K5L,Mouser,603-AC1210FR-071K5L,0.31,https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf,Resistor_SMD:R_1210_3225Metric
-"R2, R3, R5, R6, R7, R8, R9, R10",8,27Ω,-,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric
-"R11, R12, R13, R14, R15, R16, R18",7,15kΩ,-,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric
+R1,2,1.5kΩ,-,Yageo,AC1210FR-071K5L,Mouser,603-AC1210FR-071K5L,0.31,https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_7-1714230.pdf,Resistor_SMD:R_1210_3225Metric
+R2,8,27Ω,-,Yageo,RC1210FR-0727RL,Mouser,603-RC1210FR-0727RL,0.14,https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf,Resistor_SMD:R_1210_3225Metric
+R11,7,15kΩ,-,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric
 R17,1,10kΩ,-,Vishay,RCA121015K0FKEA,Mouser,71-RCA121015K0FKEA,0.11,https://www.mouser.com/datasheet/2/427/rcae3-1761931.pdf,Resistor_SMD:R_1210_3225Metric
-"R19, R20",2,0Ω,-,KOA Speer,RK73Z2ETTD,Mouser,660-RK73Z2ETTD,0.14,~,Resistor_SMD:R_1210_3225Metric
+R19,2,0Ω,-,KOA Speer,RK73Z2ETTD,Mouser,660-RK73Z2ETTD,0.14,~,Resistor_SMD:R_1210_3225Metric
 U1,1,TUSB2036,USB Hub Controller,TI,TUSB2036,Mouser,595-TUSB2036VFR,3.4,http://www.ti.com/lit/ds/symlink/tusb2036.pdf,Package_QFP:LQFP-32_7x7mm_P0.8mm
 U2,1,FT232RL,UART,FTDI,FT232RL,Mouser,895-FT232RL-TUBE,4.6,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm
 U3,1,HS-100B,USB Audio Interface,Cmedia,HS-100B,Symmetry,HS-100B,0.78,1.6,Package_QFP:LQFP-48_7x7mm_P0.5mm
 U4,1,TPS76333,Voltage Regulator,TI,TPS76333,Mouser,595-TPS76333DBVTG4,0.97,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5
 U5,1,TPS2044D,Overcurrent protection,TI,TPS2044D,Mouser,595-TPS2044BDR,2.73,http://www.ti.com/lit/ds/symlink/tps2044.pdf,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
-"U6, U7",2,SN75240,ESD protection,TI,SN75240,Mouser,595-SN75240PWR,1.31,http://www.ti.com/lit/ds/symlink/sn65220.pdf,Package_SO:TSSOP-8_4.4x3mm_P0.65mm
+U6,2,SN75240,ESD protection,TI,SN75240,Mouser,595-SN75240PWR,1.31,http://www.ti.com/lit/ds/symlink/sn65220.pdf,Package_SO:TSSOP-8_4.4x3mm_P0.65mm
 Y1,1,6MHz,Hub controller clock,Vishay,XT9M20ANA6M,Mouser,73-XT49M600-20,0.95,https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf,Crystal:Crystal_SMD_HC49-SD
--,1,Enclosure,Enclosure,Hammond,1455C801,Mouser,546-1455C801,13.13,https://www.mouser.com/datasheet/2/177/1455-1272397.pdf,-
--,1,JST PH 3 plug cable,TX-500 REM/DATA Interconnect,JST,PH 3 plug cable,Mouser,485-4336,0.75,-,-
--,1,JST PH 4 plug cable,TX-500 CAT Interconnect,JST,PH 4 plug cable,Mouser,485-3568,0.75,-,-
--,1,GX12-7 socket,TX-500 REM/DATA Interconnect,-,GX12-7,Amazon,B06XF4HXWC,1.69,-,-
--,1,GX12-4 socket,TX-500 CAT Interconnect,-,GX12-4,Amazon,B06XF1SP8M,1.53,-,-
+,1,Enclosure,Enclosure,Hammond,1455C801,Mouser,546-1455C801,13.13,https://www.mouser.com/datasheet/2/177/1455-1272397.pdf,-
+,1,JST PH 3 plug cable,TX-500 REM/DATA Interconnect,JST,PH 3 plug cable,Mouser,485-4336,0.75,-,-
+,1,JST PH 4 plug cable,TX-500 CAT Interconnect,JST,PH 4 plug cable,Mouser,485-3568,0.75,-,-
+,1,GX12-7 socket,TX-500 REM/DATA Interconnect,-,GX12-7,Amazon,B06XF4HXWC,1.69,-,-
+,1,GX12-4 socket,TX-500 CAT Interconnect,-,GX12-4,Amazon,B06XF1SP8M,1.53,-,-

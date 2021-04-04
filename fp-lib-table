@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Open Source Hardware")(type KiCad)(uri ${KIPRJMOD}/Libraries/OSHW)(options "")(descr ""))
   (lib (name Wurth-USBA)(type KiCad)(uri ${KIPRJMOD}/Libraries/Wurth-62900416021)(options "")(descr ""))
+  (lib (name 6TPE120MAZB)(type KiCad)(uri ${KIPRJMOD}/Libraries/6TPE120MAZB)(options "")(descr ""))
 )
