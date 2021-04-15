@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "TX-500 Data Interface"
-Date "2021-04-04"
-Rev "0.5"
+Date "2021-04-14"
+Rev "0.6"
 Comp "Chris Keller K0SWE"
-Comment1 "Licensed under Apache-2.0"
+Comment1 "Licensed under Creative Commons CC-BY-4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
