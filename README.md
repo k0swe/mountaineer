@@ -24,3 +24,4 @@ have helped make this project better!
 * EEVblog Forum user [mon2](https://www.eevblog.com/forum/profile/?u=690092)
 * Dave Maciorowski, WA1JHK
 * Nathan Conrad, [@pigrew](https://github.com/pigrew)
+* Andreas Jochum
