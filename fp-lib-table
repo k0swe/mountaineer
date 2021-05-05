@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Abracon)(type KiCad)(uri ${KIPRJMOD}/Libraries/Abracon)(options "")(descr ""))
+  (lib (name Vishay)(type KiCad)(uri ${KIPRJMOD}/Libraries/Vishay)(options "")(descr ""))
 )
