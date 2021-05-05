@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name HS-100B)(type Legacy)(uri ${KIPRJMOD}/Libraries/HS-100B/HS-100B.lib)(options "")(descr ""))
   (lib (name Wurth-USBA)(type Legacy)(uri ${KIPRJMOD}/Libraries/Wurth-62900416021/62900416021.lib)(options "")(descr ""))
+  (lib (name TPS2041CDBVT)(type Legacy)(uri ${KIPRJMOD}/Libraries/TI/TPS2041CDBVT.lib)(options "")(descr ""))
 )
