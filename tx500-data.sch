@@ -197,26 +197,6 @@ F 3 "" H 3550 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y?
-U 1 1 60579999
-P 700 7000
-AR Path="/604EF388/60579999" Ref="Y?"  Part="1" 
-AR Path="/60579999" Ref="Y1"  Part="1" 
-F 0 "Y1" V 654 7131 50  0000 L CNN
-F 1 "6MHz" V 745 7131 50  0000 L CNN
-F 2 "" H 700 7000 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/3/AWSCR-CPLA-1595603.pdf" H 700 7000 50  0001 C CNN
-F 4 "Hub controller clock" H 700 7368 50  0001 C CNN "Description"
-F 5 "Vishay" H 700 7368 50  0001 C CNN "Manufacturer_Name"
-F 6 "XT9M20ANA6M" H 700 7368 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "" H 700 7368 50  0001 C CNN "Price"
-F 8 "" H 700 7368 50  0001 C CNN "Vendor Part Number"
-F 9 "" H 700 7368 50  0001 C CNN "Vendor"
-F 10 "" H 700 7368 50  0001 C CNN "quantity"
-	1    700  7000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 605799A4
 P 1400 7100
@@ -453,7 +433,7 @@ F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 4050 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tusb2036.pdf" H 3000 5900 50  0001 C CNN
 F 4 "USB Hub Controller" H 3000 7781 50  0001 C CNN "Description"
 F 5 "TI" H 3000 7781 50  0001 C CNN "Manufacturer_Name"
-F 6 "TUSB2036" H 3000 7781 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "TUSB2036VF" H 3000 7781 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "" H 3000 7781 50  0001 C CNN "Price"
 F 8 "" H 3000 7781 50  0001 C CNN "Vendor Part Number"
 F 9 "" H 3000 7781 50  0001 C CNN "Vendor"
@@ -655,7 +635,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 4025 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 3350 3700 50  0001 C CNN
 F 4 "Voltage Regulator" H 3350 4142 50  0001 C CNN "Description"
 F 5 "TI" H 3350 4142 50  0001 C CNN "Manufacturer_Name"
-F 6 "TPS76333" H 3350 4142 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "TPS76333DBV" H 3350 4142 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "" H 3350 4142 50  0001 C CNN "Price"
 F 8 "" H 3350 4142 50  0001 C CNN "Vendor Part Number"
 F 9 "" H 3350 4142 50  0001 C CNN "Vendor"
@@ -761,7 +741,7 @@ F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3850 2250 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 3900 2250 50  0001 C CNN
 F 4 "ESD protection" H 3700 2725 50  0001 C CNN "Description"
 F 5 "TI" H 3700 2725 50  0001 C CNN "Manufacturer_Name"
-F 6 "SN75240" H 3700 2725 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "SN75240PW" H 3700 2725 50  0001 C CNN "Manufacturer_Part_Number"
 F 7 "" H 3700 2725 50  0001 C CNN "Price"
 F 8 "" H 3700 2725 50  0001 C CNN "Vendor Part Number"
 F 9 "" H 3700 2725 50  0001 C CNN "Vendor"
@@ -946,13 +926,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1850 7250 1850
 Wire Wire Line
-	1700 6500 1700 6900
-Wire Wire Line
 	2000 6500 1700 6500
-Wire Wire Line
-	1700 6900 1700 7400
-Wire Wire Line
-	2000 6900 1700 6900
 Wire Wire Line
 	1550 6600 2000 6600
 Wire Wire Line
@@ -1082,7 +1056,6 @@ Connection ~ 7250 1850
 Connection ~ 8850 3250
 Connection ~ 8650 3250
 Connection ~ 8950 3250
-Connection ~ 1700 6900
 Connection ~ 1550 6100
 Connection ~ 3000 7500
 Connection ~ 6500 5600
@@ -1206,7 +1179,7 @@ F 1 "TPS2041" H 4700 7026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4700 7150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2041.pdf" H 4650 6950 50  0001 C CNN
 F 4 "TI" H 4700 6650 50  0001 C CNN "Manufacturer_Name"
-F 5 "TPS2041CDBVT" H 4700 6650 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "TPS2041CDBV" H 4700 6650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4700 6650
 	1    0    0    -1  
 $EndComp
@@ -1428,18 +1401,6 @@ NoConn ~ 2800 2000
 NoConn ~ 2800 2100
 Wire Wire Line
 	2000 7100 1550 7100
-Wire Wire Line
-	2000 7000 1150 7000
-Wire Wire Line
-	1150 7000 1150 6850
-Wire Wire Line
-	1150 6850 700  6850
-Wire Wire Line
-	700  7150 1150 7150
-Wire Wire Line
-	1150 7150 1150 7100
-Wire Wire Line
-	1150 7100 1250 7100
 Wire Wire Line
 	3900 1600 4350 1600
 Wire Wire Line
@@ -2057,4 +2018,45 @@ Wire Wire Line
 Connection ~ 2800 1600
 Wire Wire Line
 	1550 5600 1550 5900
+$Comp
+L AWSCR-6.00CPLA-C30-T4:AWSCR-6.00CPLA-C30-T4 Y1
+U 1 1 60939B30
+P 1250 6900
+F 0 "Y1" H 1642 7165 50  0000 C CNN
+F 1 "AWSCR-6.00CPLA-C30-T4" H 1642 7074 50  0000 C CNN
+F 2 "Abracon:AWSCR600CPLAC30T4" H 2100 7000 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/AWSCR-6.00CPLA-C30-T4.pdf" H 2100 6900 50  0001 L CNN
+F 4 "Resonators 6.0    MHZ     30PF" H 2100 6800 50  0001 L CNN "Description"
+F 5 "1.7" H 2100 6700 50  0001 L CNN "Height"
+F 6 "ABRACON" H 2100 6600 50  0001 L CNN "Manufacturer_Name"
+F 7 "AWSCR-6.00CPLA-C30-T4" H 2100 6500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "815-CR-6.00CPLA-30-T" H 2100 6400 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ABRACON/AWSCR-600CPLA-C30-T4?qs=T3oQrply3y%252BkUjSRvoLdUw%3D%3D" H 2100 6300 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2100 6200 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2100 6100 50  0001 L CNN "Arrow Price/Stock"
+	1    1250 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6500 1700 6900
+Wire Wire Line
+	2000 6900 1700 6900
+Connection ~ 1700 6900
+Wire Wire Line
+	1700 6900 1700 7200
+Wire Wire Line
+	2000 7000 1500 7000
+Wire Wire Line
+	1500 7000 1500 6900
+Wire Wire Line
+	1500 6900 1250 6900
+Wire Wire Line
+	1250 7000 1400 7000
+Wire Wire Line
+	1400 7000 1400 7200
+Wire Wire Line
+	1400 7200 1700 7200
+Connection ~ 1700 7200
+Wire Wire Line
+	1700 7200 1700 7400
 $EndSCHEMATC

@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name HS-100B)(type Legacy)(uri ${KIPRJMOD}/Libraries/HS-100B/HS-100B.lib)(options "")(descr ""))
-  (lib (name Wurth-USBA)(type Legacy)(uri ${KIPRJMOD}/Libraries/Wurth-62900416021/62900416021.lib)(options "")(descr ""))
   (lib (name TPS2041CDBVT)(type Legacy)(uri ${KIPRJMOD}/Libraries/TI/TPS2041CDBVT.lib)(options "")(descr ""))
+  (lib (name HS-100B)(type Legacy)(uri ${KIPRJMOD}/Libraries/Cmedia/HS-100B.lib)(options "")(descr ""))
+  (lib (name AWSCR-6.00CPLA-C30-T4)(type Legacy)(uri ${KIPRJMOD}/Libraries/Abracon/AWSCR-6.00CPLA-C30-T4.lib)(options "")(descr ""))
 )

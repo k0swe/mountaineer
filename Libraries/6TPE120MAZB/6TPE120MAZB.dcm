@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 6TPE120MAZB
-D Panasonic 120uF SMD Solid Polymer Tantalum Capacitor, 6.3 V dc +/-20%, POSCAP Series
-K
-F https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/TPE_Series_POSCAP_Rev02_Oct_2017.pdf
-$ENDCMP
-#
-#End Doc Library

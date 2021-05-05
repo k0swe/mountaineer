@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AWSCR-6.00CPLA-C30-T4
+D Resonators 6.0    MHZ     30PF
+K
+F https://componentsearchengine.com/Datasheets/2/AWSCR-6.00CPLA-C30-T4.pdf
+$ENDCMP
+#
+#End Doc Library
