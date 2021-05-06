@@ -567,14 +567,14 @@ $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 605FD4DB
-P 8950 3400
+P 8950 3300
 AR Path="/6059C0E9/605FD4DB" Ref="#PWR?"  Part="1" 
 AR Path="/605FD4DB" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 8950 3150 50  0001 C CNN
-F 1 "GNDREF" H 8955 3227 50  0001 C CNN
-F 2 "" H 8950 3400 50  0001 C CNN
-F 3 "" H 8950 3400 50  0001 C CNN
-	1    8950 3400
+F 0 "#PWR033" H 8950 3050 50  0001 C CNN
+F 1 "GNDREF" H 8955 3127 50  0001 C CNN
+F 2 "" H 8950 3300 50  0001 C CNN
+F 3 "" H 8950 3300 50  0001 C CNN
+	1    8950 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -843,9 +843,9 @@ Text Label 10650 1850 2    50   ~ 0
 TXD
 Text Label 10650 1550 2    50   ~ 0
 GND
-Text Label 6550 1950 2    50   ~ 0
+Text Label 5850 5700 2    50   ~ 0
 D1-
-Text Label 6550 1850 2    50   ~ 0
+Text Label 5850 5600 2    50   ~ 0
 D1+
 Text Label 4000 5600 0    50   ~ 0
 D2-
@@ -863,9 +863,9 @@ Text Label 10550 3850 2    50   ~ 0
 GND
 Text Label 10550 4350 2    50   ~ 0
 MIC_IN
-Text Label 5850 5600 2    50   ~ 0
+Text Label 6550 1850 2    50   ~ 0
 D2+
-Text Label 5850 5700 2    50   ~ 0
+Text Label 6550 1950 2    50   ~ 0
 D2-
 Text Notes 5700 3800 0    118  ~ 0
 Audio
@@ -956,9 +956,9 @@ Wire Wire Line
 Wire Wire Line
 	6250 5600 6500 5600
 Wire Wire Line
-	8950 3250 8950 3400
+	8950 3250 8950 3300
 Wire Wire Line
-	6650 3800 6650 3900
+	6650 3650 6650 3900
 Wire Wire Line
 	8400 6400 8200 6400
 Wire Wire Line
@@ -1105,12 +1105,12 @@ $EndComp
 $Comp
 L power:+5V #PWR023
 U 1 1 609E6767
-P 6650 3800
-F 0 "#PWR023" H 6650 3650 50  0001 C CNN
-F 1 "+5V" H 6665 3973 50  0000 C CNN
-F 2 "" H 6650 3800 50  0001 C CNN
-F 3 "" H 6650 3800 50  0001 C CNN
-	1    6650 3800
+P 6650 3650
+F 0 "#PWR023" H 6650 3500 50  0001 C CNN
+F 1 "+5V" H 6592 3687 50  0000 R CNN
+F 2 "" H 6650 3650 50  0001 C CNN
+F 3 "" H 6650 3650 50  0001 C CNN
+	1    6650 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1688,10 +1688,8 @@ Wire Wire Line
 Wire Wire Line
 	9350 3950 9800 3950
 Wire Wire Line
-	6650 3800 7750 3800
-Wire Wire Line
-	7750 3800 7750 4500
-Connection ~ 6650 3800
+	7750 3650 7750 4500
+Connection ~ 6650 3650
 Text Label 9800 4100 2    50   ~ 0
 MIC_IN
 Wire Wire Line
@@ -1709,8 +1707,6 @@ F 3 "" H 7350 4000 50  0001 C CNN
 	1    7350 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 3900 7000 3900
 Connection ~ 7000 3900
 Wire Wire Line
 	7000 3900 7350 3900
@@ -1744,8 +1740,6 @@ F 3 "" H 7350 4300 50  0001 C CNN
 	1    7350 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 4200 7000 4200
 Wire Wire Line
 	7550 4200 7550 4500
 Connection ~ 6650 4200
@@ -2091,4 +2085,59 @@ F 3 "" H 5600 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 5400 6650
+$Comp
+L Device:R_Small R22
+U 1 1 60953C75
+P 6750 3650
+F 0 "R22" V 6554 3650 50  0000 C CNN
+F 1 "0R" V 6645 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 3650 50  0001 C CNN
+F 3 "~" H 6750 3650 50  0001 C CNN
+	1    6750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 3650 7750 3650
+$Comp
+L Device:R_Small R23
+U 1 1 609546BE
+P 6750 3900
+F 0 "R23" V 6554 3900 50  0000 C CNN
+F 1 "0R" V 6645 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 3900 50  0001 C CNN
+F 3 "~" H 6750 3900 50  0001 C CNN
+	1    6750 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 3900 7000 3900
+$Comp
+L Device:R_Small R24
+U 1 1 60954ABD
+P 6750 4200
+F 0 "R24" V 6554 4200 50  0000 C CNN
+F 1 "0R" V 6645 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6750 4200 50  0001 C CNN
+F 3 "~" H 6750 4200 50  0001 C CNN
+	1    6750 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4200 7000 4200
+Text Label 7300 3650 0    50   ~ 0
+DVDD
+Text Label 7300 3900 0    50   ~ 0
+AVDD1
+Text Label 7300 4200 0    50   ~ 0
+AVDD2
+Text Label 7850 1850 0    50   ~ 0
+U2+
+Text Label 7850 1950 0    50   ~ 0
+U2-
+Text Label 6700 5600 0    50   ~ 0
+U1+
+Text Label 6700 5700 0    50   ~ 0
+U1-
+Text Label 8050 1450 1    50   ~ 0
+3V3U
 $EndSCHEMATC

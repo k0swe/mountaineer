@@ -1,4 +1,4 @@
-update=Sun 04 Apr 2021 07:13:07 PM MDT
+update=Thu 06 May 2021 11:25:59 AM MDT
 version=1
 last_client=kicad
 [general]
@@ -254,6 +254,17 @@ Name=Power
 Clearance=0.2
 TrackWidth=0.35
 ViaDiameter=1
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=USB-C
+Clearance=0.15
+TrackWidth=0.25
+ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
