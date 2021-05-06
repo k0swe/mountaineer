@@ -1328,7 +1328,7 @@ U 1 1 60DA5618
 P 2200 1500
 F 0 "J1" H 2307 2367 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2307 2276 50  0000 C CNN
-F 2 "CUI:UJ31-CH-G-SMT-TR-67" H 2350 1500 50  0001 C CNN
+F 2 "CUI:CUI_UJ31-CH-G-SMT-TR-67" H 2350 1500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/670/uj31_ch_g_smt_tr_67-2306975.pdf" H 2350 1500 50  0001 C CNN
 F 4 "CUI" H 2200 1500 50  0001 C CNN "Manufacturer"
 F 5 "UJ31-CH-G-SMT-TR-67" H 2200 1500 50  0001 C CNN "Mfg Part #"
@@ -1893,7 +1893,7 @@ L Device:LED D1
 U 1 1 6162A0F7
 P 10700 6300
 F 0 "D1" H 10693 6045 50  0000 C CNN
-F 1 "OP" H 10693 6136 50  0000 C CNN
+F 1 "AUDIO" H 10693 6136 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 10700 6300 50  0001 C CNN
 F 3 "" H 10700 6300 50  0001 C CNN
 	1    10700 6300
@@ -2140,4 +2140,74 @@ Text Label 6700 5700 0    50   ~ 0
 U1-
 Text Label 8050 1450 1    50   ~ 0
 3V3U
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6098967B
+P 6350 7050
+F 0 "H3" H 6350 7337 50  0001 C CNN
+F 1 "MountingHole_Pad" H 6350 7246 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6350 7050 50  0001 C CNN
+F 3 "~" H 6350 7050 50  0001 C CNN
+	1    6350 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60989F62
+P 6150 7050
+F 0 "H1" H 6250 7099 50  0001 L CNN
+F 1 "MountingHole_Pad" H 6250 7008 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6150 7050 50  0001 C CNN
+F 3 "~" H 6150 7050 50  0001 C CNN
+	1    6150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6098A40D
+P 6350 7350
+F 0 "H4" H 6450 7399 50  0001 L CNN
+F 1 "MountingHole_Pad" H 6450 7308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6350 7350 50  0001 C CNN
+F 3 "~" H 6350 7350 50  0001 C CNN
+	1    6350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6098A95D
+P 6150 7350
+F 0 "H2" H 6250 7399 50  0001 L CNN
+F 1 "MountingHole_Pad" H 6250 7308 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6150 7350 50  0001 C CNN
+F 3 "~" H 6150 7350 50  0001 C CNN
+	1    6150 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0101
+U 1 1 60990A0B
+P 6500 7500
+F 0 "#PWR0101" H 6500 7250 50  0001 C CNN
+F 1 "GND1" H 6505 7327 50  0001 C CNN
+F 2 "" H 6500 7500 50  0001 C CNN
+F 3 "" H 6500 7500 50  0001 C CNN
+	1    6500 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 7150 6350 7150
+Wire Wire Line
+	6500 7150 6500 7450
+Connection ~ 6350 7150
+Wire Wire Line
+	6350 7150 6500 7150
+Wire Wire Line
+	6150 7450 6350 7450
+Connection ~ 6500 7450
+Wire Wire Line
+	6500 7450 6500 7500
+Connection ~ 6350 7450
+Wire Wire Line
+	6350 7450 6500 7450
 $EndSCHEMATC
