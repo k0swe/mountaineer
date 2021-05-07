@@ -1,0 +1,72 @@
+Refs,value,Manufacturer_Name,Manufacturer_Part_Number,datasheet,footprint,LCSC,Vendor,Vendor Part Number
+C1,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C10,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C11,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C12,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C13,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+C14,1uF,,,,Capacitor_SMD:C_0603_1608Metric,C15849,LCSC,C15849
+C15,470uF,Vishay,293D477X9010E2TE3,https://datasheet.octopart.com/293D477X9010E2TE3-Vishay-datasheet-5312541.pdf,Vishay:CAPPM7343X430N,C232200,Mouser,74-293D477X9010E2TE3
+C16,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+C17,470uF,Vishay,293D477X9010E2TE3,https://datasheet.octopart.com/293D477X9010E2TE3-Vishay-datasheet-5312541.pdf,Vishay:CAPPM7343X430N,C232200,Mouser,74-293D477X9010E2TE3
+C18,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C2,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+C3,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C4,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+C5,22pF,,,,Capacitor_SMD:C_0603_1608Metric,C1653,LCSC,C1653
+C6,22pF,,,,Capacitor_SMD:C_0603_1608Metric,C1653,LCSC,C1653
+C7,0.1uF,,,,Capacitor_SMD:C_0603_1608Metric,C1588,LCSC,C1588
+C8,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+C9,4.7uF,,,,Capacitor_SMD:C_0603_1608Metric,C19666 ,LCSC,C19666 
+D1,AUDIO,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
+D2,TX,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
+D3,RX,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
+J1,USB_C_Receptacle,CUI,UJ31-CH-G-SMT-TR-67,https://www.mouser.com/datasheet/2/670/uj31_ch_g_smt_tr_67-2306975.pdf,CUI:CUI_UJ31-CH-G-SMT-TR-67,-,Mouser,490-UJ31-CH-GSMTTR67
+J2,FTDI,JST,B6B-PH-SM4-TB,http://www.farnell.com/datasheets/1699381.pdf,Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical,C471518,Newark,37K9975
+J3,AUDIO,JST,B6B-PH-SM4-TB,http://www.farnell.com/datasheets/1699381.pdf,Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical,C471518,Newark,37K9975
+L1,FB,,,,Inductor_SMD:L_0805_2012Metric,C1017,LCSC,C1017
+L2,FB,,,,Inductor_SMD:L_0805_2012Metric,C1017,LCSC,C1017
+R1,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R10,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R11,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R12,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+R13,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+R14,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R15,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R16,2.2k,,,,Resistor_SMD:R_0603_1608Metric,C4190,LCSC,C4190
+R17,1.2k,,,,Resistor_SMD:R_0603_1608Metric,C22765,LCSC,C22765
+R18,330R,,,,Resistor_SMD:R_0603_1608Metric,C23137,LCSC,C23137
+R19,15k,,,,Resistor_SMD:R_0603_1608Metric,C22809,LCSC,C22809
+R2,1.5k,,,,Resistor_SMD:R_0603_1608Metric,C22843,LCSC,C22843
+R20,330R,,,,Resistor_SMD:R_0603_1608Metric,C23137,LCSC,C23137
+R21,330R,,,,Resistor_SMD:R_0603_1608Metric,C23137,LCSC,C23137
+R22,0R,,,,Resistor_SMD:R_0603_1608Metric,C21189,LCSC,C21189
+R23,0R,,,,Resistor_SMD:R_0603_1608Metric,C21189,LCSC,C21189
+R24,0R,,,,Resistor_SMD:R_0603_1608Metric,C21189,LCSC,C21189
+R3,1.5k,,,,Resistor_SMD:R_0603_1608Metric,C22843,LCSC,C22843
+R4,5.1k,,,,Resistor_SMD:R_0603_1608Metric,C23186,LCSC,C23186
+R5,5.1k,,,,Resistor_SMD:R_0603_1608Metric,C23186,LCSC,C23186
+R6,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+R7,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+R8,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+R9,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
+SW1,VCCIO,C&K,JS102011SAQN,https://www.ckswitches.com/media/1422/js.pdf,Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN,C221660,Newark,35AH0889
+U1,TUSB2036,TI,TUSB2036VF,http://www.ti.com/lit/ds/symlink/tusb2036.pdf,Package_QFP:LQFP-32_7x7mm_P0.8mm,C43665,Digikey,296-27129-1-ND
+U2,FT232RL,FTDI,FT232RL,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,C8690,LCSC,C8690
+U3,HS-100B,Cmedia,HS-100B,https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf,Package_QFP:LQFP-48_7x7mm_P0.5mm,C371351,Symmetry,HS-100B
+U4,TPS76333,TI,TPS76333DBV,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5,C7100,LCSC,C7100
+U5,SN75240,TI,SN75240PW,http://www.ti.com/lit/ds/symlink/sn65220.pdf,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,C7067,LCSC,C7067
+U6,TPS2041,TI,TPS2041CDBV,http://www.ti.com/lit/ds/symlink/tps2041.pdf,Package_TO_SOT_SMD:SOT-23-5,C206041,LCSC,C206041
+Y1,AWSCR-6.00CPLA,ABRACON,AWSCR-6.00CPLA-C30-T4,https://componentsearchengine.com/Datasheets/2/AWSCR-6.00CPLA-C30-T4.pdf,Abracon:AWSCR600CPLAC30T4,-,Newark,16AH0979
+H1,MountingHole_Pad,-,-,-,MountingHole:MountingHole_2.2mm_M2_Pad,-,-,-
+H2,MountingHole_Pad,-,-,-,MountingHole:MountingHole_2.2mm_M2_Pad,-,-,-
+H3,MountingHole_Pad,-,-,-,MountingHole:MountingHole_2.2mm_M2_Pad,-,-,-
+H4,MountingHole_Pad,-,-,-,MountingHole:MountingHole_2.2mm_M2_Pad,-,-,-
+LOGO1,Logo_Open_Hardware_Small,-,-,-,Symbol:OSHW-Logo2_9.8x8mm_Copper,-,-,-
+TP1,VBUS,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+TP2,GND,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+TP3,3V3,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+TP4,3V3A,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+TP5,VCCIO,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+TP6,5V,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+-,Crimped cable,JST,ASPHSPH24K51,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Digikey,455-3081-ND
+-,Receptacle 6 position,JST,PHR-6,http://www.farnell.com/datasheets/1699381.pdf,-,-,Newark,92K8052
