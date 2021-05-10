@@ -69,4 +69,7 @@ TP4,3V3A,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 TP5,VCCIO,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 TP6,5V,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 -,Crimped cable,JST,ASPHSPH24K51,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Digikey,455-3081-ND
--,Receptacle 6 position,JST,PHR-6,http://www.farnell.com/datasheets/1699381.pdf,-,-,Newark,92K8052
+-,Receptacle 6 position,JST,PHR-6,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Newark,92K8052
+-,Enclosure,Hammond,1455C801,https://www.hammfg.com/files/parts/pdf/1455C801.pdf,-,-,Digikey,HM1397-ND
+-,GX12-7 bulkhead connector,-,-,-,-,-,Amazon,B06XF4HXWC
+-,GX12-4 bulkhead connector,-,-,-,-,-,Amazon,B06XF1SP8M
