@@ -21,7 +21,7 @@ D1,AUDIO,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
 D2,TX,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
 D3,RX,,,,LED_SMD:LED_0603_1608Metric,C2286,LCSC,C2286
 J1,USB_C_Receptacle,CUI,UJ31-CH-G-SMT-TR-67,https://www.mouser.com/datasheet/2/670/uj31_ch_g_smt_tr_67-2306975.pdf,CUI:CUI_UJ31-CH-G-SMT-TR-67,-,Mouser,490-UJ31-CH-GSMTTR67
-J2,FTDI,JST,B6B-PH-SM4-TB,http://www.farnell.com/datasheets/1699381.pdf,Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical,C471518,Newark,37K9975
+J2,CAT,JST,B6B-PH-SM4-TB,http://www.farnell.com/datasheets/1699381.pdf,Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical,C471518,Newark,37K9975
 J3,AUDIO,JST,B6B-PH-SM4-TB,http://www.farnell.com/datasheets/1699381.pdf,Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical,C471518,Newark,37K9975
 L1,FB,,,,Inductor_SMD:L_0805_2012Metric,C1017,LCSC,C1017
 L2,FB,,,,Inductor_SMD:L_0805_2012Metric,C1017,LCSC,C1017
@@ -68,8 +68,9 @@ TP3,3V3,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 TP4,3V3A,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 TP5,VCCIO,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
 TP6,5V,-,-,-,TestPoint:TestPoint_Pad_D1.0mm,-,-,-
+#J21,CAT,JST,PHR-6,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Newark,92K8052
+#J22,GX12-4P,-,GX12-4P,-,-,-,Amazon,B06XF1SP8M
+#J31,AUDIO,JST,PHR-6,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Newark,92K8052
+#J32,GX12-7P,-,GX12-7P,-,-,-,Amazon,B06XF4HXWC
 -,Crimped cable,JST,ASPHSPH24K51,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Digikey,455-3081-ND
--,Receptacle 6 position,JST,PHR-6,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,-,-,Newark,92K8052
 -,Enclosure,Hammond,1455C801,https://www.hammfg.com/files/parts/pdf/1455C801.pdf,-,-,Digikey,HM1397-ND
--,GX12-7 bulkhead connector,-,-,-,-,-,Amazon,B06XF4HXWC
--,GX12-4 bulkhead connector,-,-,-,-,-,Amazon,B06XF1SP8M
