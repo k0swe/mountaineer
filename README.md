@@ -1,4 +1,4 @@
-# TX-500 Data Interface
+# Mountaineer Radio Interface
 
 This KiCAD project is a schematic for an integrated CAT and audio amateur radio interface. It's
 designed with the [Lab599 Discovery TX-500](https://lab599.com/) radio in mind, but the only thing

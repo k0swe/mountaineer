@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "TX-500 Data Interface"
+Title "Mountaineer Radio Interface"
 Date "2021-05-12"
 Rev "2"
 Comp "Chris Keller K0SWE"

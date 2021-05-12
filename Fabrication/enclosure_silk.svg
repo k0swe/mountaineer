@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="80mm"
+   width="68mm"
    height="46mm"
-   viewBox="0 0 80 46"
+   viewBox="0 0 68 46"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -1271,11 +1271,11 @@
      inkscape:cx="156.06345"
      inkscape:cy="90.992147"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2661"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -1297,19 +1297,19 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="7.3769422"
-       y="9.6525974"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="2.3805835"
+       y="5.8177462"
        id="text835"><tspan
          sodipodi:role="line"
-         id="tspan833"
-         x="7.3769422"
-         y="9.6525974"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583">TX-500 Data Interface v1</tspan><tspan
+         x="2.3805835"
+         y="5.8177462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DM Mono';-inkscape-font-specification:'DM Mono';stroke-width:0.264583"
+         id="tspan1244">Mountaineer Radio Interface v1</tspan><tspan
          sodipodi:role="line"
-         x="7.3769422"
-         y="16.061926"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+         x="2.3805835"
+         y="10.235018"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DM Mono';-inkscape-font-specification:'DM Mono';stroke-width:0.264583"
          id="tspan1748"> by K0SWE</tspan></text>
     <text
        xml:space="preserve"
@@ -1329,21 +1329,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="55.651974"
-       y="16.373386"
+       x="47.508518"
+       y="14.310265"
        id="text835-8"><tspan
          sodipodi:role="line"
-         x="55.651974"
-         y="16.373386"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;stroke-width:0.264583"
+         x="47.508518"
+         y="14.310265"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DM Mono';-inkscape-font-specification:'DM Mono';stroke-width:0.264583"
          id="tspan2623">SN 0001</tspan></text>
-    <path
-       style="fill:none;stroke:#00ff00;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 5.9831271,-0.30122701 V 46.478994 H 74.028349 V -0.11085834 h 0.09184"
-       id="path1661" />
     <g
        id="g2661"
-       transform="matrix(0.83598452,0,0,0.83598452,-4.5356397,2.7384969)"
+       transform="matrix(0.83598452,0,0,0.83598452,-10.53564,-0.34511154)"
        style="display:inline">
       <path
          id="path586"
@@ -1353,7 +1349,7 @@
       <path
          id="path588"
          d="M 59.812315,31.879114 58.92512,30.849848 c -0.324906,0.214605 -0.937549,0.618039 -0.937549,0.609647 0,0.0096 0.48436,-0.755315 0.620436,-0.977114 l -0.01559,-0.01858 c -0.203216,0.160055 -0.949538,0.719947 -0.949538,0.719947 0,0 0.622834,-1.083217 0.622834,-1.094007 0,0.01079 -1.234879,0.905778 -1.234879,0.905778 l 1.046051,-1.082618 c 0,0 -1.513627,0.994498 -1.502237,0.983108 -0.01139,0.01139 1.12398,-1.281637 1.12398,-1.281637 0,0 -1.658095,1.005887 -1.646705,1.005887 -0.01139,0 1.212699,-1.469865 1.212699,-1.469865 l -1.891883,1.182127 1.631119,-1.711447 -0.562888,-0.652807 -4.950906,3.91085 -0.763108,-0.691772 -0.983707,0.648011 0.600655,-0.939347 c 0,0 -0.912372,0.685178 -0.912372,0.674388 0,0.01079 0.567685,-0.961527 0.567685,-0.972318 0,0.01079 -1.11319,0.817658 -1.11319,0.817658 l 0.945942,-0.983707 -1.368558,0.894988 1.023871,-1.149157 -1.490847,0.894987 1.1012,-1.325996 -1.702454,1.071827 1.436895,-1.349375 -0.290736,-0.26376 -3.493629,2.717932 c 0,0 -0.04496,7.226442 7.343335,7.270201 7.554942,-0.13248 7.421264,-7.31456 7.421264,-7.31456"
-         style="fill:#080919;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.153461"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.153461"
          inkscape:connector-curvature="0" />
       <path
          id="path590"
@@ -1587,7 +1583,7 @@
     </g>
     <g
        id="g1997"
-       transform="matrix(0.81290783,0,0,0.81290783,3.853973,3.6250526)">
+       transform="matrix(0.81290783,0,0,0.81290783,-2.1460272,0.54144416)">
       <g
          id="g959"
          transform="matrix(0.09570915,0,0,-0.09570915,24.739235,35.612801)"
@@ -1799,20 +1795,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="8.2134523"
-       y="43.112995"
+       x="10.311754"
+       y="40.110168"
        id="text2001"><tspan
          sodipodi:role="line"
          id="tspan1999"
-         x="8.2134523"
-         y="43.112995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';stroke-width:0.264583"
-         dx="0"
-         dy="0"
-         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">https://github.com/k0swe/tx500-data-interface</tspan></text>
+         x="10.311754"
+         y="40.110168"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'DM Mono';-inkscape-font-specification:'DM Mono';stroke-width:0.264583"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">github.com/k0swe/mountaineer</tspan></text>
     <g
        id="g2143"
-       transform="matrix(0.08287568,0,0,0.08287568,52.447437,21.681973)"
+       transform="matrix(0.08287568,0,0,0.08287568,46.447437,18.598365)"
        style="fill:#000000;fill-opacity:1">
       <path
          fill="#0099b0"
@@ -1840,7 +1834,7 @@
       <polygon
          fill-rule="evenodd"
          fill="#0099b0"
-         points="101.332,180.781 107.068,162.826 103.242,162.826 99.809,175.398 99.736,175.398 95.664,162.826 93.043,162.826 88.971,175.398 88.9,175.398 85.464,162.826 81.64,162.826 87.377,180.781 90.564,180.781 94.318,168.208 94.389,168.208 98.143,180.781 "
+         points="99.809,175.398 99.736,175.398 95.664,162.826 93.043,162.826 88.971,175.398 88.9,175.398 85.464,162.826 81.64,162.826 87.377,180.781 90.564,180.781 94.318,168.208 94.389,168.208 98.143,180.781 101.332,180.781 107.068,162.826 103.242,162.826 "
          id="polygon2090"
          style="fill:#000000;fill-opacity:1" />
       <path
