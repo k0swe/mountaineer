@@ -29,3 +29,5 @@ have helped make this project better!
 * Dave Maciorowski, [WA1JHK](https://www.qrz.com/db/WA1JHK)
 * Nathan Conrad, [@pigrew](https://github.com/pigrew)
 * Andreas Jochum, [@ctech4285](https://github.com/ctech4285)
+* [The Gizmo Dojo](http://thegizmodojo.com/)
+* [Rocky Mountain Ham Radio](https://www.rmham.org/)
