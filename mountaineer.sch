@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mountaineer Radio Interface"
-Date "2021-05-12"
+Date "2021-05-15"
 Rev "2"
 Comp "Chris Keller K0SWE"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
@@ -240,12 +240,11 @@ F 0 "U2" H 8700 3250 50  0000 C CNN
 F 1 "FT232RL" H 8700 3150 50  0000 C CNN
 F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 9100 1350 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 8000 2250 50  0001 C CNN
-F 4 "UART" H 8000 3531 50  0001 C CNN "Description"
-F 5 "C8690" H 8000 2250 50  0001 C CNN "LCSC"
-F 6 "FTDI" H 8000 3531 50  0001 C CNN "Manufacturer_Name"
-F 7 "FT232RL" H 8000 3531 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "C8690" H 8700 3350 50  0001 C CNN "Vendor Part Number"
-F 9 "LCSC" H 8700 3350 50  0001 C CNN "Vendor"
+F 4 "C8690" H 8000 2250 50  0001 C CNN "LCSC"
+F 5 "FTDI" H 8000 3531 50  0001 C CNN "Manufacturer_Name"
+F 6 "FT232RL" H 8000 3531 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "C8690" H 8700 3350 50  0001 C CNN "Vendor Part Number"
+F 8 "LCSC" H 8700 3350 50  0001 C CNN "Vendor"
 	1    8000 2250
 	1    0    0    -1  
 $EndComp
@@ -378,12 +377,11 @@ F 0 "U1" H 3550 7500 50  0000 C CNN
 F 1 "TUSB2036" H 3550 7400 50  0000 C CNN
 F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 4050 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tusb2036.pdf" H 3000 5900 50  0001 C CNN
-F 4 "USB Hub Controller" H 3000 7781 50  0001 C CNN "Description"
-F 5 "C43665" H 3000 5900 50  0001 C CNN "LCSC"
-F 6 "TI" H 3000 7781 50  0001 C CNN "Manufacturer_Name"
-F 7 "TUSB2036VF" H 3000 7781 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "595-TUSB2036VFRG4" H 3550 7600 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 3550 7600 50  0001 C CNN "Vendor"
+F 4 "C43665" H 3000 5900 50  0001 C CNN "LCSC"
+F 5 "TI" H 3000 7781 50  0001 C CNN "Manufacturer_Name"
+F 6 "TUSB2036VF" H 3000 7781 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "296-27129-1-ND" H 3550 7600 50  0001 C CNN "Vendor Part Number"
+F 8 "Digikey" H 3550 7600 50  0001 C CNN "Vendor"
 	1    3000 5900
 	1    0    0    -1  
 $EndComp
@@ -563,12 +561,11 @@ F 0 "U4" H 3350 4042 50  0000 C CNN
 F 1 "TPS76333" H 3350 3951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 4025 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 3350 3700 50  0001 C CNN
-F 4 "Voltage Regulator" H 3350 4142 50  0001 C CNN "Description"
-F 5 "C7100" H 3350 3700 50  0001 C CNN "LCSC"
-F 6 "TI" H 3350 4142 50  0001 C CNN "Manufacturer_Name"
-F 7 "TPS76333DBV" H 3350 4142 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "C7100" H 3350 4142 50  0001 C CNN "Vendor Part Number"
-F 9 "LCSC" H 3350 4142 50  0001 C CNN "Vendor"
+F 4 "C7100" H 3350 3700 50  0001 C CNN "LCSC"
+F 5 "TI" H 3350 4142 50  0001 C CNN "Manufacturer_Name"
+F 6 "TPS76333DBV" H 3350 4142 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "C7100" H 3350 4142 50  0001 C CNN "Vendor Part Number"
+F 8 "LCSC" H 3350 4142 50  0001 C CNN "Vendor"
 	1    3350 3700
 	1    0    0    -1  
 $EndComp
@@ -623,12 +620,11 @@ F 0 "U3" V 8800 4450 50  0000 R CNN
 F 1 "HS-100B" V 8700 4450 50  0000 R CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8900 6800 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf" H 8900 6700 50  0001 L CNN
-F 4 "USB Audio Interface" H 8900 6600 50  0001 L CNN "Description"
-F 5 "C371351" H 7350 6200 50  0001 C CNN "LCSC"
-F 6 "Cmedia" H 8900 6400 50  0001 L CNN "Manufacturer_Name"
-F 7 "HS-100B" H 8900 6300 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "HS-100B" H 8571 4356 50  0001 C CNN "Vendor Part Number"
-F 9 "Symmetry" H 8571 4356 50  0001 C CNN "Vendor"
+F 4 "C371351" H 7350 6200 50  0001 C CNN "LCSC"
+F 5 "Cmedia" H 8900 6400 50  0001 L CNN "Manufacturer_Name"
+F 6 "HS-100B" H 8900 6300 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "HS-100B" H 8571 4356 50  0001 C CNN "Vendor Part Number"
+F 8 "Symmetry" H 8571 4356 50  0001 C CNN "Vendor"
 	1    7350 6200
 	0    -1   -1   0   
 $EndComp
@@ -672,12 +668,11 @@ F 0 "U5" H 3700 2625 50  0000 C CNN
 F 1 "SN75240" H 3700 2534 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3850 2250 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn65220.pdf" H 3900 2250 50  0001 C CNN
-F 4 "ESD protection" H 3700 2725 50  0001 C CNN "Description"
-F 5 "C7067" H 3700 2400 50  0001 C CNN "LCSC"
-F 6 "TI" H 3700 2725 50  0001 C CNN "Manufacturer_Name"
-F 7 "SN75240PW" H 3700 2725 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "C7067" H 3700 2725 50  0001 C CNN "Vendor Part Number"
-F 9 "LCSC" H 3700 2725 50  0001 C CNN "Vendor"
+F 4 "C7067" H 3700 2400 50  0001 C CNN "LCSC"
+F 5 "TI" H 3700 2725 50  0001 C CNN "Manufacturer_Name"
+F 6 "SN75240PW" H 3700 2725 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "C7067" H 3700 2725 50  0001 C CNN "Vendor Part Number"
+F 8 "LCSC" H 3700 2725 50  0001 C CNN "Vendor"
 	1    3700 2400
 	1    0    0    -1  
 $EndComp
@@ -825,12 +820,11 @@ F 0 "U6" H 4700 7117 50  0000 C CNN
 F 1 "TPS2041" H 4700 7026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4700 7150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2041.pdf" H 4650 6950 50  0001 C CNN
-F 4 "Overcurrent protection" H 4700 6650 50  0001 C CNN "Description"
-F 5 "C206041" H 4700 6650 50  0001 C CNN "LCSC"
-F 6 "TI" H 4700 6650 50  0001 C CNN "Manufacturer_Name"
-F 7 "TPS2041CDBV" H 4700 6650 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "C206041" H 4700 7217 50  0001 C CNN "Vendor Part Number"
-F 9 "LCSC" H 4700 7217 50  0001 C CNN "Vendor"
+F 4 "C206041" H 4700 6650 50  0001 C CNN "LCSC"
+F 5 "TI" H 4700 6650 50  0001 C CNN "Manufacturer_Name"
+F 6 "TPS2041CDBV" H 4700 6650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "C206041" H 4700 7217 50  0001 C CNN "Vendor Part Number"
+F 8 "LCSC" H 4700 7217 50  0001 C CNN "Vendor"
 	1    4700 6650
 	1    0    0    -1  
 $EndComp
@@ -1063,8 +1057,8 @@ F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7600 1000 50  0001 C CNN
 F 4 "C221660" H 7600 1000 50  0001 C CNN "LCSC"
 F 5 "C&K" H 7646 912 50  0001 C CNN "Manufacturer_Name"
 F 6 "JS102011SAQN" H 7646 912 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "611-JS102011SAQN" H 7646 912 50  0001 C CNN "Vendor Part Number"
-F 8 "Mouser" H 7646 912 50  0001 C CNN "Vendor"
+F 7 "35AH0889" H 7646 912 50  0001 C CNN "Vendor Part Number"
+F 8 "Newark" H 7646 912 50  0001 C CNN "Vendor"
 	1    7600 1000
 	0    -1   -1   0   
 $EndComp
@@ -1407,12 +1401,11 @@ F 0 "Y1" H 1642 7165 50  0000 C CNN
 F 1 "AWSCR-6.00CPLA" H 1642 7074 50  0000 C CNN
 F 2 "Abracon:AWSCR600CPLAC30T4" H 2100 7000 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/AWSCR-6.00CPLA-C30-T4.pdf" H 2100 6900 50  0001 L CNN
-F 4 "Resonator 6 MHz" H 2100 6800 50  0001 L CNN "Description"
-F 5 "-" H 1250 6900 50  0001 C CNN "LCSC"
-F 6 "ABRACON" H 2100 6600 50  0001 L CNN "Manufacturer_Name"
-F 7 "AWSCR-6.00CPLA-C30-T4" H 2100 6500 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "815-CR-6.00CPLA-30-T" H 1642 7265 50  0001 C CNN "Vendor Part Number"
-F 9 "Mouser" H 1642 7265 50  0001 C CNN "Vendor"
+F 4 "-" H 1250 6900 50  0001 C CNN "LCSC"
+F 5 "ABRACON" H 2100 6600 50  0001 L CNN "Manufacturer_Name"
+F 6 "AWSCR-6.00CPLA-C30-T4" H 2100 6500 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "16AH0979" H 1642 7265 50  0001 C CNN "Vendor Part Number"
+F 8 "Newark" H 1642 7265 50  0001 C CNN "Vendor"
 	1    1250 6900
 	-1   0    0    -1  
 $EndComp
@@ -1565,6 +1558,98 @@ F 3 "" H 6500 7500 50  0001 C CNN
 	1    6500 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x06_Female #J21
+U 1 1 60A502C5
+P 10000 900
+F 0 "#J21" H 10150 950 50  0000 C CNN
+F 1 "CAT" H 10150 850 50  0000 C CNN
+F 2 "-" H 10000 900 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10000 900 50  0001 C CNN
+F 4 "-" H 10150 1050 50  0001 C CNN "LCSC"
+F 5 "JST" H 10080 992 50  0001 C CNN "Manufacturer_Name"
+F 6 "PHR-6" H 10080 992 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "92K8052" H 10080 992 50  0001 C CNN "Vendor Part Number"
+F 8 "Newark" H 10080 992 50  0001 C CNN "Vendor"
+	1    10000 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male #J22
+U 1 1 60A85999
+P 10900 900
+F 0 "#J22" H 10872 874 50  0000 R CNN
+F 1 "GX12-4P" H 10872 783 50  0000 R CNN
+F 2 "-" H 10900 900 50  0001 C CNN
+F 3 "-" H 10900 900 50  0001 C CNN
+F 4 "-" H 10872 974 50  0001 C CNN "LCSC"
+F 5 "-" H 10872 974 50  0001 C CNN "Manufacturer_Name"
+F 6 "GX12-4P" H 10900 900 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "B06XF1SP8M" H 10900 900 50  0001 C CNN "Vendor Part Number"
+F 8 "Amazon" H 10900 900 50  0001 C CNN "Vendor"
+	1    10900 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female #J31
+U 1 1 60C91418
+P 10000 5300
+F 0 "#J31" H 9900 5700 50  0000 C CNN
+F 1 "AUDIO" H 9900 5600 50  0000 C CNN
+F 2 "-" H 10000 5300 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10000 5300 50  0001 C CNN
+F 4 "-" H 9900 5800 50  0001 C CNN "LCSC"
+F 5 "JST" H 10080 5392 50  0001 C CNN "Manufacturer_Name"
+F 6 "PHR-6" H 10080 5392 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "92K8052" H 10080 5392 50  0001 C CNN "Vendor Part Number"
+F 8 "Newark" H 10080 5392 50  0001 C CNN "Vendor"
+	1    10000 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male #J32
+U 1 1 60C9763A
+P 11150 5350
+F 0 "#J32" H 11258 5831 50  0000 C CNN
+F 1 "GX12-7P" H 11258 5740 50  0000 C CNN
+F 2 "-" H 11150 5350 50  0001 C CNN
+F 3 "-" H 11150 5350 50  0001 C CNN
+F 4 "-" H 11258 5931 50  0001 C CNN "LCSC"
+F 5 "-" H 11258 5931 50  0001 C CNN "Manufacturer_Name"
+F 6 "GX12-7P" H 11150 5350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "B06XF4HXWC" H 11150 5350 50  0001 C CNN "Vendor Part Number"
+F 8 "Amazon" H 11150 5350 50  0001 C CNN "Vendor"
+	1    11150 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60A198FD
+P 4350 6000
+AR Path="/605B3ED2/60A198FD" Ref="R?"  Part="1" 
+AR Path="/6059C0E9/60A198FD" Ref="R?"  Part="1" 
+AR Path="/60A198FD" Ref="R25"  Part="1" 
+F 0 "R25" H 4281 6046 50  0000 R CNN
+F 1 "15k" H 4281 5955 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 6000 50  0001 C CNN
+F 3 "" H 4350 6000 50  0001 C CNN
+F 4 "C22809" H 4350 6000 50  0001 C CNN "LCSC"
+F 5 "C22809" H 4281 6146 50  0001 C CNN "Vendor Part Number"
+F 6 "LCSC" H 4281 6146 50  0001 C CNN "Vendor"
+	1    4350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR038
+U 1 1 60A1ADFF
+P 4350 5750
+F 0 "#PWR038" H 4350 5600 50  0001 C CNN
+F 1 "+3V3" H 4350 5900 50  0000 C CNN
+F 2 "" H 4350 5750 50  0001 C CNN
+F 3 "" H 4350 5750 50  0001 C CNN
+	1    4350 5750
+	1    0    0    -1  
+$EndComp
 Text Label 1600 5200 0    50   ~ 0
 D0+
 Text Label 1600 5300 0    50   ~ 0
@@ -1677,6 +1762,62 @@ Text Label 6350 5700 0    50   ~ 0
 U1-
 Text Label 7200 1450 1    50   ~ 0
 3V3U
+Text Label 10700 1000 2    50   ~ 0
+VCCIO
+Text Label 10700 900  2    50   ~ 0
+RXD
+Text Label 10700 1100 2    50   ~ 0
+TXD
+Text Label 10700 800  2    50   ~ 0
+GND
+Text Label 10200 800  0    50   ~ 0
+CTS
+Text Label 10200 1200 0    50   ~ 0
+DTR
+Text Notes 9800 600  0    39   ~ 0
+Bulkhead Pigtail for CAT
+Text Label 10200 5100 0    50   ~ 0
+GND
+Text Label 10950 5650 2    50   ~ 0
+GND
+Text Label 10950 5550 2    50   ~ 0
+AUDIO_R
+Text Label 10200 5300 0    50   ~ 0
+AUDIO_L
+Text Label 10200 5500 0    50   ~ 0
+MIC_BIAS
+Text Label 10950 5250 2    50   ~ 0
+MIC_IN
+Text Notes 10000 4800 0    39   ~ 0
+Bulkhead Pigtail for AUDIO
+Text Label 4150 6250 0    50   ~ 0
+OC#
+Text Label 4150 6850 0    50   ~ 0
+EN#
+Text Label 2000 7000 2    50   ~ 0
+XTAL1
+Text Label 2000 7100 2    50   ~ 0
+XTAL2
+Text Label 2000 4900 2    50   ~ 0
+DP0PUR
+Text Label 2000 4700 2    50   ~ 0
+RESET#
+Text Label 8900 6300 0    50   ~ 0
+LEDO
+Text Label 9000 4600 0    50   ~ 0
+HIDPU
+Text Label 7500 4500 1    50   ~ 0
+VREF
+Text Label 7850 4500 1    50   ~ 0
+LOL
+Text Label 7750 4500 1    50   ~ 0
+LOR
+Text Label 8250 4500 1    50   ~ 0
+MICIN
+Text Label 8350 4500 1    50   ~ 0
+VBIAS
+Text Notes 5900 6750 0    118  ~ 0
+Mounting
 Wire Wire Line
 	2500 3950 2500 4000
 Wire Wire Line
@@ -2149,6 +2290,108 @@ Wire Wire Line
 	6500 7450 6500 7500
 Wire Wire Line
 	6350 7450 6500 7450
+Wire Wire Line
+	10200 700  10500 700 
+Wire Wire Line
+	10500 700  10500 800 
+Wire Wire Line
+	10500 800  10700 800 
+Wire Wire Line
+	9550 4100 9550 4300
+Wire Wire Line
+	9550 4300 10350 4300
+Wire Wire Line
+	8500 4100 9550 4100
+Wire Wire Line
+	9700 4250 9700 4200
+Wire Wire Line
+	9700 4200 10350 4200
+Wire Wire Line
+	9150 4250 9700 4250
+Wire Wire Line
+	9550 3950 9550 4000
+Wire Wire Line
+	9550 4000 10350 4000
+Wire Wire Line
+	9000 3950 9550 3950
+Wire Wire Line
+	9600 3800 9600 3900
+Wire Wire Line
+	9600 3900 10350 3900
+Wire Wire Line
+	8750 3800 9600 3800
+Wire Wire Line
+	10200 1100 10550 1100
+Wire Wire Line
+	10550 1100 10550 900 
+Wire Wire Line
+	10550 900  10700 900 
+Wire Wire Line
+	10200 900  10500 900 
+Wire Wire Line
+	10500 900  10500 1000
+Wire Wire Line
+	10500 1000 10700 1000
+Wire Wire Line
+	10200 1000 10400 1000
+Wire Wire Line
+	10400 1000 10400 1150
+Wire Wire Line
+	10400 1150 10700 1150
+Wire Wire Line
+	10700 1150 10700 1100
+Wire Notes Line
+	9600 500  9600 1250
+Wire Notes Line
+	9600 1250 11200 1250
+Wire Wire Line
+	10200 5400 10700 5400
+Wire Wire Line
+	10700 5400 10700 5650
+Wire Wire Line
+	10700 5650 10950 5650
+Wire Wire Line
+	10950 5550 10450 5550
+Wire Wire Line
+	10450 5200 10200 5200
+Wire Wire Line
+	10550 5250 10950 5250
+Wire Wire Line
+	10200 5600 10550 5600
+Wire Wire Line
+	10450 5200 10450 5550
+Wire Wire Line
+	10550 5250 10550 5600
+Wire Notes Line
+	11200 4700 9950 4700
+Wire Notes Line
+	9950 4700 9950 5750
+Wire Notes Line
+	9950 5750 11200 5750
+Wire Notes Line
+	5100 500  5100 2400
+Wire Notes Line
+	5100 2400 4500 2400
+Wire Notes Line
+	4500 3050 500  3050
+Wire Notes Line
+	4500 5850 5600 5850
+Wire Notes Line
+	5600 5850 5600 7750
+Wire Notes Line
+	4500 2400 4500 5850
+Wire Notes Line
+	5600 6550 6950 6550
+Wire Wire Line
+	7750 3250 7800 3250
+Wire Wire Line
+	4350 5750 4350 5850
+Wire Wire Line
+	4350 6150 4350 6250
+Wire Wire Line
+	4350 6250 4150 6250
+Wire Wire Line
+	4150 6250 4150 6400
 Connection ~ 2500 3600
 Connection ~ 2100 3600
 Connection ~ 4250 2050
@@ -2214,6 +2457,8 @@ Connection ~ 5400 6650
 Connection ~ 6350 7150
 Connection ~ 6500 7450
 Connection ~ 6350 7450
+Connection ~ 7750 3250
+Connection ~ 4150 6400
 NoConn ~ 8800 1750
 NoConn ~ 8800 2050
 NoConn ~ 8800 2150
@@ -2243,196 +2488,13 @@ NoConn ~ 4000 6000
 NoConn ~ 2800 2000
 NoConn ~ 2800 2100
 NoConn ~ 8800 2850
-$Comp
-L Connector:Conn_01x06_Female #J21
-U 1 1 60A502C5
-P 10000 900
-F 0 "#J21" H 10150 950 50  0000 C CNN
-F 1 "CAT" H 10150 850 50  0000 C CNN
-F 2 "" H 10000 900 50  0001 C CNN
-F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10000 900 50  0001 C CNN
-F 4 "" H 10000 900 50  0001 C CNN "LCSC"
-F 5 "JST" H 10080 992 50  0001 C CNN "Manufacturer_Name"
-F 6 "PHR-6" H 10080 992 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "92K8052" H 10080 992 50  0001 C CNN "Vendor Part Number"
-F 8 "Newark" H 10080 992 50  0001 C CNN "Vendor"
-	1    10000 900 
-	-1   0    0    -1  
-$EndComp
-Text Label 10700 1000 2    50   ~ 0
-VCCIO
-Text Label 10700 900  2    50   ~ 0
-RXD
-Text Label 10700 1100 2    50   ~ 0
-TXD
-Text Label 10700 800  2    50   ~ 0
-GND
-Text Label 10200 800  0    50   ~ 0
-CTS
-Text Label 10200 1200 0    50   ~ 0
-DTR
-$Comp
-L Connector:Conn_01x04_Male #J22
-U 1 1 60A85999
-P 10900 900
-F 0 "#J22" H 10872 874 50  0000 R CNN
-F 1 "GX12-4P" H 10872 783 50  0000 R CNN
-F 2 "" H 10900 900 50  0001 C CNN
-F 3 "~" H 10900 900 50  0001 C CNN
-F 4 "GX12-4P" H 10900 900 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "Amazon" H 10900 900 50  0001 C CNN "Vendor"
-F 6 "B06XF1SP8M" H 10900 900 50  0001 C CNN "Vendor Part Number"
-	1    10900 900 
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 700  10500 700 
-Wire Wire Line
-	10500 700  10500 800 
-Wire Wire Line
-	10500 800  10700 800 
-Wire Wire Line
-	9550 4100 9550 4300
-Wire Wire Line
-	9550 4300 10350 4300
-Wire Wire Line
-	8500 4100 9550 4100
-Wire Wire Line
-	9700 4250 9700 4200
-Wire Wire Line
-	9700 4200 10350 4200
-Wire Wire Line
-	9150 4250 9700 4250
-Wire Wire Line
-	9550 3950 9550 4000
-Wire Wire Line
-	9550 4000 10350 4000
-Wire Wire Line
-	9000 3950 9550 3950
-Wire Wire Line
-	9600 3800 9600 3900
-Wire Wire Line
-	9600 3900 10350 3900
-Wire Wire Line
-	8750 3800 9600 3800
-Wire Wire Line
-	10200 1100 10550 1100
-Wire Wire Line
-	10550 1100 10550 900 
-Wire Wire Line
-	10550 900  10700 900 
-Wire Wire Line
-	10200 900  10500 900 
-Wire Wire Line
-	10500 900  10500 1000
-Wire Wire Line
-	10500 1000 10700 1000
-Wire Wire Line
-	10200 1000 10400 1000
-Wire Wire Line
-	10400 1000 10400 1150
-Wire Wire Line
-	10400 1150 10700 1150
-Wire Wire Line
-	10700 1150 10700 1100
-Wire Notes Line
-	9600 500  9600 1250
-Wire Notes Line
-	9600 1250 11200 1250
-Text Notes 9800 600  0    39   ~ 0
-Bulkhead Pigtail for CAT
-$Comp
-L Connector:Conn_01x06_Female #J31
-U 1 1 60C91418
-P 10000 5300
-F 0 "#J31" H 9900 5700 50  0000 C CNN
-F 1 "AUDIO" H 9900 5600 50  0000 C CNN
-F 2 "" H 10000 5300 50  0001 C CNN
-F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10000 5300 50  0001 C CNN
-F 4 "" H 10000 5300 50  0001 C CNN "LCSC"
-F 5 "JST" H 10080 5392 50  0001 C CNN "Manufacturer_Name"
-F 6 "PHR-6" H 10080 5392 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "92K8052" H 10080 5392 50  0001 C CNN "Vendor Part Number"
-F 8 "Newark" H 10080 5392 50  0001 C CNN "Vendor"
-	1    10000 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x07_Male #J32
-U 1 1 60C9763A
-P 11150 5350
-F 0 "#J32" H 11258 5831 50  0000 C CNN
-F 1 "GX12-7P" H 11258 5740 50  0000 C CNN
-F 2 "" H 11150 5350 50  0001 C CNN
-F 3 "~" H 11150 5350 50  0001 C CNN
-F 4 "GX12-7P" H 11150 5350 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "Amazon" H 11150 5350 50  0001 C CNN "Vendor"
-F 6 "B06XF4HXWC" H 11150 5350 50  0001 C CNN "Vendor Part Number"
-	1    11150 5350
-	-1   0    0    -1  
-$EndComp
-Text Label 10200 5100 0    50   ~ 0
-GND
-Text Label 10950 5650 2    50   ~ 0
-GND
-Text Label 10950 5550 2    50   ~ 0
-AUDIO_R
-Text Label 10200 5300 0    50   ~ 0
-AUDIO_L
-Text Label 10200 5500 0    50   ~ 0
-MIC_BIAS
-Text Label 10950 5250 2    50   ~ 0
-MIC_IN
 NoConn ~ 10200 800 
 NoConn ~ 10200 1200
 NoConn ~ 10950 5050
 NoConn ~ 10950 5150
 NoConn ~ 10950 5350
 NoConn ~ 10950 5450
-Wire Wire Line
-	10200 5400 10700 5400
-Wire Wire Line
-	10700 5400 10700 5650
-Wire Wire Line
-	10700 5650 10950 5650
-Wire Wire Line
-	10950 5550 10450 5550
-Wire Wire Line
-	10450 5200 10200 5200
-Wire Wire Line
-	10550 5250 10950 5250
-Wire Wire Line
-	10200 5600 10550 5600
 NoConn ~ 10200 5100
-Wire Wire Line
-	10450 5200 10450 5550
-Wire Wire Line
-	10550 5250 10550 5600
 NoConn ~ 10200 5500
 NoConn ~ 10200 5300
-Wire Notes Line
-	11200 4700 9950 4700
-Wire Notes Line
-	9950 4700 9950 5750
-Wire Notes Line
-	9950 5750 11200 5750
-Text Notes 10000 4800 0    39   ~ 0
-Bulkhead Pigtail for AUDIO
-Wire Notes Line
-	5100 500  5100 2400
-Wire Notes Line
-	5100 2400 4500 2400
-Wire Notes Line
-	4500 3050 500  3050
-Wire Notes Line
-	4500 5850 5600 5850
-Wire Notes Line
-	5600 5850 5600 7750
-Wire Notes Line
-	4500 2400 4500 5850
-Wire Notes Line
-	5600 6550 6950 6550
-Connection ~ 7750 3250
-Wire Wire Line
-	7750 3250 7800 3250
 $EndSCHEMATC
