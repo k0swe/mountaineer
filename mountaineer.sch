@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mountaineer Radio Interface"
-Date "2021-05-15"
+Date "2021-05-24"
 Rev "2"
 Comp "Chris Keller K0SWE"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
@@ -2223,13 +2223,13 @@ Wire Wire Line
 Wire Wire Line
 	4350 1600 4600 1600
 Wire Wire Line
-	4000 6900 4150 6900
+	4000 6900 4050 6900
 Wire Wire Line
 	4150 6900 4150 6850
 Wire Wire Line
 	4150 6850 4200 6850
 Wire Wire Line
-	4000 6400 4150 6400
+	4000 6400 4050 6400
 Wire Wire Line
 	4150 6400 4150 6450
 Wire Wire Line
@@ -2479,10 +2479,6 @@ NoConn ~ 8650 6200
 NoConn ~ 8150 6200
 NoConn ~ 7950 4500
 NoConn ~ 6550 5500
-NoConn ~ 4000 6500
-NoConn ~ 4000 6600
-NoConn ~ 4000 7000
-NoConn ~ 4000 7100
 NoConn ~ 4000 5900
 NoConn ~ 4000 6000
 NoConn ~ 2800 2000
@@ -2497,4 +2493,28 @@ NoConn ~ 10950 5450
 NoConn ~ 10200 5100
 NoConn ~ 10200 5500
 NoConn ~ 10200 5300
+Wire Wire Line
+	4050 6400 4050 6500
+Wire Wire Line
+	4050 6500 4000 6500
+Connection ~ 4050 6400
+Wire Wire Line
+	4050 6400 4150 6400
+Wire Wire Line
+	4050 6500 4050 6600
+Wire Wire Line
+	4050 6600 4000 6600
+Connection ~ 4050 6500
+Wire Wire Line
+	4050 6900 4050 7000
+Wire Wire Line
+	4050 7000 4000 7000
+Connection ~ 4050 6900
+Wire Wire Line
+	4050 6900 4150 6900
+Wire Wire Line
+	4050 7000 4050 7100
+Wire Wire Line
+	4050 7100 4000 7100
+Connection ~ 4050 7000
 $EndSCHEMATC
