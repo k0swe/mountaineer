@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mountaineer Radio Interface"
-Date "2021-05-24"
+Date "2021-05-25"
 Rev "2"
 Comp "Chris Keller K0SWE"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
@@ -75,8 +75,8 @@ U 1 1 6055B627
 P 3750 1600
 AR Path="/6057976E/6055B627" Ref="R?"  Part="1" 
 AR Path="/6055B627" Ref="R6"  Part="1" 
-F 0 "R6" V 3543 1600 50  0000 C CNN
-F 1 "27R" V 3634 1600 50  0000 C CNN
+F 0 "R6" V 3865 1600 50  0000 C CNN
+F 1 "27R" V 3956 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 1600 50  0001 C CNN
 F 3 "" H 3750 1600 50  0001 C CNN
 F 4 "C25190" H 3750 1600 50  0001 C CNN "LCSC"
@@ -88,17 +88,17 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 6055B632
-P 3750 1700
+P 3750 1500
 AR Path="/6057976E/6055B632" Ref="R?"  Part="1" 
 AR Path="/6055B632" Ref="R7"  Part="1" 
-F 0 "R7" V 3865 1700 50  0000 C CNN
-F 1 "27R" V 3956 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 1700 50  0001 C CNN
-F 3 "" H 3750 1700 50  0001 C CNN
-F 4 "C25190" H 3750 1700 50  0001 C CNN "LCSC"
-F 5 "C25190" H 3865 1800 50  0001 C CNN "Vendor Part Number"
-F 6 "LCSC" H 3865 1800 50  0001 C CNN "Vendor"
-	1    3750 1700
+F 0 "R7" V 3543 1500 50  0000 C CNN
+F 1 "27R" V 3634 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3680 1500 50  0001 C CNN
+F 3 "" H 3750 1500 50  0001 C CNN
+F 4 "C25190" H 3750 1500 50  0001 C CNN "LCSC"
+F 5 "C25190" H 3865 1600 50  0001 C CNN "Vendor Part Number"
+F 6 "LCSC" H 3865 1600 50  0001 C CNN "Vendor"
+	1    3750 1500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1047,22 +1047,6 @@ F 6 "LCSC" H 1961 2750 50  0001 C CNN "Vendor"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_SPDT SW1
-U 1 1 61339D80
-P 7600 1000
-F 0 "SW1" V 7646 812 50  0000 R CNN
-F 1 "VCCIO" V 7555 812 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 7600 1000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 7600 1000 50  0001 C CNN
-F 4 "C221660" H 7600 1000 50  0001 C CNN "LCSC"
-F 5 "C&K" H 7646 912 50  0001 C CNN "Manufacturer_Name"
-F 6 "JS102011SAQN" H 7646 912 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "35AH0889" H 7646 912 50  0001 C CNN "Vendor Part Number"
-F 8 "Newark" H 7646 912 50  0001 C CNN "Vendor"
-	1    7600 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D2
 U 1 1 6138837F
 P 9750 2650
@@ -1106,11 +1090,11 @@ L Device:R R20
 U 1 1 6139A7C1
 P 9400 2650
 F 0 "R20" V 9193 2650 50  0000 C CNN
-F 1 "330R" V 9284 2650 50  0000 C CNN
+F 1 "150R" V 9284 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 2650 50  0001 C CNN
 F 3 "" H 9400 2650 50  0001 C CNN
-F 4 "C23137" H 9400 2650 50  0001 C CNN "LCSC"
-F 5 "C23137" H 9193 2750 50  0001 C CNN "Vendor Part Number"
+F 4 "C22808" H 9400 2650 50  0001 C CNN "LCSC"
+F 5 "C22808" H 9193 2750 50  0001 C CNN "Vendor Part Number"
 F 6 "LCSC" H 9193 2750 50  0001 C CNN "Vendor"
 	1    9400 2650
 	0    1    1    0   
@@ -1120,11 +1104,11 @@ L Device:R R21
 U 1 1 6139B217
 P 9400 2800
 F 0 "R21" V 9515 2800 50  0000 C CNN
-F 1 "330R" V 9606 2800 50  0000 C CNN
+F 1 "150R" V 9606 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 2800 50  0001 C CNN
 F 3 "" H 9400 2800 50  0001 C CNN
-F 4 "C23137" H 9400 2800 50  0001 C CNN "LCSC"
-F 5 "C23137" H 9515 2900 50  0001 C CNN "Vendor Part Number"
+F 4 "C22808" H 9400 2800 50  0001 C CNN "LCSC"
+F 5 "C22808" H 9515 2900 50  0001 C CNN "Vendor Part Number"
 F 6 "LCSC" H 9515 2900 50  0001 C CNN "Vendor"
 	1    9400 2800
 	0    1    1    0   
@@ -1342,11 +1326,11 @@ L Device:R R18
 U 1 1 6162A109
 P 10000 6300
 F 0 "R18" V 10115 6300 50  0000 C CNN
-F 1 "330R" V 10206 6300 50  0000 C CNN
+F 1 "68R" V 10206 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9930 6300 50  0001 C CNN
 F 3 "" H 10000 6300 50  0001 C CNN
-F 4 "C23137" H 10000 6300 50  0001 C CNN "LCSC"
-F 5 "C23137" H 10115 6400 50  0001 C CNN "Vendor Part Number"
+F 4 "C27592" H 10000 6300 50  0001 C CNN "LCSC"
+F 5 "C27592" H 10115 6400 50  0001 C CNN "Vendor Part Number"
 F 6 "LCSC" H 10115 6400 50  0001 C CNN "Vendor"
 	1    10000 6300
 	0    1    1    0   
@@ -1408,22 +1392,6 @@ F 7 "16AH0979" H 1642 7265 50  0001 C CNN "Vendor Part Number"
 F 8 "Newark" H 1642 7265 50  0001 C CNN "Vendor"
 	1    1250 6900
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 6096374D
-P 7550 1300
-F 0 "TP5" V 7745 1372 50  0000 C CNN
-F 1 "VCCIO" V 7654 1372 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 1300 50  0001 C CNN
-F 3 "-" H 7750 1300 50  0001 C CNN
-F 4 "-" H 7550 1300 50  0001 C CNN "LCSC"
-F 5 "-" H 7745 1472 50  0001 C CNN "Manufacturer_Name"
-F 6 "-" H 7745 1472 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "-" H 7745 1472 50  0001 C CNN "Vendor Part Number"
-F 8 "-" H 7745 1472 50  0001 C CNN "Vendor"
-	1    7550 1300
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP6
@@ -1656,7 +1624,7 @@ Text Label 1600 5300 0    50   ~ 0
 D0-
 Text Label 3200 1600 0    50   ~ 0
 DR+
-Text Label 3200 1700 0    50   ~ 0
+Text Label 3200 1500 0    50   ~ 0
 DR-
 Text Label 9800 1750 2    50   ~ 0
 VCCIO
@@ -1740,7 +1708,7 @@ Text Label 10350 4200 2    50   ~ 0
 MIC_BIAS
 Text Label 4600 1600 0    50   ~ 0
 D0+
-Text Label 4600 1700 0    50   ~ 0
+Text Label 4600 1500 0    50   ~ 0
 D0-
 Text Notes 650  950  0    118  ~ 0
 Upstream\nPort
@@ -1841,7 +1809,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1750 4350 1600
 Wire Wire Line
-	4150 1700 4150 1750
+	4150 1500 4150 1750
 Wire Wire Line
 	8400 800  8400 850 
 Wire Wire Line
@@ -1961,13 +1929,11 @@ Wire Wire Line
 Wire Wire Line
 	3500 1600 3600 1600
 Wire Wire Line
-	3400 1700 3400 2100
+	3400 1500 3400 2100
 Wire Wire Line
 	3400 2100 3200 2100
 Wire Wire Line
 	3200 2100 3200 2400
-Wire Wire Line
-	3400 1700 3600 1700
 Wire Wire Line
 	3600 2700 3700 2700
 Wire Wire Line
@@ -1989,7 +1955,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 5600 5600 5600
 Wire Wire Line
-	8100 800  8100 1250
+	8100 800  8100 1000
 Wire Wire Line
 	1900 3400 1900 3450
 Wire Wire Line
@@ -2047,7 +2013,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1600 4350 1600
 Wire Wire Line
-	3900 1700 4150 1700
+	3900 1500 4150 1500
 Wire Wire Line
 	1350 4700 2000 4700
 Wire Wire Line
@@ -2064,22 +2030,6 @@ Wire Wire Line
 	1900 2400 1900 2650
 Wire Wire Line
 	7900 1250 7600 1250
-Wire Wire Line
-	7600 1250 7600 1200
-Wire Wire Line
-	7500 750  7200 750 
-Wire Wire Line
-	7200 750  7200 1000
-Wire Wire Line
-	8100 700  8100 750 
-Wire Wire Line
-	7500 750  7500 800 
-Wire Wire Line
-	7700 800  7700 750 
-Wire Wire Line
-	7700 750  8100 750 
-Wire Wire Line
-	8100 750  8100 800 
 Wire Wire Line
 	10000 2550 10000 2650
 Wire Wire Line
@@ -2219,7 +2169,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5300 2000 5300
 Wire Wire Line
-	4600 1700 4150 1700
+	4600 1500 4150 1500
 Wire Wire Line
 	4350 1600 4600 1600
 Wire Wire Line
@@ -2236,12 +2186,6 @@ Wire Wire Line
 	4150 6450 4200 6450
 Wire Wire Line
 	2800 1400 2800 1500
-Wire Wire Line
-	2800 1500 3100 1500
-Wire Wire Line
-	3100 1500 3100 1700
-Wire Wire Line
-	3100 1700 3400 1700
 Wire Wire Line
 	2800 1700 2800 1600
 Wire Wire Line
@@ -2268,10 +2212,6 @@ Wire Wire Line
 	1400 7050 1700 7050
 Wire Wire Line
 	1700 7050 1700 7400
-Wire Wire Line
-	7600 1250 7600 1300
-Wire Wire Line
-	7600 1300 7550 1300
 Wire Wire Line
 	6500 3650 7400 3650
 Wire Wire Line
@@ -2415,7 +2355,6 @@ Connection ~ 9250 5400
 Connection ~ 9250 5500
 Connection ~ 3900 3500
 Connection ~ 3500 1600
-Connection ~ 3400 1700
 Connection ~ 1550 6000
 Connection ~ 1700 6500
 Connection ~ 1550 5900
@@ -2427,8 +2366,6 @@ Connection ~ 1350 4700
 Connection ~ 3700 2700
 Connection ~ 1900 2650
 Connection ~ 2200 2650
-Connection ~ 7200 1000
-Connection ~ 8100 750 
 Connection ~ 10000 2650
 Connection ~ 8800 4500
 Connection ~ 8700 4500
@@ -2446,13 +2383,12 @@ Connection ~ 6300 4550
 Connection ~ 8800 4250
 Connection ~ 8900 4500
 Connection ~ 1800 5200
-Connection ~ 4150 1700
+Connection ~ 4150 1500
 Connection ~ 4350 1600
 Connection ~ 2800 1500
 Connection ~ 2800 1600
 Connection ~ 1700 6900
 Connection ~ 1700 7050
-Connection ~ 7600 1250
 Connection ~ 5400 6650
 Connection ~ 6350 7150
 Connection ~ 6500 7450
@@ -2517,4 +2453,66 @@ Wire Wire Line
 Wire Wire Line
 	4050 7100 4000 7100
 Connection ~ 4050 7000
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 61339D80
+P 7600 1000
+F 0 "JP1" H 7600 1204 50  0000 C CNN
+F 1 "VCCIO" H 7600 1113 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7600 1000 50  0001 C CNN
+F 3 "-" H 7600 1000 50  0001 C CNN
+	1    7600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 700  8100 800 
+Wire Wire Line
+	7600 1150 7600 1250
+Wire Wire Line
+	7850 1000 8100 1000
+Connection ~ 8100 1000
+Wire Wire Line
+	8100 1000 8100 1250
+Wire Wire Line
+	7350 1000 7200 1000
+Connection ~ 7200 1000
+Wire Wire Line
+	3600 1500 3400 1500
+Connection ~ 3400 1500
+Wire Wire Line
+	2800 1500 3400 1500
+$Comp
+L Connector:TestPoint TP7
+U 1 1 60C3EEF4
+P 4150 6900
+F 0 "TP7" H 4092 6926 50  0000 R CNN
+F 1 "EN#" H 4092 7017 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4350 6900 50  0001 C CNN
+F 3 "-" H 4350 6900 50  0001 C CNN
+F 4 "-" H 4150 6900 50  0001 C CNN "LCSC"
+F 5 "-" H 4150 7233 50  0001 C CNN "Manufacturer_Name"
+F 6 "-" H 4150 7233 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "-" H 4150 7233 50  0001 C CNN "Vendor Part Number"
+F 8 "-" H 4150 7233 50  0001 C CNN "Vendor"
+	1    4150 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 60C4050B
+P 4150 6450
+F 0 "TP5" H 4092 6476 50  0000 R CNN
+F 1 "OC#" H 4092 6567 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4350 6450 50  0001 C CNN
+F 3 "-" H 4350 6450 50  0001 C CNN
+F 4 "-" H 4150 6450 50  0001 C CNN "LCSC"
+F 5 "-" H 4150 6783 50  0001 C CNN "Manufacturer_Name"
+F 6 "-" H 4150 6783 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "-" H 4150 6783 50  0001 C CNN "Vendor Part Number"
+F 8 "-" H 4150 6783 50  0001 C CNN "Vendor"
+	1    4150 6450
+	-1   0    0    1   
+$EndComp
+Connection ~ 4150 6900
+Connection ~ 4150 6450
 $EndSCHEMATC
