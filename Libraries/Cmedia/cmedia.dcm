@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CM-108B
+D LQFP-48 Video-Audio Interface ICs RoHS
+F https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf
+$ENDCMP
+#
 $CMP HS-100B
 D LQFP-48 Video-Audio Interface ICs RoHS
 F https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf

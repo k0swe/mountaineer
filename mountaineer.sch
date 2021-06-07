@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mountaineer Radio Interface"
-Date "2021-05-25"
-Rev "2"
+Date "2021-06-06"
+Rev "3"
 Comp "Chris Keller K0SWE"
 Comment1 "Licensed under Creative Commons CC-BY-4.0"
 Comment2 ""
@@ -611,19 +611,19 @@ F 3 "" H 9250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HS-100B:HS-100B U3
+L cmedia:CM-108B U3
 U 1 1 60A2B59C
 P 7350 6200
 AR Path="/60A2B59C" Ref="U3"  Part="1" 
 AR Path="/605AB33C/60A2B59C" Ref="U?"  Part="1" 
 F 0 "U3" V 8800 4450 50  0000 R CNN
-F 1 "HS-100B" V 8700 4450 50  0000 R CNN
+F 1 "CM108B" V 8700 4450 50  0000 R CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 8900 6800 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf" H 8900 6700 50  0001 L CNN
-F 4 "C371351" H 7350 6200 50  0001 C CNN "LCSC"
+F 3 "https://www.cmedia.com.tw/support/download_center?type=497_datasheet" H 8900 6700 50  0001 L CNN
+F 4 "C371347" H 7350 6200 50  0001 C CNN "LCSC"
 F 5 "Cmedia" H 8900 6400 50  0001 L CNN "Manufacturer_Name"
-F 6 "HS-100B" H 8900 6300 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "HS-100B" H 8571 4356 50  0001 C CNN "Vendor Part Number"
+F 6 "CM108B" H 8900 6300 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "CM108B" H 8571 4356 50  0001 C CNN "Vendor Part Number"
 F 8 "Symmetry" H 8571 4356 50  0001 C CNN "Vendor"
 	1    7350 6200
 	0    -1   -1   0   

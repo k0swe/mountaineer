@@ -50,10 +50,9 @@ R6,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
 R7,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
 R8,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
 R9,27R,,,,Resistor_SMD:R_0603_1608Metric,C25190,LCSC,C25190
-SW1,VCCIO,C&K,JS102011SAQN,https://www.ckswitches.com/media/1422/js.pdf,Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN,C221660,Newark,35AH0889
 U1,TUSB2036,TI,TUSB2036VF,http://www.ti.com/lit/ds/symlink/tusb2036.pdf,Package_QFP:LQFP-32_7x7mm_P0.8mm,C43665,Digikey,296-27129-1-ND
 U2,FT232RL,FTDI,FT232RL,https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf,Package_SO:SSOP-28_5.3x10.2mm_P0.65mm,C8690,LCSC,C8690
-U3,HS-100B,Cmedia,HS-100B,https://datasheet.lcsc.com/szlcsc/1906061502_Cmedia-HS-100B_C371351.pdf,Package_QFP:LQFP-48_7x7mm_P0.5mm,C371351,Symmetry,HS-100B
+U3,CM108B,Cmedia,CM108B,https://www.cmedia.com.tw/support/download_center?type=497_datasheet,Package_QFP:LQFP-48_7x7mm_P0.5mm,C371347,Symmetry,CM108B
 U4,TPS76333,TI,TPS76333DBV,http://www.ti.com/lit/ds/symlink/tps763.pdf,Package_TO_SOT_SMD:SOT-23-5,C7100,LCSC,C7100
 U5,SN75240,TI,SN75240PW,http://www.ti.com/lit/ds/symlink/sn65220.pdf,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,C7067,LCSC,C7067
 U6,TPS2041,TI,TPS2041CDBV,http://www.ti.com/lit/ds/symlink/tps2041.pdf,Package_TO_SOT_SMD:SOT-23-5,C206041,LCSC,C206041
