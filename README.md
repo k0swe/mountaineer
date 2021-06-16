@@ -1,3 +1,5 @@
+This is a build-it-yourself project at the moment. For something productized, see https://digirig.net/!
+
 # <img src="https://github.com/k0swe/mountaineer/raw/main/Images/mission_color_flat.svg" width="100px" alt="Mountaineer logo"> Mountaineer Radio Interface
 
 This KiCAD project is a schematic for an integrated CAT and audio amateur radio interface. It's
