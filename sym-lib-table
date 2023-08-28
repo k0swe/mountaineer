@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name HS-100B)(type Legacy)(uri ${KIPRJMOD}/Libraries/Cmedia/HS-100B.lib)(options "")(descr ""))
-  (lib (name AWSCR-6.00CPLA-C30-T4)(type Legacy)(uri ${KIPRJMOD}/Libraries/Abracon/AWSCR-6.00CPLA-C30-T4.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "HS-100B")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Cmedia/HS-100B.lib")(options "")(descr ""))
+  (lib (name "AWSCR-6.00CPLA-C30-T4")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Abracon/AWSCR-6.00CPLA-C30-T4.lib")(options "")(descr ""))
+  (lib (name "mountaineer-rescue")(type "KiCad")(uri "${KIPRJMOD}/mountaineer-rescue.kicad_sym")(options "")(descr ""))
 )
